@@ -10,25 +10,28 @@ class Solution:
         if source is None or target is None:
             return -1
 
-        if target == "":
+        target_len = len(target)
+        source_len = len(source)
+
+        if target_len == 0:
             return 0
 
-        seed = 31
-        hash_size = 1000000
-        target_len = len(target)
+        magic_numb = 31
+        import random
+        hash_size = random.randint(1000000, 20000000)
 
         power = 1
         for i in range(target_len):
-            power = (power * seed) % hash_size
+            power = (power * magic_numb) % hash_size
 
         target_code = 0
         for i in range(target_len):
-            target_code = (target_code * seed + ord(target[i])) % hash_size
+            target_code = (target_code * magic_numb + ord(target[i])) % hash_size
 
-        hash_len = len(source)
+
         hash_code = 0
-        for i in range(hash_len):
-            hash_code = (hash_code * seed + ord(source[i])) % hash_size
+        for i in range(source_len):
+            hash_code = (hash_code * magic_numb + ord(source[i])) % hash_size
             if i < target_len - 1:
                 continue
 
@@ -38,6 +41,7 @@ class Solution:
                     hash_code += hash_size
 
             if target_code == hash_code:
+                # double check
                 if source[i - target_len + 1: i + 1] == target:
                     return i - target_len + 1
 
