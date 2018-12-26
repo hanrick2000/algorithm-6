@@ -26,3 +26,17 @@ If the array is [1, 2, 3, 3, 4, 5, 10], for given target 3, return 2.
 
 #### Challenge
 If the count of numbers is bigger than 2^32, can your code work properly?
+
+
+## 235. Prime Factorization
+https://www.lintcode.com/problem/prime-factorization
+
+### Description
+Prime factorize a given integer.
+
+You should sort the factors in ascending order.
+
+### Example
+Given 10, return [2, 5].
+
+Given 660, return [2, 2, 3, 5, 11].
