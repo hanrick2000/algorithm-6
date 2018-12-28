@@ -40,3 +40,22 @@ You should sort the factors in ascending order.
 Given 10, return [2, 5].
 
 Given 660, return [2, 2, 3, 5, 11].
+
+
+## 457. Classical Binary Search
+https://www.lintcode.com/problem/classical-binary-search
+
+### Description
+Find any position of a target number in a sorted array. Return -1 if target does not exist.
+
+### Example
+Given [1, 2, 2, 4, 5, 5].
+
+For target = 2, return 1 or 2.
+
+For target = 5, return 4 or 5.
+
+For target = 6, return -1.
+
+### Challenge
+O(logn) time
