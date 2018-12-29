@@ -24,5 +24,7 @@ class Solution:
         if nums[left] == target:
             return left
 
+        if nums[right] == target:
+            return right
+
         return -1
-        
