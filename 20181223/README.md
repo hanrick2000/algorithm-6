@@ -102,3 +102,20 @@ Given target = 3, return 2.
 
 ### Challenge
 O(m+n) time and O(1) extra space
+
+
+## 428. Pow(x, n)
+https://www.lintcode.com/problem/powx-n
+
+### Description
+Implement pow(x, n).
+
+You don't need to care about the precision of your answer, it's acceptable if the expected answer and your answer 's difference is smaller than 1e-3.
+
+### Example
+Pow(2.1, 3) = 9.261
+Pow(0, 1) = 0
+Pow(1, 0) = 1
+
+### Challenge
+O(logn) time
