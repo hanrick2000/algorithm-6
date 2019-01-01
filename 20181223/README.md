@@ -120,6 +120,7 @@ Pow(1, 0) = 1
 ### Challenge
 O(logn) time
 
+
 ## 140. Fast Power
 https://www.lintcode.com/problem/fast-power
 
@@ -133,3 +134,16 @@ For 1001000 % 1000 = 0
 
 ### Challenge
 O(logn)
+
+
+## 845. Greatest Common Divisor
+https://www.lintcode.com/problem/greatest-common-divisor
+
+### Description
+Given two numbers, number a and number b. Find the greatest common divisor of the given two numbers.
+
+In mathematics, the greatest common divisor (gcd) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers.
+
+### Example
+Given a = 10, b = 15, return 5.
+Given a = 15, b = 30, return 15.
