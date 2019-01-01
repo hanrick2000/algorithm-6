@@ -2,9 +2,9 @@
 
 ## 20181223
 
-1. 594. strStr II
-2. 14. First Position of Target
-3. 235. Prime Factorization
+* 594\. strStr II
+* 14. First Position of Target
+* 235. Prime Factorization
 * 457. Classical Binary Search
 * 39. Recover Rotated Sorted Array
 * 38. Search a 2D Matrix II
