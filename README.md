@@ -9,3 +9,4 @@
 * 39. Recover Rotated Sorted Array
 * 38. Search a 2D Matrix II
 * 428. Pow(x, n)
+* 140. Fast Power

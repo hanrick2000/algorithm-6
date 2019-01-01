@@ -119,3 +119,17 @@ Pow(1, 0) = 1
 
 ### Challenge
 O(logn) time
+
+## 140. Fast Power
+https://www.lintcode.com/problem/fast-power
+
+### Description
+Calculate the an % b where a, b and n are all 32bit positive integers.
+
+### Example
+For 231 % 3 = 2
+
+For 1001000 % 1000 = 0
+
+### Challenge
+O(logn)
