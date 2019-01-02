@@ -6,31 +6,44 @@ class Solution:
     """
     def twoSum(self, numbers, target):
         # write your code here
-        # method two
+        # method third
         ans = [-1, -1]
         if numbers is None or target is None:
             return ans
 
-        hashMap = {}
-        left, right = 0, len(numbers) - 1
-        while left <= right:
-            if (target - numbers[left]) in hashMap:
-                ans[0], ans[1] = left, hashMap[target - numbers[left]]
-                break
-            hashMap[numbers[left]] = left
-            left += 1
-
-            if target - numbers[right] in hashMap:
-                ans[0], ans[1] = hashMap[target - numbers[right]], right
-                break
-
-            hashMap[numbers[right]] = right
-            right -= 1
-
-        if ans[0] > ans[1]:
-            ans[0], ans[1] = ans[1], ans[0]
+        hash = {}
+        for i in range(len(numbers)):
+            if (target - numbers[i]) in hash:
+                return [hash[target - numbers[i]], i]
+            hash[numbers[i]] = i
 
         return ans
+
+        # # method two
+        # ans = [-1, -1]
+        # if numbers is None or target is None:
+        #     return ans
+
+        # hashMap = {}
+        # left, right = 0, len(numbers) - 1
+        # while left <= right:
+        #     if (target - numbers[left]) in hashMap:
+        #         ans[0], ans[1] = left, hashMap[target - numbers[left]]
+        #         break
+        #     hashMap[numbers[left]] = left
+        #     left += 1
+
+        #     if target - numbers[right] in hashMap:
+        #         ans[0], ans[1] = hashMap[target - numbers[right]], right
+        #         break
+
+        #     hashMap[numbers[right]] = right
+        #     right -= 1
+
+        # if ans[0] > ans[1]:
+        #     ans[0], ans[1] = ans[1], ans[0]
+
+        # return ans
 
         # # method one
         # ans = [-1, -1]
