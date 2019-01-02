@@ -17,3 +17,4 @@
 * 891\. Valid Palindrome II
 * 415\. Valid Palindrome
 * 56\. Two Sum
+* 521\. Remove Duplicate Numbers in Array
