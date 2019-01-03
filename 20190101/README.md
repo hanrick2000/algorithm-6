@@ -105,3 +105,18 @@ It's guaranteed there is only one available solution
 ### Example
 Given nums = [2, 7, 15, 24], target = 5
 return [1, 2] (7 - 2 = 5)
+
+
+## 228. Middle of Linked List
+https://www.lintcode.com/problem/middle-of-linked-list
+
+### Description
+Find the middle node of a linked list.
+
+### Example
+Given 1->2->3, return the node with value 2.
+
+Given 1->2, return the node with value 1.
+
+### Challenge
+If the linked list is in a data stream, can you find the middle without iterating the linked list again?

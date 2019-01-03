@@ -20,3 +20,4 @@
 * 521\. Remove Duplicate Numbers in Array
 * 604\. Window Sum
 * 610\. Two Sum - Difference equals to target
+* 228\. Middle of Linked List
