@@ -84,10 +84,24 @@ https://www.lintcode.com/problem/window-sum
 
 ### Description
 Given an array of n integers, and a moving window(size k), move the window at each iteration from the start of the array, find the sum of the element inside the window at each moving.
-  
+
 ### Example
 For array [1,2,7,8,5], moving window size k = 3.
 1 + 2 + 7 = 10
 2 + 7 + 8 = 17
 7 + 8 + 5 = 20
 return [10,17,20]
+
+
+## 610. Two Sum - Difference equals to target
+https://www.lintcode.com/problem/two-sum-difference-equals-to-target
+
+### Description
+Given an array of integers, find two numbers that their difference equals to a target value.
+where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are NOT zero-based.
+
+It's guaranteed there is only one available solution
+
+### Example
+Given nums = [2, 7, 15, 24], target = 5
+return [1, 2] (7 - 2 = 5)
