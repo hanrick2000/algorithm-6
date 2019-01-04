@@ -142,3 +142,17 @@ For numbers coming list: [2, 20, 100], return [2, 2, 20].
 
 ### Challenge
 Total run time in O(nlogn).
+
+
+## 102. Linked List Cycle
+https://www.lintcode.com/problem/linked-list-cycle
+
+### Description
+Given a linked list, determine if it has a cycle in it.
+
+### Example
+Given -21->10->4->5, tail connects to node index 1, return true
+
+### Challenge
+#### Follow up:
+Can you solve it without using extra space?
