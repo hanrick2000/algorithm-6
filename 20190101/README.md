@@ -156,3 +156,22 @@ Given -21->10->4->5, tail connects to node index 1, return true
 ### Challenge
 #### Follow up:
 Can you solve it without using extra space?
+
+
+## 103. Linked List Cycle II
+https://www.lintcode.com/problem/linked-list-cycle-ii
+
+### Description
+Given a linked list, return the node where the cycle begins.
+
+If there is no cycle, return null.
+
+### Example
+Given -21->10->4->5, tail connects to node index 1，return 10
+Explanation：
+The last node 5 points to the node whose index is 1, which is 10, so the entrance of the ring is 10
+
+### Challenge
+#### Follow up:
+
+Can you solve it without using extra space?
