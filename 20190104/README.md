@@ -78,6 +78,7 @@ Example
 For graph as follow:
 
 picture
+
 ![Topological Sorting](https://github.com/porrychen/algorithm/blob/master/20190104/127.%20Topological%20Sorting.jpeg?raw=true)
 
 The topological order can be:
