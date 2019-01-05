@@ -5,6 +5,8 @@
 * 463\. Sort Integers (*use quickSort*)
 * 464\. Sort Integers II (*use mergeSort*)
 * 5\. Kth Largest Element
+* 148\. Sort Colors
+
 
 ## 20190101
 
