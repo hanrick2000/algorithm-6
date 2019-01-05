@@ -56,3 +56,33 @@ A rather straight forward solution is a two-pass algorithm using counting sort.
 First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.
 
 Could you come up with an one-pass algorithm using only constant space?
+
+
+## 127. Topological Sorting
+https://www.lintcode.com/problem/topological-sorting
+
+Description
+Given an directed graph, a topological order of the graph nodes is defined as follow:
+
+For each directed edge A -> B in graph, A must before B in the order list.
+The first node in the order can be any node in the graph with no nodes direct to it.
+Find any topological order for the given graph.
+
+You can assume that there is at least one topological order in the graph.
+
+Have you met this question in a real interview?  
+Clarification
+Learn more about representation of graphs
+
+Example
+For graph as follow:
+
+picture
+
+The topological order can be:
+
+[0, 1, 2, 3, 4, 5]
+[0, 2, 3, 1, 5, 4]
+...
+Challenge
+Can you do it in both BFS and DFS?
