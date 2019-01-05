@@ -61,7 +61,7 @@ Could you come up with an one-pass algorithm using only constant space?
 ## 127. Topological Sorting
 https://www.lintcode.com/problem/topological-sorting
 
-Description
+### Description
 Given an directed graph, a topological order of the graph nodes is defined as follow:
 
 For each directed edge A -> B in graph, A must before B in the order list.
@@ -69,15 +69,14 @@ The first node in the order can be any node in the graph with no nodes direct to
 Find any topological order for the given graph.
 
 You can assume that there is at least one topological order in the graph.
-
-Have you met this question in a real interview?  
-Clarification
+ 
+### Clarification
 Learn more about representation of graphs
 
-Example
+### Example
 For graph as follow:
 
-picture
+### picture
 
 ![Topological Sorting](https://github.com/porrychen/algorithm/blob/master/20190104/127.%20Topological%20Sorting.jpeg?raw=true)
 
@@ -86,5 +85,6 @@ The topological order can be:
 [0, 1, 2, 3, 4, 5]
 [0, 2, 3, 1, 5, 4]
 ...
-Challenge
+
+### Challenge
 Can you do it in both BFS and DFS?
