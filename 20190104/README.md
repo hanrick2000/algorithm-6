@@ -186,7 +186,7 @@ Given in-order [1,2,3] and pre-order [2,1,3], return a tree:
  / \
 1   3
 
-### *Node*
+### **Node**
 
          F
         / \
@@ -200,7 +200,7 @@ Pre order: [F, D, B, A, E, G]
 
 In order:  [A, B, C, D, E, F, G]
 
-_*Follow the steps below:*_
+_**Follow the steps below:**_
 
 1st: get the first value in pre order because it is the root value
 
