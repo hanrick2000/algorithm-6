@@ -222,3 +222,22 @@ Given inorder [1,2,3] and postorder [1,3,2], return a tree:
       2
      / \
     1   3
+
+
+## 97. Maximum Depth of Binary Tree
+https://www.lintcode.com/problem/maximum-depth-of-binary-tree
+
+### Description
+Given a binary tree, find its maximum depth.
+
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+### Example
+Given a binary tree as follow:
+
+      1
+     / \
+    2   3
+       / \
+      4   5  
+The maximum depth is 3.
