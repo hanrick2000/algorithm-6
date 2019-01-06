@@ -69,7 +69,7 @@ The first node in the order can be any node in the graph with no nodes direct to
 Find any topological order for the given graph.
 
 You can assume that there is at least one topological order in the graph.
- 
+
 ### Clarification
 Learn more about representation of graphs
 
@@ -88,3 +88,21 @@ The topological order can be:
 
 ### Challenge
 Can you do it in both BFS and DFS?
+
+
+## 814. Shortest Path in Undirected Graph
+https://www.lintcode.com/problem/shortest-path-in-undirected-graph
+
+### Description
+Give an undirected graph, in which each edge's length is 1, and give two nodes from the graph. We need to find the length of the shortest path between the given two nodes.
+
+### Example
+Given graph = {1,2,4#2,1,4#3,5#4,1,2#5,3}, and nodeA = 3, nodeB = 5.
+
+1------2  3
+ \     |  |
+  \    |  |
+   \   |  |
+    \  |  |
+      4   5
+return 1.
