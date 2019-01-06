@@ -99,12 +99,12 @@ Give an undirected graph, in which each edge's length is 1, and give two nodes f
 ### Example
 Given graph = {1,2,4#2,1,4#3,5#4,1,2#5,3}, and nodeA = 3, nodeB = 5.
 
-  1------2  3
-   \     |  |
-    \    |  |
-     \   |  |
-      \  |  |
-        4   5
+    1------2  3
+     \     |  |
+      \    |  |
+       \   |  |
+        \  |  |
+          4   5
 return 1.
 
 
@@ -117,11 +117,11 @@ Given a binary tree, return the preorder traversal of its nodes' values.
 ### Example
 Given:
 
-    1
-   / \
-  2   3
- / \
-4   5
+        1
+       / \
+      2   3
+     / \
+    4   5
 return [1,2,4,5,3].
 
 ### Challenge
