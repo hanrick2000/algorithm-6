@@ -99,12 +99,12 @@ Give an undirected graph, in which each edge's length is 1, and give two nodes f
 ### Example
 Given graph = {1,2,4#2,1,4#3,5#4,1,2#5,3}, and nodeA = 3, nodeB = 5.
 
-1------2  3
- \     |  |
-  \    |  |
-   \   |  |
-    \  |  |
-      4   5
+  1------2  3
+   \     |  |
+    \    |  |
+     \   |  |
+      \  |  |
+        4   5
 return 1.
 
 
@@ -137,12 +137,11 @@ Given a binary tree, return the inorder traversal of its nodes' values.
 ### Example
 Given binary tree {1,#,2,3},
 
-   1
-    \
-     2
-    /
-   3
-
+       1
+        \
+         2
+        /
+       3
 
 return [1,3,2].
 
@@ -159,11 +158,11 @@ Given a binary tree, return the postorder traversal of its nodes' values.
 ### Example
 Given binary tree {1,#,2,3},
 
-   1
-    \
-     2
-    /
-   3
+       1
+        \
+         2
+        /
+       3
 
 return [3,2,1].
 
@@ -182,10 +181,9 @@ You may assume that duplicates do not exist in the tree.
 ### Example
 Given in-order [1,2,3] and pre-order [2,1,3], return a tree:
 
-  2
- / \
-1   3
-
+      2
+     / \
+    1   3
 
 ### :sparkles: Node
 
@@ -196,7 +194,7 @@ Given in-order [1,2,3] and pre-order [2,1,3], return a tree:
      B   E
     / \
    A   C
-   
+
 Pre order: [F, D, B, A, E, G]
 
 In order:  [A, B, C, D, E, F, G]
