@@ -8,6 +8,7 @@
 * 148\. Sort Colors
 * 127\. Topological Sorting
 * 814\. Shortest Path in Undirected Graph
+* 66\. Binary Tree Preorder Traversal
 
 ## 20190101
 

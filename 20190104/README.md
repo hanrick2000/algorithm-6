@@ -106,3 +106,23 @@ Given graph = {1,2,4#2,1,4#3,5#4,1,2#5,3}, and nodeA = 3, nodeB = 5.
     \  |  |
       4   5
 return 1.
+
+
+## 66. Binary Tree Preorder Traversal
+https://www.lintcode.com/problem/binary-tree-preorder-traversal
+
+### Description
+Given a binary tree, return the preorder traversal of its nodes' values.
+
+### Example
+Given:
+
+    1
+   / \
+  2   3
+ / \
+4   5
+return [1,2,4,5,3].
+
+### Challenge
+Can you do it without recursion?
