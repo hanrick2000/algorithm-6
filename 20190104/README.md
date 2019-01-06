@@ -199,5 +199,7 @@ Pre order: [F, D, B, A, E, G]
 In order:  [A, B, C, D, E, F, G]
 
 1st: get the first value in pre order because it is the root value
+
 2nd: find the Position of the root value in in order
+
 3rd: recursive the buildTree function to find root.left and root.right
