@@ -206,3 +206,19 @@ _**Follow the steps below:**_
 2nd: find the Position of the root value in in order
 
 3rd: recursive the buildTree function to find root.left and root.right
+
+
+## 72. Construct Binary Tree from Inorder and Postorder Traversal
+https://www.lintcode.com/problem/construct-binary-tree-from-inorder-and-postorder-traversal
+
+### Description
+Given inorder and postorder traversal of a tree, construct the binary tree.
+
+You may assume that duplicates do not exist in the tree.
+
+### Example
+Given inorder [1,2,3] and postorder [1,3,2], return a tree:
+
+      2
+     / \
+    1   3
