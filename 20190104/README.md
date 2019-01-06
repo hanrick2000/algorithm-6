@@ -148,3 +148,56 @@ return [1,3,2].
 
 ### Challenge
 Can you do it without recursion?
+
+
+## 68. Binary Tree Postorder Traversal
+https://www.lintcode.com/problem/binary-tree-postorder-traversal
+
+### Description
+Given a binary tree, return the postorder traversal of its nodes' values.
+
+### Example
+Given binary tree {1,#,2,3},
+
+   1
+    \
+     2
+    /
+   3
+
+return [3,2,1].
+
+### Challenge
+Can you do it without recursion?
+
+
+## 73. Construct Binary Tree from Preorder and Inorder Traversal
+https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal
+
+### Description
+Given preorder and inorder traversal of a tree, construct the binary tree.
+
+You may assume that duplicates do not exist in the tree.
+
+### Example
+Given in-order [1,2,3] and pre-order [2,1,3], return a tree:
+
+  2
+ / \
+1   3
+
+### *Node*
+
+         F
+        / \
+       D   G
+      / \
+     B   E
+    / \
+   A   C
+Pre order: [F, D, B, A, E, G]
+In order:  [A, B, C, D, E, F, G]
+
+1st: get the first value in pre order because it is the root value
+2nd: find the Position of the root value in in order
+3rd: recursive the buildTree function to find root.left and root.right

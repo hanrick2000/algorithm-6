@@ -10,7 +10,8 @@
 * 814\. Shortest Path in Undirected Graph
 * 66\. Binary Tree Preorder Traversal
 * 67\. Binary Tree Inorder Traversal
-
+* 68\. Binary Tree Postorder Traversal
+* 73\. Construct Binary Tree from Preorder and Inorder Traversal
 
 ## 20190101
 
