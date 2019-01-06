@@ -200,7 +200,7 @@ Pre order: [F, D, B, A, E, G]
 
 In order:  [A, B, C, D, E, F, G]
 
-_Follow the steps below:_
+_*Follow the steps below:*_
 
 1st: get the first value in pre order because it is the root value
 
