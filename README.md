@@ -15,6 +15,7 @@
 * 72\. Construct Binary Tree from Inorder and Postorder Traversal
 * 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)
 * 93\. Balanced Binary Tree
+* 95\. Validate Binary Search Tree
 
 ## 20190101
 
