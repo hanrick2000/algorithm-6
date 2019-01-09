@@ -10,7 +10,7 @@
 * 814\. Shortest Path in Undirected Graph
 * 66\. Binary Tree Preorder Traversal (**use Morris and Traversal**)
 * 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
-* 68\. Binary Tree Postorder Traversal
+* 68\. Binary Tree Postorder Traversal (**use Morris and Traversal**)
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal
 * 72\. Construct Binary Tree from Inorder and Postorder Traversal
 * 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)

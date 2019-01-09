@@ -14,29 +14,47 @@ class Solution:
     def preorderTraversal(self, root):
         # write your code here
 
-        # method two: morris
+        # method three: do not use recursion
         result = []
-        currNode = None
+        if root is None:
+            return result
 
-        while root is not None:
-            if root.left is not None:
-                currNode = root.left
+        stack = [root]
 
-                while currNode.right is not None and currNode.right is not root:
-                    currNode = currNode.right
+        while len(stack) > 0:
+            node = stack.pop()
+            result.append(node.val)
 
-                if currNode.right is root:
-                    currNode.right = None
-                    root = root.right
-                else:
-                    result.append(root.val)
-                    currNode.right = root
-                    root = root.left
-            else:
-                result.append(root.val)
-                root = root.right
+            if node.right is not None:
+                stack.append(node.right)
+            if node.left is not None:
+                stack.append(node.left)
 
         return result
+
+        # # method two: morris
+        # result = []
+        # currNode = None
+
+        # while root is not None:
+        #     if root.left is not None:
+        #         currNode = root.left
+
+        #         while currNode.right is not None and currNode.right is not root:
+        #             currNode = currNode.right
+
+        #         if currNode.right is root:
+        #             currNode.right = None
+        #             root = root.right
+        #         else:
+        #             result.append(root.val)
+        #             currNode.right = root
+        #             root = root.left
+        #     else:
+        #         result.append(root.val)
+        #         root = root.right
+
+        # return result
 
     #     # method one: traverse
     #     result = []
