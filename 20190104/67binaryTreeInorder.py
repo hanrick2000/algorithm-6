@@ -13,15 +13,41 @@ class Solution:
     """
     def inorderTraversal(self, root):
         # write your code here
+
+        # method two:morris
         result = []
-        self.traverse(root, result)
+
+        currNode = None
+        while root is not None:
+            if root.left is not None:
+                currNode = root.left
+
+                while currNode.right is not None and currNode.right is not root:
+                    currNode = currNode.right
+
+                if currNode.right is root:
+                    result.append(root.val)
+                    currNode.right = None
+                    root = root.right
+                else:
+                    currNode.right = root
+                    root = root.left
+            else:
+                result.append(root.val)
+                root = root.right
 
         return result
 
-    def traverse(self, root, result):
-        if root is None:
-            return
+    #     # method one: traverse
+    #     result = []
+    #     self.traverse(root, result)
 
-        self.traverse(root.left, result)
-        result.append(root.val)
-        self.traverse(root.right, result)
+    #     return result
+
+    # def traverse(self, root, result):
+    #     if root is None:
+    #         return
+
+    #     self.traverse(root.left, result)
+    #     result.append(root.val)
+    #     self.traverse(root.right, result)
