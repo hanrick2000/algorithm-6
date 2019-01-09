@@ -8,7 +8,7 @@
 * 148\. Sort Colors
 * 127\. Topological Sorting
 * 814\. Shortest Path in Undirected Graph
-* 66\. Binary Tree Preorder Traversal
+* 66\. Binary Tree Preorder Traversal (**use Morris and Traversal**)
 * 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
 * 68\. Binary Tree Postorder Traversal
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal

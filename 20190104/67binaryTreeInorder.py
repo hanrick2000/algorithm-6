@@ -14,10 +14,10 @@ class Solution:
     def inorderTraversal(self, root):
         # write your code here
 
-        # method two:morris
+        # method two: morris
         result = []
-
         currNode = None
+        
         while root is not None:
             if root.left is not None:
                 currNode = root.left

@@ -13,15 +13,44 @@ class Solution:
     """
     def postorderTraversal(self, root):
         # write your code here
+
+        # method two: morris
         result = []
-        self.traverse(root, result)
+        currNode = None
+
+        while root is not None:
+            if root.right is not None:
+                currNode = root.right
+
+                while currNode.left is not None and currNode.left != root:
+                    currNode = currNode.left
+
+                if currNode.left == root:
+                    currNode.left = None
+                    root = root.left
+                else:
+                    result.append(root.val)
+                    currNode.left = root
+                    root = root.right
+            else:
+                result.append(root.val)
+                root = root.left
+
+        # need to reverse
+        result.reverse()
 
         return result
 
-    def traverse(self, root, result):
-        if root is None:
-            return
+    #     # method one: traverse
+    #     result = []
+    #     self.traverse(root, result)
 
-        self.traverse(root.left, result)
-        self.traverse(root.right, result)
-        result.append(root.val)
+    #     return result
+
+    # def traverse(self, root, result):
+    #     if root is None:
+    #         return
+
+    #     self.traverse(root.left, result)
+    #     self.traverse(root.right, result)
+    #     result.append(root.val)
