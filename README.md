@@ -4,6 +4,7 @@
 
 * 52\. Next Permutation
 * 190\. Next Permutation II
+* 15\. Permutations (**use dfs**)
 
 ## 20190104
 

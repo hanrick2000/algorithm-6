@@ -35,3 +35,27 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 ### Challenge
 The replacement must be in-place, do not allocate extra memory.
+
+
+## 15. Permutations
+https://www.lintcode.com/problem/permutations
+
+### Description
+Given a list of numbers, return all possible permutations.
+
+You can assume that there is no duplicate numbers in the list.
+
+### Example
+For nums = [1,2,3], the permutations are:
+
+    [
+      [1,2,3],
+      [1,3,2],
+      [2,1,3],
+      [2,3,1],
+      [3,1,2],
+      [3,2,1]
+    ]
+
+### Challenge
+Do it without recursion.
