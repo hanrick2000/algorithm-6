@@ -3,6 +3,7 @@
 ## 20190110
 
 * 52\. Next Permutation
+* 190\. Next Permutation II
 
 ## 20190104
 
