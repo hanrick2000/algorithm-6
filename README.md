@@ -1,5 +1,9 @@
 # Algorithm
 
+## 20190110
+
+* 52\. Next Permutation
+
 ## 20190104
 
 * 463\. Sort Integers (**use quickSort**)
