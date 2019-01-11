@@ -4,8 +4,9 @@
 
 * 52\. Next Permutation
 * 190\. Next Permutation II
-* 15\. Permutations (**use dfs**)
+* 15\. Permutations (**use recursion--dfs and iteration**)
 * 16\. Permutations II
+* 197\. Permutation Index
 
 ## 20190104
 

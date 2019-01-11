@@ -78,3 +78,13 @@ For numbers [1,2,2] the unique permutations are:
 
 ### Challenge
 Using recursion to do it is acceptable. If you can do it without recursion, that would be great!
+
+
+## 197. Permutation Index
+https://www.lintcode.com/problem/permutation-index
+
+### Description
+Given a permutation which contains no repeated number, find its index in all the permutations of these numbers, which are ordered in lexicographical order. The index begins at 1.
+
+### Example
+Given [1,2,4], return 1.
