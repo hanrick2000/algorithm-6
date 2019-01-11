@@ -7,6 +7,7 @@
 * 15\. Permutations (**use recursion--dfs and iteration**)
 * 16\. Permutations II
 * 197\. Permutation Index
+* 495\. Implement Stack
 
 ## 20190104
 
