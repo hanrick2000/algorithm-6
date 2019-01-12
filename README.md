@@ -11,6 +11,7 @@
 * 494\. Implement Stack by Two Queues
 * 224\. Implement Three Stacks by Single Array
 * 955\. Implement Queue by Circular Array
+* 128\. Hash Function
 
 ## 20190104
 
