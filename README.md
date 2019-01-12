@@ -8,6 +8,7 @@
 * 16\. Permutations II
 * 197\. Permutation Index
 * 495\. Implement Stack
+* 494\. Implement Stack by Two Queues
 
 ## 20190104
 
