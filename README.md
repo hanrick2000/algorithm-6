@@ -9,6 +9,8 @@
 * 197\. Permutation Index
 * 495\. Implement Stack
 * 494\. Implement Stack by Two Queues
+* 224\. Implement Three Stacks by Single Array
+* 955\. Implement Queue by Circular Array
 
 ## 20190104
 
