@@ -13,6 +13,8 @@
 * 955\. Implement Queue by Circular Array
 * 128\. Hash Function
 * 129\. Rehashing
+* 130\. Heapify
+* 104\. Merge K Sorted Lists
 
 ## 20190104
 
