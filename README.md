@@ -12,6 +12,7 @@
 * 224\. Implement Three Stacks by Single Array
 * 955\. Implement Queue by Circular Array
 * 128\. Hash Function
+* 129\. Rehashing
 
 ## 20190104
 
