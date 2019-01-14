@@ -273,3 +273,32 @@ Given lists:
       -1->null
     ],
 return -1->2->4->null.
+
+
+## 41. Maximum Subarray
+https://www.lintcode.com/problem/maximum-subarray
+
+### Description
+Given an array of integers, find a contiguous subarray which has the largest sum.
+
+The subarray should contain at least one number.
+
+### Example
+Given the array [−2,2,−3,4,−1,2,1,−5,3], the contiguous subarray [4,−1,2,1] has the largest sum = 6.
+
+### Challenge
+Can you do it in time complexity O(n)?
+
+
+## 44. Minimum Subarray
+https://www.lintcode.com/problem/minimum-subarray
+
+### Description
+Given an array of integers, find the subarray with smallest sum.
+
+Return the sum of the subarray.
+
+The subarray should contain one integer at least.
+
+### Example
+For [1, -1, -2, 1], return -3.

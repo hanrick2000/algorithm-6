@@ -15,6 +15,8 @@
 * 129\. Rehashing
 * 130\. Heapify
 * 104\. Merge K Sorted Lists
+* 41\. Maximum Subarray
+* 44\. Minimum Subarray
 
 ## 20190104
 
