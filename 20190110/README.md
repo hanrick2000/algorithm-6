@@ -302,3 +302,30 @@ The subarray should contain one integer at least.
 
 ### Example
 For [1, -1, -2, 1], return -3.
+
+
+## 138. Subarray Sum
+https://www.lintcode.com/problem/subarray-sum
+
+### Description
+Given an integer array, find a subarray where the sum of numbers is zero. Your code should return the index of the first number and the index of the last number.
+
+There is at least one subarray that it's sum equals to zero.
+
+### Example
+Given [-3, 1, 2, -3, 4], return [0, 2] or [1, 3].
+
+
+## 65. Median of two Sorted Arrays
+https://www.lintcode.com/problem/median-of-two-sorted-arrays
+
+### Description
+There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted arrays.
+
+### Example
+Given A=[1,2,3,4,5,6] and B=[2,3,4,5], the median is 3.5.
+
+Given A=[1,2,3] and B=[4,5], the median is 3.
+
+### Challenge
+The overall run time complexity should be O(log (m+n)).

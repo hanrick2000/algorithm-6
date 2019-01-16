@@ -17,6 +17,8 @@
 * 104\. Merge K Sorted Lists
 * 41\. Maximum Subarray
 * 44\. Minimum Subarray
+* 138\. Subarray Sum
+* 65\. Median of two Sorted Arrays
 
 ## 20190104
 
