@@ -1,5 +1,9 @@
 # Algorithm
 
+## 20190117
+
+* 365\. Count 1 in Binary
+
 ## 20190110
 
 * 52\. Next Permutation
@@ -20,6 +24,7 @@
 * 138\. Subarray Sum
 * 65\. Median of two Sorted Arrays
 * 30\. Insert Interval
+* 156\. Merge Intervals
 
 ## 20190104
 

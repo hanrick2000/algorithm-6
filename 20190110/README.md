@@ -343,3 +343,23 @@ Insert a new interval into it, make sure the list is still in order and non-over
 Insert (2, 5) into [(1,2), (5,9)], we get [(1,9)].
 
 Insert (3, 4) into [(1,2), (5,9)], we get [(1,2), (3,4), (5,9)].
+
+
+## 156. Merge Intervals
+https://www.lintcode.com/problem/merge-intervals
+
+### Description
+Given a collection of intervals, merge all overlapping intervals.
+
+### Example
+Given intervals => merged intervals:
+
+    [                     [
+      (1, 3),               (1, 6),
+      (2, 6),      =>       (8, 10),
+      (8, 10),              (15, 18)
+      (15, 18)            ]
+    ]
+
+### Challenge
+O(n log n) time and O(1) extra space.
