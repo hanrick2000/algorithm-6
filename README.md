@@ -3,6 +3,7 @@
 ## 20190117
 
 * 365\. Count 1 in Binary
+* 486\. Merge K Sorted Arrays
 
 ## 20190110
 
