@@ -19,6 +19,7 @@
 * 44\. Minimum Subarray
 * 138\. Subarray Sum
 * 65\. Median of two Sorted Arrays
+* 30\. Insert Interval
 
 ## 20190104
 
