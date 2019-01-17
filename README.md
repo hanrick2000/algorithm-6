@@ -1,5 +1,8 @@
 # Algorithm
 
+## 6 - Combination-based DFS
+* 680\. Split String
+
 ## 20190117
 
 * 365\. Count 1 in Binary
