@@ -91,7 +91,57 @@ Given candidate set [2,3,6,7] and target 7, a solution set is:
     [2, 2, 3]
 
 ### Medium 18. Subsets II
+https://www.lintcode.com/problem/subsets-ii
+
+#### Description
+Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
+
+Each element in a subset must be in non-descending order.
+The ordering between two subsets is free.
+The solution set must not contain duplicate subsets.
+
+#### Example
+Input: [1,2,2]
+Output:
+
+    [
+      [2],
+      [1],
+      [1,2,2],
+      [2,2],
+      [1,2],
+      []
+    ]
+
+#### Challenge
+Can you do it in both recursively and iteratively?
+
 ### Medium 17. Subsets
+https://www.lintcode.com/problem/subsets
+
+#### Description
+Given a set of distinct integers, return all possible subsets.
+
+Elements in a subset must be in non-descending order.
+The solution set must not contain duplicate subsets.
+
+#### Example
+If S = [1,2,3], a solution is:
+
+    [
+      [3],
+      [1],
+      [2],
+      [1,2,3],
+      [1,3],
+      [2,3],
+      [1,2],
+      []
+    ]
+
+#### Challenge
+Can you do it in both recursively and iteratively?
+
 ### Hard   582. Word Break II
 ### Hard   192. Wildcard Matching
 ### Hard   154. Regular Expression Matching

@@ -6,6 +6,8 @@
 * 153\. Combination Sum II
 * 152\. Combinations
 * 135\. Combination Sum
+* 18\. Subsets II
+* 17\. Subsets (**use Backtracking**)
 
 ## 20190117
 
@@ -50,8 +52,6 @@
 * 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)
 * 93\. Balanced Binary Tree
 * 95\. Validate Binary Search Tree
-* 17\. Subsets (**use Backtracking**)
-* 18\. Subsets II
 
 ## 20190101
 

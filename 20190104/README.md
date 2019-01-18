@@ -284,56 +284,6 @@ An example:
       3   5
 The above binary tree is serialized as {2,1,4,#,#,3,5} (in level order).
 
-
-## 17. Subsets
-https://www.lintcode.com/problem/subsets
-
-### Description
-Given a set of distinct integers, return all possible subsets.
-
-Elements in a subset must be in non-descending order.
-The solution set must not contain duplicate subsets.
-
-### Example
-If S = [1,2,3], a solution is:
-
-    [
-      [3],
-      [1],
-      [2],
-      [1,2,3],
-      [1,3],
-      [2,3],
-      [1,2],
-      []
-    ]
-
-### Challenge
-Can you do it in both recursively and iteratively?
-
-
-## 18. Subsets II
-https://www.lintcode.com/problem/subsets-ii
-
-### Description
-Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
-
-Each element in a subset must be in non-descending order.
-The ordering between two subsets is free.
-The solution set must not contain duplicate subsets.
-
-### Example
-Input: [1,2,2]
-Output:
-
-    [
-      [2],
-      [1],
-      [1,2,2],
-      [2,2],
-      [1,2],
-      []
-    ]
-
-### Challenge
-Can you do it in both recursively and iteratively?
+----
+> ## 17. Subsets (deleted on January 18, 2019)
+> ## 18. Subsets II (deleted on January 18, 2019)
