@@ -13,6 +13,21 @@ Given the string "123"
 return [["1","2","3"],["12","3"],["1","23"]]
 
 ### Medium 136. Palindrome Partitioning
+https://www.lintcode.com/problem/palindrome-partitioning
+
+#### Description
+Given a string s, partition s such that every substring of the partition is a palindrome.
+
+Return all possible palindrome partitioning of s.
+
+#### Example
+Given s = "aab", return:
+
+    [
+      ["aa","b"],
+      ["a","a","b"]
+    ]
+
 ### Medium 153. Combination Sum II
 ### Medium 152. Combinations
 ### Medium 135. Combination Sum
