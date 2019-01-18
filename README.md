@@ -4,6 +4,8 @@
 * 680\. Split String
 * 136\. Palindrome Partitioning
 * 153\. Combination Sum II
+* 152\. Combinations
+* 135\. Combination Sum
 
 ## 20190117
 

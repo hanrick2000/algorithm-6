@@ -53,7 +53,43 @@ A solution set is:
     ]
 
 ### Medium 152. Combinations
+https://www.lintcode.com/problem/combinations
+
+#### Description
+Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+
+You don't need to care the order of combinations, but you should make sure the numbers in a combination are sorted.
+
+#### Example
+Given n = 4 and k = 2, a solution is:
+
+    [
+      [2,4],
+      [3,4],
+      [2,3],
+      [1,2],
+      [1,3],
+      [1,4]
+    ]
+
 ### Medium 135. Combination Sum
+https://www.lintcode.com/problem/combination-sum/
+
+#### Description
+Given a set of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
+
+The same repeated number may be chosen from C unlimited number of times.
+
+All numbers (including target) will be positive integers.
+Elements in a combination (a1, a2, … , ak) must be in non-descending order. (ie, a1 ≤ a2 ≤ … ≤ ak).
+The solution set must not contain duplicate combinations.
+
+#### Example
+Given candidate set [2,3,6,7] and target 7, a solution set is:
+
+    [7]
+    [2, 2, 3]
+
 ### Medium 18. Subsets II
 ### Medium 17. Subsets
 ### Hard   582. Word Break II
