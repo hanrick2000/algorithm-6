@@ -143,6 +143,19 @@ If S = [1,2,3], a solution is:
 Can you do it in both recursively and iteratively?
 
 ### Hard   582. Word Break II
+https://www.lintcode.com/problem/word-break-ii
+
+#### Description
+Given a string s and a dictionary of words dict, add spaces in s to construct a sentence where each word is a valid dictionary word.
+
+Return all such possible sentences.
+
+#### Example
+Gieve s = lintcode,
+dict = ["de", "ding", "co", "code", "lint"].
+
+A solution is ["lint code", "lint co de"].
+
 ### Hard   192. Wildcard Matching
 ### Hard   154. Regular Expression Matching
 
