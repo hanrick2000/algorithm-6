@@ -176,7 +176,28 @@ The matching should cover the entire input string (not partial).
     isMatch("aab", "c*a*b") → false
 
 ### Hard   154. Regular Expression Matching
+https://www.lintcode.com/problem/regular-expression-matching
 
+#### Description
+Implement regular expression matching with support for '.' and '\*'.
+
+'.' Matches any single character.
+'\*' Matches zero or more of the preceding element.
+The matching should cover the entire input string (not partial).
+
+
+The function prototype should be:
+
+bool isMatch(string s, string p)
+
+#### Example
+    isMatch("aa","a") → false
+    isMatch("aa","aa") → true
+    isMatch("aaa","aa") → false
+    isMatch("aa", "a*") → true
+    isMatch("aa", ".\*") → true
+    isMatch("ab", ".\*") → true
+    isMatch("aab", "c*a*b") → true
 
 ## Optional
 
