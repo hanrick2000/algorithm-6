@@ -20,6 +20,16 @@ Although the above answer is in lexicographical order, your answer could be in a
     ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
 
 ### Medium  10. String Permutation II
+https://www.lintcode.com/problem/string-permutation-ii
+
+#### Description
+Given a string, find all permutations of it without duplicates.
+
+#### Example
+Given "abb", return ["abb", "bab", "bba"].
+
+Given "aabb", return ["aabb", "abab", "baba", "bbaa", "abba", "baab"].
+
 ### Medium  34. N-Queens II
 ### Medium  33. N-Queens
 ### Medium  16. Permutations II

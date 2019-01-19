@@ -3,6 +3,7 @@
 ## 7 - Permutation-based & Graph-based DFS
 
 * 425\. Letter Combinations of a Phone Number
+* 10\. String Permutation II
 
 ## 6 - Combination-based DFS
 
