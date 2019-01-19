@@ -9,7 +9,7 @@ Given a digit string excluded 01, return all possible letter combinations that t
 
 A mapping of digit to letters (just like on the telephone buttons) is given below.
 
-![Cellphone][]
+![Cellphone][https://github.com/porrychen/algorithm/blob/master/7%20-%20Permutation-based%20&%20Graph-based%20DFS/425-Telephone-keypad.png?raw=true]
 
 Although the above answer is in lexicographical order, your answer could be in any order you want.
 
