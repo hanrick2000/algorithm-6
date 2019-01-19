@@ -1,6 +1,11 @@
 # Algorithm
 
+## 7 - Permutation-based & Graph-based DFS
+
+* 425\. Letter Combinations of a Phone Number
+
 ## 6 - Combination-based DFS
+
 * 680\. Split String
 * 136\. Palindrome Partitioning
 * 153\. Combination Sum II
