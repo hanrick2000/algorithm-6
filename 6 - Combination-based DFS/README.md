@@ -157,6 +157,24 @@ dict = ["de", "ding", "co", "code", "lint"].
 A solution is ["lint code", "lint co de"].
 
 ### Hard   192. Wildcard Matching
+https://www.lintcode.com/problem/wildcard-matching
+
+#### Description
+Implement wildcard pattern matching with support for '?' and '\*'.
+
+'?' Matches any single character.
+'\*' Matches any sequence of characters (including the empty sequence).
+The matching should cover the entire input string (not partial).
+
+#### Example
+    isMatch("aa","a") → false
+    isMatch("aa","aa") → true
+    isMatch("aaa","aa") → false
+    isMatch("aa", "\*") → true
+    isMatch("aa", "a*") → true
+    isMatch("ab", "?\*") → true
+    isMatch("aab", "c*a*b") → false
+
 ### Hard   154. Regular Expression Matching
 
 
