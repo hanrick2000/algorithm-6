@@ -114,7 +114,60 @@ For nums = [1,2,3], the permutations are:
 Do it without recursion.
 
 ### Hard  829. Word Pattern II
+https://www.lintcode.com/problem/word-pattern-ii
+
+#### Description
+Given a pattern and a string str, find if str follows the same pattern.
+
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty substring in str.(i.e if a corresponds to s, then b cannot correspond to s. For example, given pattern = "ab", str = "ss", return false.)
+
+You may assume both pattern and str contains only lowercase letters.
+
+#### Example
+Given pattern = "abab", str = "redblueredblue", return true.
+Given pattern = "aaaa", str = "asdasdasdasd", return true.
+Given pattern = "aabb", str = "xyzabcxzyabc", return false.
+
 ### Hard  132. Word Search II
+https://www.lintcode.com/problem/word-search-ii
+
+#### Description
+Given a matrix of lower alphabets and a dictionary. Find all words in the dictionary that can be found in the matrix. A word can start from any position in the matrix and go left/right/up/down to the adjacent position. One character only be used once in one word. No same word in dictionary
+
+#### Example
+Given matrix:
+    doaf
+    agai
+    dcan
+and dictionary:
+
+    {"dog", "dad", "dgdg", "can", "again"}
+
+    return {"dog", "dad", "can", "again"}
+
+    dog:
+    doaf
+    agai
+    dcan
+    dad:
+
+    doaf
+    agai
+    dcan
+    can:
+
+    doaf
+    agai
+    dcan
+    again:
+
+    doaf
+    agai
+    dcan
+
+#### Challenge
+Using trie to implement your algorithm.
+
 ### Hard  121. Word Ladder II
 
 ## Optional

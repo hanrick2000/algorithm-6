@@ -8,6 +8,8 @@
 * 33\. N-Queens
 * 15\. Permutations (**use recursion--dfs and iteration**)
 * 16\. Permutations II
+* 829\. Word Pattern II
+* 132、. Word Search II
 
 ## 6 - Combination-based DFS
 
