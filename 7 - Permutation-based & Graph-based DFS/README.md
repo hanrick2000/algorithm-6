@@ -31,6 +31,16 @@ Given "abb", return ["abb", "bab", "bba"].
 Given "aabb", return ["aabb", "abab", "baba", "bbaa", "abba", "baab"].
 
 ### Medium  34. N-Queens II
+https://www.lintcode.com/problem/n-queens-ii
+
+#### Description
+Follow up for N-Queens problem.
+
+Now, instead outputting board configurations, return the total number of distinct solutions.
+
+#### Example
+For n=4, there are 2 distinct solutions.
+
 ### Medium  33. N-Queens
 ### Medium  16. Permutations II
 ### Medium  15. Permutations

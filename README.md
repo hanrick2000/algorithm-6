@@ -4,6 +4,7 @@
 
 * 425\. Letter Combinations of a Phone Number
 * 10\. String Permutation II
+* 34\. N-Queens II
 
 ## 6 - Combination-based DFS
 
