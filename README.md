@@ -5,6 +5,9 @@
 * 425\. Letter Combinations of a Phone Number
 * 10\. String Permutation II
 * 34\. N-Queens II
+* 33\. N-Queens
+* 15\. Permutations (**use recursion--dfs and iteration**)
+* 16\. Permutations II
 
 ## 6 - Combination-based DFS
 
@@ -28,8 +31,6 @@
 
 * 52\. Next Permutation
 * 190\. Next Permutation II
-* 15\. Permutations (**use recursion--dfs and iteration**)
-* 16\. Permutations II
 * 197\. Permutation Index
 * 495\. Implement Stack
 * 494\. Implement Stack by Two Queues

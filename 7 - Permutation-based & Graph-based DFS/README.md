@@ -42,8 +42,77 @@ Now, instead outputting board configurations, return the total number of distinc
 For n=4, there are 2 distinct solutions.
 
 ### Medium  33. N-Queens
+https://www.lintcode.com/problem/n-queens
+
+#### Description
+The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
+
+Given an integer n, return all distinct solutions to the n-queens puzzle.
+
+Each solution contains a distinct board configuration of the n-queens' placement, where 'Q' and '.' both indicate a queen and an empty space respectively.
+
+#### Example
+There exist two distinct solutions to the 4-queens puzzle:
+
+    [
+      // Solution 1
+      [".Q..",
+       "...Q",
+       "Q...",
+       "..Q."
+      ],
+      // Solution 2
+      ["..Q.",
+       "Q...",
+       "...Q",
+       ".Q.."
+      ]
+    ]
+
+#### Challenge
+Can you do it without recursion?
+
 ### Medium  16. Permutations II
+https://www.lintcode.com/problem/permutations-ii
+
+#### Description
+Given a list of numbers with duplicate number in it. Find all unique permutations.
+
+#### Example
+For numbers [1,2,2] the unique permutations are:
+
+    [
+      [1,2,2],
+      [2,1,2],
+      [2,2,1]
+    ]
+
+#### Challenge
+Using recursion to do it is acceptable. If you can do it without recursion, that would be great!
+
 ### Medium  15. Permutations
+https://www.lintcode.com/problem/permutations
+
+#### Description
+Given a list of numbers, return all possible permutations.
+
+You can assume that there is no duplicate numbers in the list.
+
+#### Example
+For nums = [1,2,3], the permutations are:
+
+    [
+      [1,2,3],
+      [1,3,2],
+      [2,1,3],
+      [2,3,1],
+      [3,1,2],
+      [3,2,1]
+    ]
+
+#### Challenge
+Do it without recursion.
+
 ### Hard  829. Word Pattern II
 ### Hard  132. Word Search II
 ### Hard  121. Word Ladder II
