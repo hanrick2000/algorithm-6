@@ -9,7 +9,8 @@
 * 15\. Permutations (**use recursion--dfs and iteration**)
 * 16\. Permutations II
 * 829\. Word Pattern II
-* 132、. Word Search II
+* 132\. Word Search II
+* 121\. Word Ladder II
 
 ## 6 - Combination-based DFS
 
