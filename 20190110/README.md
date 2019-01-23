@@ -63,22 +63,6 @@ Implement a stack. You can use any data structure inside a stack except stack it
     isEmpty() // return false
 
 
-## 494. Implement Stack by Two Queues
-https://www.lintcode.com/problem/implement-stack-by-two-queues
-
-### Description
-Implement a stack by two queues. The queue is first in first out (FIFO). That means you can not directly pop the last element in a queue.
-
-### Example
-    push(1)
-    pop()
-    push(2)
-    isEmpty() // return false
-    top() // return 2
-    pop()
-    isEmpty() // return true
-
-
 ## 224. Implement Three Stacks by Single Array
 https://www.lintcode.com/problem/implement-three-stacks-by-single-array
 
@@ -324,3 +308,4 @@ O(n log n) time and O(1) extra space.
 ----
 > ## 15. Permutations (deleted on January 20, 2019)
 > ## 16. Permutations II (deleted on January 20, 2019)
+> ## 494. Implement Stack by Two Queues (deleted on January 22, 2019)

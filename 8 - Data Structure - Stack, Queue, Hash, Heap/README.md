@@ -41,6 +41,20 @@ Given a nested list of integers, return the sum of all integers in the list weig
     Given the list [1,[4,[6]]], return 27. (one 1 at depth 1, one 4 at depth 2, and one 6 at depth 3; 1 + 4 * 2 + 6 * 3 = 27)
 
 ### Easy  494. Implement Stack by Two Queues
+https://www.lintcode.com/problem/implement-stack-by-two-queues
+
+### Description
+Implement a stack by two queues. The queue is first in first out (FIFO). That means you can not directly pop the last element in a queue.
+
+### Example
+    push(1)
+    pop()
+    push(2)
+    isEmpty() // return false
+    top() // return 2
+    pop()
+    isEmpty() // return true
+    
 ### Medium  575. Decode String
 ### Medium  541. Zigzag Iterator II
 ### Medium  540. Zigzag Iterator
