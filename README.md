@@ -1,5 +1,9 @@
 # Algorithm
 
+## 8 - Data Structure - Stack, Queue, Hash, Heap
+
+* 551\. Nested List Weight Sum
+
 ## 7 - Permutation-based & Graph-based DFS
 
 * 425\. Letter Combinations of a Phone Number
