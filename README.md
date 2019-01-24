@@ -5,6 +5,7 @@
 * 551\. Nested List Weight Sum
 * 494\. Implement Stack by Two Queues
 * 495\. Implement Stack
+* 642\. Moving Average from Data Stream
 
 ## 7 - Permutation-based & Graph-based DFS
 
