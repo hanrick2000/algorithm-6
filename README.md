@@ -4,6 +4,7 @@
 
 * 551\. Nested List Weight Sum
 * 494\. Implement Stack by Two Queues
+* 495\. Implement Stack
 
 ## 7 - Permutation-based & Graph-based DFS
 
@@ -40,7 +41,6 @@
 * 52\. Next Permutation
 * 190\. Next Permutation II
 * 197\. Permutation Index
-* 495\. Implement Stack
 * 224\. Implement Three Stacks by Single Array
 * 955\. Implement Queue by Circular Array
 * 128\. Hash Function

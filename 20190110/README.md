@@ -46,23 +46,6 @@ Given a permutation which contains no repeated number, find its index in all the
 Given [1,2,4], return 1.
 
 
-## 495. Implement Stack
-https://www.lintcode.com/problem/implement-stack
-
-### Description
-Implement a stack. You can use any data structure inside a stack except stack itself to implement it.
-
-### Example
-    push(1)
-    pop()
-    push(2)
-    top()  // return 2
-    pop()
-    isEmpty() // return true
-    push(3)
-    isEmpty() // return false
-
-
 ## 224. Implement Three Stacks by Single Array
 https://www.lintcode.com/problem/implement-three-stacks-by-single-array
 
@@ -309,3 +292,4 @@ O(n log n) time and O(1) extra space.
 > ## 15. Permutations (deleted on January 20, 2019)
 > ## 16. Permutations II (deleted on January 20, 2019)
 > ## 494. Implement Stack by Two Queues (deleted on January 22, 2019)
+> ## 495. Implement Stack (deleted on January 23, 2019)

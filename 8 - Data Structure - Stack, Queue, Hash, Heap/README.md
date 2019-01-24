@@ -16,6 +16,21 @@
 ## Optional
 
 ### Easy  495. Implement Stack
+https://www.lintcode.com/problem/implement-stack
+
+#### Description
+Implement a stack. You can use any data structure inside a stack except stack itself to implement it.
+
+#### Example
+    push(1)
+    pop()
+    push(2)
+    top()  // return 2
+    pop()
+    isEmpty() // return true
+    push(3)
+    isEmpty() // return false
+
 ### Easy  128. Hash Function
 ### Medium  685. First Unique Number In Stream
 ### Medium  613. High Five
@@ -43,10 +58,10 @@ Given a nested list of integers, return the sum of all integers in the list weig
 ### Easy  494. Implement Stack by Two Queues
 https://www.lintcode.com/problem/implement-stack-by-two-queues
 
-### Description
+#### Description
 Implement a stack by two queues. The queue is first in first out (FIFO). That means you can not directly pop the last element in a queue.
 
-### Example
+#### Example
     push(1)
     pop()
     push(2)
@@ -54,7 +69,7 @@ Implement a stack by two queues. The queue is first in first out (FIFO). That me
     top() // return 2
     pop()
     isEmpty() // return true
-    
+
 ### Medium  575. Decode String
 ### Medium  541. Zigzag Iterator II
 ### Medium  540. Zigzag Iterator
