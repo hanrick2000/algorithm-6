@@ -16,7 +16,32 @@ Given a stream of integers and a window size, calculate the moving average of al
     m.next(5) = (10 + 3 + 5) / 3 // return 6.00000
 
 ### Easy  494. Implement Stack by Two Queues
+https://www.lintcode.com/problem/implement-stack-by-two-queues
+
+#### Description
+Implement a stack by two queues. The queue is first in first out (FIFO). That means you can not directly pop the last element in a queue.
+
+#### Example
+    push(1)
+    pop()
+    push(2)
+    isEmpty() // return false
+    top() // return 2
+    pop()
+    isEmpty() // return true
+
 ### Easy  209. First Unique Character in a String
+https://www.lintcode.com/problem/first-unique-character-in-a-string
+
+#### Description
+Find the first unique character in a given string. You can assume that there is at least one unique character in the string.
+
+#### Example
+For "abaccdeff", return 'b'.
+
+#### Challenge
+No extra storage is used.
+
 ### Medium  657. Insert Delete GetRandom O(1)
 ### Medium  612. K Closest Points
 ### Medium  544. Top k Largest Numbers
@@ -67,20 +92,7 @@ Given a nested list of integers, return the sum of all integers in the list weig
     Given the list [[1,1],2,[1,1]], return 10. (four 1's at depth 2, one 2 at depth 1, 4 * 1 * 2 + 1 * 2 * 1 = 10)
     Given the list [1,[4,[6]]], return 27. (one 1 at depth 1, one 4 at depth 2, and one 6 at depth 3; 1 + 4 * 2 + 6 * 3 = 27)
 
-### Easy  494. Implement Stack by Two Queues
-https://www.lintcode.com/problem/implement-stack-by-two-queues
-
-#### Description
-Implement a stack by two queues. The queue is first in first out (FIFO). That means you can not directly pop the last element in a queue.
-
-#### Example
-    push(1)
-    pop()
-    push(2)
-    isEmpty() // return false
-    top() // return 2
-    pop()
-    isEmpty() // return true
+> ### Easy  494. Implement Stack by Two Queues (same question)
 
 ### Medium  575. Decode String
 ### Medium  541. Zigzag Iterator II
