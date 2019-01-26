@@ -7,6 +7,7 @@
 * 495\. Implement Stack
 * 642\. Moving Average from Data Stream
 * 209\. First Unique Character in a String
+* 657\. Insert Delete GetRandom O(1)
 
 ## 7 - Permutation-based & Graph-based DFS
 
