@@ -8,6 +8,7 @@
 * 642\. Moving Average from Data Stream
 * 209\. First Unique Character in a String
 * 657\. Insert Delete GetRandom O(1)
+* 612\. K Closest Points
 
 ## 7 - Permutation-based & Graph-based DFS
 
