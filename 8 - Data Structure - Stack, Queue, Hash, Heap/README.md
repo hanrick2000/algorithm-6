@@ -89,6 +89,15 @@ Return these points sorted by distance, if they are same in distance, sorted by 
     return [[1,1],[2,5],[4,4]]
 
 ### Medium  544. Top k Largest Numbers
+https://www.lintcode.com/problem/top-k-largest-numbers
+
+#### Description
+Given an integer array, find the top k largest numbers in it.
+
+#### Example
+Given [3,10,1000,-99,4,100] and k = 3.
+Return [1000, 100, 10].
+
 ### Medium  104. Merge K Sorted Lists
 ### Medium  40. Implement Queue by Two Stacks
 ### Medium  4. Ugly Number II

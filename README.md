@@ -9,6 +9,7 @@
 * 209\. First Unique Character in a String
 * 657\. Insert Delete GetRandom O(1)
 * 612\. K Closest Points
+* 544\. Top k Largest Numbers
 
 ## 7 - Permutation-based & Graph-based DFS
 
