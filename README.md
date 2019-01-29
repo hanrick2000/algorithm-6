@@ -40,6 +40,7 @@
 
 * 365\. Count 1 in Binary
 * 486\. Merge K Sorted Arrays
+* 179\. Update Bits
 
 ## 20190110
 
