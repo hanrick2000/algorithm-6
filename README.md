@@ -10,6 +10,7 @@
 * 657\. Insert Delete GetRandom O(1)
 * 612\. K Closest Points
 * 544\. Top k Largest Numbers
+* 40\. Implement Queue by Two Stacks
 
 ## 7 - Permutation-based & Graph-based DFS
 
