@@ -99,6 +99,22 @@ Given [3,10,1000,-99,4,100] and k = 3.
 Return [1000, 100, 10].
 
 ### Medium  104. Merge K Sorted Lists
+https://www.lintcode.com/problem/merge-k-sorted-lists
+
+### Description
+Merge k sorted linked lists and return it as one sorted list.
+
+Analyze and describe its complexity.
+
+### Example
+    Given lists:
+
+        [
+          2->4->null,
+          null,
+          -1->null
+        ],
+    return -1->2->4->null.
 
 ### Medium  40. Implement Queue by Two Stacks
 https://www.lintcode.com/problem/implement-queue-by-two-stacks

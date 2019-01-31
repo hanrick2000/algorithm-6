@@ -178,26 +178,6 @@ Given [3,2,1,4,5], return [1,2,3,4,5] or any legal heap array.
 ### Challenge
 O(n) time complexity (**use shiftdown**)
 
-
-## 104. Merge K Sorted Lists
-https://www.lintcode.com/problem/merge-k-sorted-lists
-
-### Description
-Merge k sorted linked lists and return it as one sorted list.
-
-Analyze and describe its complexity.
-
-### Example
-Given lists:
-
-    [
-      2->4->null,
-      null,
-      -1->null
-    ],
-return -1->2->4->null.
-
-
 ## 41. Maximum Subarray
 https://www.lintcode.com/problem/maximum-subarray
 
@@ -293,3 +273,4 @@ O(n log n) time and O(1) extra space.
 > ## 16. Permutations II (deleted on January 20, 2019)
 > ## 494. Implement Stack by Two Queues (deleted on January 22, 2019)
 > ## 495. Implement Stack (deleted on January 23, 2019)
+> ## 104. Merge K Sorted Lists (deleted on January 30, 2019)

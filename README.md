@@ -11,6 +11,7 @@
 * 612\. K Closest Points
 * 544\. Top k Largest Numbers
 * 40\. Implement Queue by Two Stacks
+* 104\. Merge K Sorted Lists
 
 ## 7 - Permutation-based & Graph-based DFS
 
@@ -53,7 +54,6 @@
 * 128\. Hash Function
 * 129\. Rehashing
 * 130\. Heapify
-* 104\. Merge K Sorted Lists
 * 41\. Maximum Subarray
 * 44\. Minimum Subarray
 * 138\. Subarray Sum
