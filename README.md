@@ -12,6 +12,7 @@
 * 544\. Top k Largest Numbers
 * 40\. Implement Queue by Two Stacks
 * 104\. Merge K Sorted Lists
+* 4\. Ugly Number II
 
 ## 7 - Permutation-based & Graph-based DFS
 

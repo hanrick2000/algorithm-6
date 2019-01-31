@@ -138,6 +138,21 @@ Both pop and top methods should return the value of first element.
 implement it by two stacks, do not use any other data structure and push, pop and top should be O(1) by AVERAGE.
 
 ### Medium  4. Ugly Number II
+https://www.lintcode.com/problem/ugly-number-ii
+
+#### Description
+Ugly number is a number that only have factors 2, 3 and 5.
+
+Design an algorithm to find the nth ugly number. The first 10 ugly numbers are 1, 2, 3, 4, 5, 6, 8, 9, 10, 12...
+
+Note that 1 is typically treated as an ugly number.
+
+#### Example
+If n=9, return 10.
+
+#### Challenge
+O(n log n) or O(n) time.
+
 ### Hard  134. LRU Cache
 
 ## Optional
