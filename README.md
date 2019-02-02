@@ -1,5 +1,8 @@
 # Algorithm
 
+## 9 - Data Structure - Interval, Array, Matrix & Binary Indexed Tree
+* 41\. Maximum Subarray
+
 ## 8 - Data Structure - Stack, Queue, Hash, Heap
 
 * 551\. Nested List Weight Sum
@@ -56,7 +59,6 @@
 * 128\. Hash Function
 * 129\. Rehashing
 * 130\. Heapify
-* 41\. Maximum Subarray
 * 44\. Minimum Subarray
 * 138\. Subarray Sum
 * 65\. Median of two Sorted Arrays
