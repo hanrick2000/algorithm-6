@@ -2,6 +2,7 @@
 
 ## 9 - Data Structure - Interval, Array, Matrix & Binary Indexed Tree
 * 41\. Maximum Subarray
+* 138\. Subarray Sum
 
 ## 8 - Data Structure - Stack, Queue, Hash, Heap
 
@@ -60,7 +61,6 @@
 * 129\. Rehashing
 * 130\. Heapify
 * 44\. Minimum Subarray
-* 138\. Subarray Sum
 * 65\. Median of two Sorted Arrays
 * 30\. Insert Interval
 * 156\. Merge Intervals
