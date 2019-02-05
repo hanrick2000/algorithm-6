@@ -4,6 +4,7 @@
 * 41\. Maximum Subarray
 * 138\. Subarray Sum
 * 839\. Merge Two Sorted Interval Lists
+* 547\. Intersection of Two Arrays
 
 ## 8 - Data Structure - Stack, Queue, Hash, Heap
 

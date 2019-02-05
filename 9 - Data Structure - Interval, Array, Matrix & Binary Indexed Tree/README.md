@@ -30,6 +30,27 @@ The intervals in different lists may overlap.
     (6,7) --> (6,7)
 
 ### Easy  547. Intersection of Two Arrays
+https://www.lintcode.com/problem/intersection-of-two-arrays
+
+#### Description
+Given two arrays, write a function to compute their intersection.
+
+Each element in the result must be unique.
+The result can be in any order.
+
+#### Example
+##### Example 1:
+
+Input: nums1 = [1, 2, 2, 1], nums2 = [2, 2],
+Output: [2].
+
+##### Example 2:
+
+Input: nums1 = [1, 2], nums2 = [2],
+Output: [2].
+
+##### Challenge
+Can you implement it in three different algorithms?
 
 ### Easy  138. Subarray Sum
 https://www.lintcode.com/problem/subarray-sum
