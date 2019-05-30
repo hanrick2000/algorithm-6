@@ -46,6 +46,8 @@
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
 
+## 3 - Two Pointers Algorithm
+
 ## 2 - Breadth First Search
 
 ## 1 - Defeat the Algorithm Interview
