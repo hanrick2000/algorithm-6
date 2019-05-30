@@ -46,7 +46,10 @@
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
 
-## 4 - BFS & Topological Sort
+## 4 - Binary Tree - Divide Conquer & Traverse
+* 66\. Binary Tree Preorder Traversal (**use Morris and Traversal**)
+* 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
+* 68\. Binary Tree Postorder Traversal (**use Morris and Traversal**)
 
 ## 3 - Binary Search
 
@@ -92,9 +95,6 @@
 * 148\. Sort Colors
 * 127\. Topological Sorting
 * 814\. Shortest Path in Undirected Graph
-* 66\. Binary Tree Preorder Traversal (**use Morris and Traversal**)
-* 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
-* 68\. Binary Tree Postorder Traversal (**use Morris and Traversal**)
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal
 * 72\. Construct Binary Tree from Inorder and Postorder Traversal
 * 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)

@@ -108,68 +108,6 @@ Given graph = {1,2,4#2,1,4#3,5#4,1,2#5,3}, and nodeA = 3, nodeB = 5.
 return 1.
 
 
-## 66. Binary Tree Preorder Traversal
-https://www.lintcode.com/problem/binary-tree-preorder-traversal
-
-### Description
-Given a binary tree, return the preorder traversal of its nodes' values.
-
-### Example
-Given:
-
-        1
-       / \
-      2   3
-     / \
-    4   5
-return [1,2,4,5,3].
-
-### Challenge
-Can you do it without recursion?
-
-
-## 67. Binary Tree Inorder Traversal
-https://www.lintcode.com/problem/binary-tree-inorder-traversal
-
-### Description
-Given a binary tree, return the inorder traversal of its nodes' values.
-
-### Example
-Given binary tree {1,#,2,3},
-
-       1
-        \
-         2
-        /
-       3
-
-return [1,3,2].
-
-### Challenge
-Can you do it without recursion?
-
-
-## 68. Binary Tree Postorder Traversal
-https://www.lintcode.com/problem/binary-tree-postorder-traversal
-
-### Description
-Given a binary tree, return the postorder traversal of its nodes' values.
-
-### Example
-Given binary tree {1,#,2,3},
-
-       1
-        \
-         2
-        /
-       3
-
-return [3,2,1].
-
-### Challenge
-Can you do it without recursion?
-
-
 ## 73. Construct Binary Tree from Preorder and Inorder Traversal
 https://www.lintcode.com/problem/construct-binary-tree-from-preorder-and-inorder-traversal
 
@@ -287,3 +225,6 @@ The above binary tree is serialized as {2,1,4,#,#,3,5} (in level order).
 ----
 > ## 17. Subsets (deleted on January 18, 2019)
 > ## 18. Subsets II (deleted on January 18, 2019)
+> ## 66. Binary Tree Preorder Traversal (deleted on May 30, 2019)
+> ## 67. Binary Tree Inorder Traversal (deleted on May 30, 2019)
+> ## 68. Binary Tree Postorder Traversal (deleted on May 30, 2019)

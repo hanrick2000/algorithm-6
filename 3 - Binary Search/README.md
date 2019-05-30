@@ -29,15 +29,15 @@ O(logn) time
 ### Medium  140. Fast Power
 https://www.lintcode.com/problem/fast-power
 
-### Description
+#### Description
 Calculate the an % b where a, b and n are all 32bit positive integers.
 
-### Example
+#### Example
 For 231 % 3 = 2
 
 For 1001000 % 1000 = 0
 
-### Challenge
+#### Challenge
 O(logn)
 
 
@@ -56,7 +56,7 @@ O(logn)
 ### Easy  14. First Position of Target
 https://www.lintcode.com/problem/first-position-of-target
 
-### Description
+#### Description
 For a given sorted array (ascending order) and a target number, find the first index of this number in O(log n) time complexity.
 
 If the target number does not exist in the array, return -1.
@@ -74,7 +74,7 @@ If the count of numbers is bigger than 2^32, can your code work properly?
 ### Medium  38. Search a 2D Matrix II
 https://www.lintcode.com/problem/search-a-2d-matrix-ii
 
-### Description
+#### Description
 Write an efficient algorithm that searches for a value in an m x n matrix, return the occurrence of it.
 
 This matrix has the following properties:
@@ -83,7 +83,7 @@ Integers in each row are sorted from left to right.
 Integers in each column are sorted from up to bottom.
 No duplicate integers in each row or column.
 
-### Example
+#### Example
 Consider the following matrix:
 
 [
@@ -93,7 +93,7 @@ Consider the following matrix:
 ]
 Given target = 3, return 2.
 
-### Challenge
+#### Challenge
 O(m+n) time and O(1) extra space
 
 
@@ -104,10 +104,10 @@ O(m+n) time and O(1) extra space
 ### Easy  457. Classical Binary Search
 https://www.lintcode.com/problem/classical-binary-search
 
-### Description
+#### Description
 Find any position of a target number in a sorted array. Return -1 if target does not exist.
 
-### Example
+#### Example
 Given [1, 2, 2, 4, 5, 5].
 
 For target = 2, return 1 or 2.
@@ -116,7 +116,7 @@ For target = 5, return 4 or 5.
 
 For target = 6, return -1.
 
-### Challenge
+#### Challenge
 O(logn) time
 
 
