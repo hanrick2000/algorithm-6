@@ -46,7 +46,13 @@
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
 
-## 3 - Two Pointers Algorithm
+## 3 - Binary Search
+
+* 428\. Pow(x, n)
+* 140\. Fast Power
+* 14\. First Position of Target
+* 38\. Search a 2D Matrix II
+* 457\. Classical Binary Search
 
 ## 2 - Breadth First Search
 
@@ -108,11 +114,6 @@
 
 ## 20181223
 
-* 14\. First Position of Target
 * 235\. Prime Factorization
-* 457\. Classical Binary Search
 * 39\. Recover Rotated Sorted Array
-* 38\. Search a 2D Matrix II
-* 428\. Pow(x, n)
-* 140\. Fast Power
 * 845\. Greatest Common Divisor
