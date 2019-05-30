@@ -46,7 +46,9 @@
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
 
-## 1 - Hack the Algorithm Interview
+## 2 - Binary Search & LogN Algorithm
+
+## 1 - Defeat the Algorithm Interview
 
 * 415\. Valid Palindrome
 * 594\. strStr II
