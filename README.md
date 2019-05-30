@@ -46,7 +46,18 @@
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
 
-## 5 - Binary Tree & Tree-based DFS
+## 5 - Two Pointers
+
+* 228\. Middle of Linked List
+* 521\. Remove Duplicate Numbers in Array
+* 464\. Sort Integers II (**use mergeSort**)
+* 604\. Window Sum
+* 56\. Two Sum
+* 148\. Sort Colors
+* 610\. Two Sum - Difference equals to target
+* 380\. Intersection of Two Linked Lists
+* 102\. Linked List Cycle
+* 103\. Linked List Cycle II
 
 ## 4 - Binary Tree - Divide Conquer & Traverse
 
@@ -93,9 +104,7 @@
 ## 20190104
 
 * 463\. Sort Integers (**use quickSort**)
-* 464\. Sort Integers II (**use mergeSort**)
 * 5\. Kth Largest Element
-* 148\. Sort Colors
 * 127\. Topological Sorting
 * 814\. Shortest Path in Undirected Graph
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal
@@ -107,15 +116,7 @@
 ## 20190101
 
 * 891\. Valid Palindrome II
-* 56\. Two Sum
-* 521\. Remove Duplicate Numbers in Array
-* 604\. Window Sum
-* 610\. Two Sum - Difference equals to target
-* 228\. Middle of Linked List
 * 81\. Find Median from Data Stream
-* 102\. Linked List Cycle
-* 103\. Linked List Cycle II
-* 380\. Intersection of Two Linked Lists
 
 ## 20181223
 
