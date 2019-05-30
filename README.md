@@ -46,7 +46,7 @@
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
 
-## 2 - Binary Search & LogN Algorithm
+## 2 - Breadth First Search
 
 ## 1 - Defeat the Algorithm Interview
 
