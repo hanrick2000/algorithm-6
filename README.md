@@ -48,6 +48,9 @@
 
 ## 1 - Hack the Algorithm Interview
 
+* 415\. Valid Palindrome
+* 594\. strStr II
+
 ## 20190117
 
 * 365\. Count 1 in Binary
@@ -89,7 +92,6 @@
 ## 20190101
 
 * 891\. Valid Palindrome II
-* 415\. Valid Palindrome
 * 56\. Two Sum
 * 521\. Remove Duplicate Numbers in Array
 * 604\. Window Sum
@@ -102,7 +104,6 @@
 
 ## 20181223
 
-* 594\. strStr II
 * 14\. First Position of Target
 * 235\. Prime Factorization
 * 457\. Classical Binary Search

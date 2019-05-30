@@ -13,25 +13,6 @@ Given s = "aba" return true
 Given s = "abca" return true // delete c
 
 
-## 415. Valid Palindrome
-https://www.lintcode.com/problem/valid-palindrome
-
-### Description
-Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
-
-Have you consider that the string might be empty? This is a good question to ask during an interview.
-
-For the purpose of this problem, we define empty string as valid palindrome.
-
-### Example
-"A man, a plan, a canal: Panama" is a palindrome.
-
-"race a car" is not a palindrome.
-
-### Challenge
-O(n) time without extra memory.
-
-
 ## 56. Two Sum
 https://www.lintcode.com/problem/two-sum
 
@@ -199,3 +180,7 @@ begin to intersect at node c1.
 
 ### Challenge
 Your code should preferably run in O(n) time and use only O(1) memory.
+
+
+----
+> ## 415. Valid Palindrome (deleted on May 30, 2019)
