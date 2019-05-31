@@ -74,3 +74,67 @@ Given s = "aab", return:
       ["aa","b"],
       ["a","a","b"]
     ]
+
+
+### Medium  10. String Permutation II
+https://www.lintcode.com/problem/string-permutation-ii
+
+#### Description
+Given a string, find all permutations of it without duplicates.
+
+#### Example
+Given "abb", return ["abb", "bab", "bba"].
+
+Given "aabb", return ["aabb", "abab", "baba", "bbaa", "abba", "baab"].
+
+### Medium  34. N-Queens II
+https://www.lintcode.com/problem/n-queens-ii
+
+#### Description
+Follow up for N-Queens problem.
+
+Now, instead outputting board configurations, return the total number of distinct solutions.
+
+#### Example
+For n=4, there are 2 distinct solutions.
+
+
+### Hard  132. Word Search II
+https://www.lintcode.com/problem/word-search-ii
+
+#### Description
+Given a matrix of lower alphabets and a dictionary. Find all words in the dictionary that can be found in the matrix. A word can start from any position in the matrix and go left/right/up/down to the adjacent position. One character only be used once in one word. No same word in dictionary
+
+#### Example
+Given matrix:
+    doaf
+    agai
+    dcan
+and dictionary:
+
+    {"dog", "dad", "dgdg", "can", "again"}
+
+    return {"dog", "dad", "can", "again"}
+
+    dog:
+    doaf
+    agai
+    dcan
+    dad:
+
+    doaf
+    agai
+    dcan
+    can:
+
+    doaf
+    agai
+    dcan
+    again:
+
+    doaf
+    agai
+    dcan
+
+#### Challenge
+Using trie to implement your algorithm.

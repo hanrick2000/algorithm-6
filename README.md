@@ -25,11 +25,9 @@
 * 4\. Ugly Number II
 * 134\. LRU Cache
 
-## 7 - Permutation-based & Graph-based DFS
+## 7 - Hash & Heap
 
-* 10\. String Permutation II
-* 34\. N-Queens II
-* 132\. Word Search II
+
 
 ## 6 - Implicit Graph DFS
 
@@ -86,6 +84,9 @@
 * 486\. Merge K Sorted Arrays
 * 179\. Update Bits
 * 136\. Palindrome Partitioning
+* 10\. String Permutation II
+* 34\. N-Queens II
+* 132\. Word Search II
 
 ## 20190110
 
