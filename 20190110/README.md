@@ -1,51 +1,5 @@
 # 20190110
 
-## 52. Next Permutation
-https://www.lintcode.com/problem/next-permutation
-
-### Description
-Given a list of integers, which denote a permutation.
-
-Find the next permutation in ascending order.
-
-The list may contains duplicate integers.
-
-### Example
-For [1,3,2,3], the next permutation is [1,3,3,2]
-
-For [4,3,2,1], the next permutation is [1,2,3,4]
-
-
-## 190. Next Permutation II
-https://www.lintcode.com/problem/next-permutation-ii
-
-### Description
-Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
-
-If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
-
-### Example
-Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
-
-1,2,3 → 1,3,2
-
-3,2,1 → 1,2,3
-
-1,1,5 → 1,5,1
-
-### Challenge
-The replacement must be in-place, do not allocate extra memory.
-
-## 197. Permutation Index
-https://www.lintcode.com/problem/permutation-index
-
-### Description
-Given a permutation which contains no repeated number, find its index in all the permutations of these numbers, which are ordered in lexicographical order. The index begins at 1.
-
-### Example
-Given [1,2,4], return 1.
-
-
 ## 955. Implement Queue by Circular Array
 https://www.lintcode.com/problem/implement-queue-by-circular-array
 
@@ -141,3 +95,6 @@ O(n log n) time and O(1) extra space.
 > ## 129. Rehashing (deleted on May 31, 2019)
 > ## 130. Heapify (deleted on May 31, 2019)
 > ## 224. Implement Three Stacks by Single Array (deleted on May 31, 2019)
+> ## 190. Next Permutation II (deleted on May 31, 2019)
+> ## 197. Permutation Index (deleted on May 31, 2019)
+> ## 52. Next Permutation (deleted on May 31, 2019)

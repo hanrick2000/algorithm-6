@@ -6,11 +6,14 @@
 * 839\. Merge Two Sorted Interval Lists
 * 547\. Intersection of Two Arrays
 
-## 8 - Data Structure - Stack, Queue, Hash, Heap
+## 8 - Memoization Search & Dynamic Programming
 
 * 582\. Word Break II
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
+* 190\. Next Permutation II
+* 197\. Permutation Index
+* 52\. Next Permutation
 
 ## 7 - Hash & Heap
 
@@ -92,9 +95,6 @@
 
 ## 20190110
 
-* 52\. Next Permutation
-* 190\. Next Permutation II
-* 197\. Permutation Index
 * 955\. Implement Queue by Circular Array
 * 44\. Minimum Subarray
 * 65\. Median of two Sorted Arrays
