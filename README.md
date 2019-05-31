@@ -8,6 +8,10 @@
 
 ## 8 - Data Structure - Stack, Queue, Hash, Heap
 
+* 582\. Word Break II
+* 192\. Wildcard Matching
+* 154\. Regular Expression Matching
+
 * 551\. Nested List Weight Sum
 * 494\. Implement Stack by Two Queues
 * 495\. Implement Stack
@@ -23,28 +27,24 @@
 
 ## 7 - Permutation-based & Graph-based DFS
 
-* 425\. Letter Combinations of a Phone Number
 * 10\. String Permutation II
 * 34\. N-Queens II
-* 33\. N-Queens
-* 15\. Permutations (**use recursion--dfs and iteration**)
-* 16\. Permutations II
-* 829\. Word Pattern II
 * 132\. Word Search II
-* 121\. Word Ladder II
 
-## 6 - Combination-based DFS
+## 6 - Implicit Graph DFS
 
 * 680\. Split String
-* 136\. Palindrome Partitioning
+* 425\. Letter Combinations of a Phone Number
 * 153\. Combination Sum II
-* 152\. Combinations
 * 135\. Combination Sum
+* 33\. N-Queens
 * 18\. Subsets II
 * 17\. Subsets (**use Backtracking**)
-* 582\. Word Break II
-* 192\. Wildcard Matching
-* 154\. Regular Expression Matching
+* 15\. Permutations (**use recursion--dfs and iteration**)
+* 829\. Word Pattern II
+* 121\. Word Ladder II
+* 152\. Combinations
+* 16\. Permutations II
 
 ## 5 - Two Pointers
 
@@ -85,6 +85,7 @@
 * 365\. Count 1 in Binary
 * 486\. Merge K Sorted Arrays
 * 179\. Update Bits
+* 136\. Palindrome Partitioning
 
 ## 20190110
 

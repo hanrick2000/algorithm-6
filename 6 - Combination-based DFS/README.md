@@ -1,6 +1,6 @@
-# 6 - Combination-based DFS
+# 6 - Implicit Graph DFS
 
-## Required
+## Required (10)
 
 ### Medium 680. Split String
 https://www.lintcode.com/problem/split-string
@@ -12,21 +12,24 @@ Give a string, you can choose to split the string after one character or two adj
 Given the string "123"
 return [["1","2","3"],["12","3"],["1","23"]]
 
-### Medium 136. Palindrome Partitioning
-https://www.lintcode.com/problem/palindrome-partitioning
+
+### Medium  425. Letter Combinations of a Phone Number
 
 #### Description
-Given a string s, partition s such that every substring of the partition is a palindrome.
+Given a digit string excluded 01, return all possible letter combinations that the number could represent.
 
-Return all possible palindrome partitioning of s.
+A mapping of digit to letters (just like on the telephone buttons) is given below.
+
+![Cellphone](https://github.com/porrychen/algorithm/blob/master/7%20-%20Permutation-based%20&%20Graph-based%20DFS/425-Telephone-keypad.png?raw=true)
+
+Although the above answer is in lexicographical order, your answer could be in any order you want.
 
 #### Example
-Given s = "aab", return:
+    Given "23"
 
-    [
-      ["aa","b"],
-      ["a","a","b"]
-    ]
+    Return
+    ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+
 
 ### Medium 153. Combination Sum II
 https://www.lintcode.com/problem/combination-sum-ii
@@ -52,25 +55,6 @@ A solution set is:
       [1,1,6]
     ]
 
-### Medium 152. Combinations
-https://www.lintcode.com/problem/combinations
-
-#### Description
-Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
-
-You don't need to care the order of combinations, but you should make sure the numbers in a combination are sorted.
-
-#### Example
-Given n = 4 and k = 2, a solution is:
-
-    [
-      [2,4],
-      [3,4],
-      [2,3],
-      [1,2],
-      [1,3],
-      [1,4]
-    ]
 
 ### Medium 135. Combination Sum
 https://www.lintcode.com/problem/combination-sum/
@@ -89,6 +73,39 @@ Given candidate set [2,3,6,7] and target 7, a solution set is:
 
     [7]
     [2, 2, 3]
+
+
+### Medium  33. N-Queens
+https://www.lintcode.com/problem/n-queens
+
+#### Description
+The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
+
+Given an integer n, return all distinct solutions to the n-queens puzzle.
+
+Each solution contains a distinct board configuration of the n-queens' placement, where 'Q' and '.' both indicate a queen and an empty space respectively.
+
+#### Example
+There exist two distinct solutions to the 4-queens puzzle:
+
+        [
+          // Solution 1
+          [".Q..",
+           "...Q",
+           "Q...",
+           "..Q."
+          ],
+          // Solution 2
+          ["..Q.",
+           "Q...",
+           "...Q",
+           ".Q.."
+          ]
+        ]
+
+#### Challenge
+    Can you do it without recursion?
+
 
 ### Medium 18. Subsets II
 https://www.lintcode.com/problem/subsets-ii
@@ -142,74 +159,118 @@ If S = [1,2,3], a solution is:
 #### Challenge
 Can you do it in both recursively and iteratively?
 
-### Hard   582. Word Break II
-https://www.lintcode.com/problem/word-break-ii
+### Medium  15. Permutations
+https://www.lintcode.com/problem/permutations
 
 #### Description
-Given a string s and a dictionary of words dict, add spaces in s to construct a sentence where each word is a valid dictionary word.
+Given a list of numbers, return all possible permutations.
 
-Return all such possible sentences.
+You can assume that there is no duplicate numbers in the list.
 
 #### Example
-Gieve s = lintcode,
-dict = ["de", "ding", "co", "code", "lint"].
+For nums = [1,2,3], the permutations are:
 
-A solution is ["lint code", "lint co de"].
+    [
+      [1,2,3],
+      [1,3,2],
+      [2,1,3],
+      [2,3,1],
+      [3,1,2],
+      [3,2,1]
+    ]
 
-### Hard   192. Wildcard Matching
-https://www.lintcode.com/problem/wildcard-matching
+#### Challenge
+Do it without recursion.
+
+
+### Hard  829. Word Pattern II
+https://www.lintcode.com/problem/word-pattern-ii
 
 #### Description
-Implement wildcard pattern matching with support for '?' and '\*'.
+Given a pattern and a string str, find if str follows the same pattern.
 
-'?' Matches any single character.
-'\*' Matches any sequence of characters (including the empty sequence).
-The matching should cover the entire input string (not partial).
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty substring in str.(i.e if a corresponds to s, then b cannot correspond to s. For example, given pattern = "ab", str = "ss", return false.)
+
+You may assume both pattern and str contains only lowercase letters.
 
 #### Example
-    isMatch("aa","a") → false
-    isMatch("aa","aa") → true
-    isMatch("aaa","aa") → false
-    isMatch("aa", "\*") → true
-    isMatch("aa", "a*") → true
-    isMatch("ab", "?\*") → true
-    isMatch("aab", "c*a*b") → false
+Given pattern = "abab", str = "redblueredblue", return true.
+Given pattern = "aaaa", str = "asdasdasdasd", return true.
+Given pattern = "aabb", str = "xyzabcxzyabc", return false.
 
-### Hard   154. Regular Expression Matching
-https://www.lintcode.com/problem/regular-expression-matching
+
+### Hard  121. Word Ladder II
+https://www.lintcode.com/problem/word-ladder-ii
 
 #### Description
-Implement regular expression matching with support for '.' and '\*'.
+Given two words (start and end), and a dictionary, find all shortest transformation sequence(s) from start to end, such that:
 
-'.' Matches any single character.
-'\*' Matches zero or more of the preceding element.
-The matching should cover the entire input string (not partial).
-
-
-The function prototype should be:
-
-bool isMatch(string s, string p)
+Only one letter can be changed at a time
+Each intermediate word must exist in the dictionary
+All words have the same length.
+All words contain only lowercase alphabetic characters.
 
 #### Example
-    isMatch("aa","a") → false
-    isMatch("aa","aa") → true
-    isMatch("aaa","aa") → false
-    isMatch("aa", "a*") → true
-    isMatch("aa", ".\*") → true
-    isMatch("ab", ".\*") → true
-    isMatch("aab", "c*a*b") → true
+Given:
+    start = "hit"
+    end = "cog"
+    dict = ["hot","dot","dog","lot","log"]
 
-## Optional
+Return
+    [
+      ["hit","hot","dot","dog","cog"],
+      ["hit","hot","lot","log","cog"]
+    ]
+
+
+## Optional (7)
 
 ### Medium  652. Factorization
 ### Medium  570. Find the Missing Number II
 ### Medium  426. Restore IP Addresses
 ### Medium  427. Generate Parentheses
+
+### Medium  152. Combinations
+https://www.lintcode.com/problem/combinations
+
+#### Description
+Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+
+You don't need to care the order of combinations, but you should make sure the numbers in a combination are sorted.
+
+#### Example
+Given n = 4 and k = 2, a solution is:
+
+    [
+      [2,4],
+      [3,4],
+      [2,3],
+      [1,2],
+      [1,3],
+      [1,4]
+    ]
+
+### Medium  16. Permutations II
+https://www.lintcode.com/problem/permutations-ii
+
+#### Description
+Given a list of numbers with duplicate number in it. Find all unique permutations.
+
+#### Example
+For numbers [1,2,2] the unique permutations are:
+
+    [
+      [1,2,2],
+      [2,1,2],
+      [2,2,1]
+    ]
+
+#### Challenge
+Using recursion to do it is acceptable. If you can do it without recursion, that would be great!
+
+
 ### Hard    780. Remove Invalid Parentheses
 
-## Related
+## Related (1)
 
-### Medium  683. Word Break III
 ### Medium  196. Missing Number
-### Medium  107. Word Break
-### Medium  108. Palindrome Partitioning II
