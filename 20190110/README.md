@@ -46,29 +46,6 @@ Given a permutation which contains no repeated number, find its index in all the
 Given [1,2,4], return 1.
 
 
-## 224. Implement Three Stacks by Single Array
-https://www.lintcode.com/problem/implement-three-stacks-by-single-array
-
-### Description
-Implement three stacks by single array.
-
-You can assume the three stacks has the same size and big enough, you don't need to care about how to extend it if one of the stack is full.
-
-### Example
-    ThreeStacks(5)  // create 3 stacks with size 5 in single array. stack index from 0 to 2
-    push(0, 10) // push 10 in the 1st stack.
-    push(0, 11)
-    push(1, 20) // push 20 in the 2nd stack.
-    push(1, 21)
-    pop(0) // return 11
-    pop(1) // return 21
-    peek(1) // return 20
-    push(2, 30)  // push 30 in the 3rd stack.
-    pop(2) // return 30
-    isEmpty(2) // return true
-    isEmpty(0) // return false
-
-
 ## 955. Implement Queue by Circular Array
 https://www.lintcode.com/problem/implement-queue-by-circular-array
 
@@ -88,95 +65,6 @@ it's guaranteed in the test cases we won't call enqueue if it's full and we also
     isEmpty() => true
     enqueue(1)
     dequeue()  => 1
-
-
-## 128. Hash Function
-https://www.lintcode.com/problem/hash-function
-
-### Description
-In data structure Hash, hash function is used to convert a string(or any other type) into an integer smaller than hash size and bigger or equal to zero. The objective of designing a hash function is to "hash" the key as unreasonable as possible. A good hash function can avoid collision as less as possible. A widely used hash function algorithm is using a magic number 33, consider any string as a 33 based big integer like follow:
-
-             hashcode("abcd") = (ascii(a) * 333 + ascii(b) * 332 + ascii(c) *33 + ascii(d)) % HASH_SIZE
-
-                              = (97* 333 + 98 * 332 + 99 * 33 +100) % HASH_SIZE
-
-                              = 3595978 % HASH_SIZE
-
-here HASH_SIZE is the capacity of the hash table (you can assume a hash table is like an array with index 0 ~ HASH_SIZE-1).
-
-Given a string as a key and the size of hash table, return the hash value of this key.f
-
-### Clarification
-For this problem, you are not necessary to design your own hash algorithm or consider any collision issue, you just need to implement the algorithm as described.
-
-### Example
-For key="abcd" and size=100, return 78
-
-
-## 129. Rehashing
-https://www.lintcode.com/problem/rehashing
-
-### Description
-The size of the hash table is not determinate at the very beginning. If the total size of keys is too large (e.g. size >= capacity / 10), we should double the size of the hash table and rehash every keys. Say you have a hash table looks like below:
-
-size=3, capacity=4
-
-    [null, 21, 14, null]
-           ↓    ↓
-           9   null
-           ↓
-          null
-The hash function is:
-
-    int hashcode(int key, int capacity) {
-        return key % capacity;
-    }
-here we have three numbers, 9, 14 and 21, where 21 and 9 share the same position as they all have the same hashcode 1 (21 % 4 = 9 % 4 = 1). We store them in the hash table by linked list.
-
-rehashing this hash table, double the capacity, you will get:
-
-size=3, capacity=8
-
-    index:   0    1    2    3     4    5    6   7
-    hash : [null, 9, null, null, null, 21, 14, null]
-Given the original hash table, return the new hash table after rehashing .
-
-For negative integer in hash table, the position can be calculated as follow:
-
-C++/Java: if you directly calculate -4 % 3 you will get -1. You can use function: a % b = (a % b + b) % b to make it is a non negative integer.
-Python: you can directly use -1 % 3, you will get 2 automatically.
-
-### Example
-Given [null, 21->9->null, 14->null, null],
-
-return
-[null, 9->null, null, null, null, 21->null, 14->null, null]
-
-
-## 130. Heapify
-https://www.lintcode.com/problem/heapify
-
-### Description
-Given an integer array, heapify it into a min-heap array.
-
-For a heap array A, A[0] is the root of heap, and for each A[i], A[i * 2 + 1] is the left child of A[i] and A[i * 2 + 2] is the right child of A[i].
-
-### Clarification
-What is heap?
-
-Heap is a data structure, which usually have three methods: push, pop and top. where "push" add a new element the heap, "pop" delete the minimum/maximum element in the heap, "top" return the minimum/maximum element.
-
-What is heapify?
-Convert an unordered integer array into a heap array. If it is min-heap, for each element A[i], we will get A[i * 2 + 1] >= A[i] and A[i * 2 + 2] >= A[i].
-
-What if there is a lot of solutions?
-Return any of them.
-
-### Example
-Given [3,2,1,4,5], return [1,2,3,4,5] or any legal heap array.
-
-### Challenge
-O(n) time complexity (**use shiftdown**)
 
 
 ## 44. Minimum Subarray
@@ -249,3 +137,7 @@ O(n log n) time and O(1) extra space.
 > ## 104. Merge K Sorted Lists (deleted on January 30, 2019)
 > ## 41. Maximum Subarray (deleted on February 2, 2019)
 > ## 138. Subarray Sum (deleted on February 3, 2019)
+> ## 128. Hash Function (deleted on May 31, 2019)
+> ## 129. Rehashing (deleted on May 31, 2019)
+> ## 130. Heapify (deleted on May 31, 2019)
+> ## 224. Implement Three Stacks by Single Array (deleted on May 31, 2019)

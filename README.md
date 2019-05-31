@@ -12,22 +12,25 @@
 * 192\. Wildcard Matching
 * 154\. Regular Expression Matching
 
-* 551\. Nested List Weight Sum
-* 494\. Implement Stack by Two Queues
-* 495\. Implement Stack
+## 7 - Hash & Heap
+
 * 642\. Moving Average from Data Stream
+* 494\. Implement Stack by Two Queues
 * 209\. First Unique Character in a String
 * 657\. Insert Delete GetRandom O(1)
 * 612\. K Closest Points
 * 544\. Top k Largest Numbers
-* 40\. Implement Queue by Two Stacks
 * 104\. Merge K Sorted Lists
+* 40\. Implement Queue by Two Stacks
 * 4\. Ugly Number II
 * 134\. LRU Cache
-
-## 7 - Hash & Heap
-
-
+* 495\. Implement Stack
+* 128\. Hash Function
+* 486\. Merge K Sorted Arrays
+* 130\. Heapify
+* 129\. Rehashing
+* 551\. Nested List Weight Sum
+* 224\. Implement Three Stacks by Single Array
 
 ## 6 - Implicit Graph DFS
 
@@ -81,7 +84,6 @@
 ## 20190117
 
 * 365\. Count 1 in Binary
-* 486\. Merge K Sorted Arrays
 * 179\. Update Bits
 * 136\. Palindrome Partitioning
 * 10\. String Permutation II
@@ -93,11 +95,7 @@
 * 52\. Next Permutation
 * 190\. Next Permutation II
 * 197\. Permutation Index
-* 224\. Implement Three Stacks by Single Array
 * 955\. Implement Queue by Circular Array
-* 128\. Hash Function
-* 129\. Rehashing
-* 130\. Heapify
 * 44\. Minimum Subarray
 * 65\. Median of two Sorted Arrays
 * 30\. Insert Interval
