@@ -1,10 +1,7 @@
 # Algorithm
 
-## 9 - Data Structure - Interval, Array, Matrix & Binary Indexed Tree
-* 41\. Maximum Subarray
-* 138\. Subarray Sum
-* 839\. Merge Two Sorted Interval Lists
-* 547\. Intersection of Two Arrays
+## 9 - 4 Key Points of DP and Coordinate DP
+
 
 ## 8 - Memoization Search & Dynamic Programming
 
@@ -92,6 +89,10 @@
 * 10\. String Permutation II
 * 34\. N-Queens II
 * 132\. Word Search II
+* 41\. Maximum Subarray
+* 138\. Subarray Sum
+* 839\. Merge Two Sorted Interval Lists
+* 547\. Intersection of Two Arrays
 
 ## 20190110
 
