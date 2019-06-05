@@ -2,6 +2,8 @@
 
 ## 9 - 4 Key Points of DP and Coordinate DP
 
+* 115\. Unique Paths II
+* 114\. Unique Paths
 
 ## 8 - Memoization Search & Dynamic Programming
 
