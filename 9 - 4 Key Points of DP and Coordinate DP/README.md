@@ -94,6 +94,30 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 
 ### Easy   110. Minimum Path Sum
+http://www.lintcode.com/problem/minimum-path-sum/
+
+#### Description
+
+Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
+
+You can only go right or down in the path..
+
+#### Example
+##### Example 1:
+	Input:  [[1,3,1],[1,5,1],[4,2,1]]
+	Output: 7
+
+	Explanation:
+	Path is: 1 -> 3 -> 1 -> 1 -> 1
+
+##### Example 2:
+	Input:  [[1,3,2]]
+	Output: 6
+
+	Explanation:  
+	Path is: 1 -> 3 -> 2
+
+
 ### Medium 603. Largest Divisible Subset
 ### Medium 611. Knight Shortest Path
 ### Medium 76. Longest Increasing Subsequence
