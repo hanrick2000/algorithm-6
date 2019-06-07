@@ -119,6 +119,25 @@ You can only go right or down in the path..
 
 
 ### Medium 603. Largest Divisible Subset
+http://www.lintcode.com/problem/largest-divisible-subset/
+
+#### Description
+
+Given a set of distinct positive integers, find the largest subset such that every pair (Si, Sj) of elements in this subset satisfies: Si % Sj = 0 or Sj % Si = 0.
+
+If there are multiple solutions, return any subset is fine.
+
+#### Example
+##### Example 1:
+
+  Input: nums =  [1,2,3],
+  Output: [1,2] or [1,3]
+
+##### Example 2:
+
+  Input: nums = [1,2,4,8], 
+  Output: [1,2,4,8]
+
 ### Medium 611. Knight Shortest Path
 ### Medium 76. Longest Increasing Subsequence
 ### Hard   602. Russian Doll Envelopes
