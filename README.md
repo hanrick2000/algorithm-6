@@ -7,6 +7,7 @@
 * 111\. Climbing Stairs
 * 110\. Minimum Path Sum
 * 603\. Largest Divisible Subset
+* 76\. Longest Increasing Subsequence
 
 ## 8 - Memoization Search & Dynamic Programming
 
