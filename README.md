@@ -8,6 +8,7 @@
 * 110\. Minimum Path Sum
 * 603\. Largest Divisible Subset
 * 76\. Longest Increasing Subsequence
+* 602\. Russian Doll Envelopes
 
 ## 8 - Memoization Search & Dynamic Programming
 
