@@ -18,6 +18,7 @@
 * 190\. Next Permutation II
 * 197\. Permutation Index
 * 52\. Next Permutation
+* 683\. Word Break III
 
 ## 7 - Hash & Heap
 
