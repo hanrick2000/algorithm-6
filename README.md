@@ -19,6 +19,7 @@
 * 197\. Permutation Index
 * 52\. Next Permutation
 * 683\. Word Break III
+* 109\. Triangle
 
 ## 7 - Hash & Heap
 
