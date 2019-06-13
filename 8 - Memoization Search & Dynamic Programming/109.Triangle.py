@@ -10,7 +10,7 @@ class Solution:
         dp = [[0] * size, [0] * size]
 
         for i in range(size):
-            dp[(size - 1) % 2][i] = triangle[size - 1][i]
+            dp[(size - 1) % 2][i] = triangle[-1][i]
 
         for i in range(size - 2, -1, -1):
             for j in range(i + 1):

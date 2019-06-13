@@ -68,6 +68,21 @@ Bonus point if you are able to do this using only O(n) extra space, where n is t
 
 
 ### Medium 107. Word Break
+https://www.lintcode.com/problem/word-break/
+
+#### Description
+
+Given a string s and a dictionary of words dict, determine if s can be break into a space-separated sequence of one or more dictionary words.
+
+#### Example
+##### Example 1:
+	Input:  "lintcode", ["lint", "code"]
+	Output:  true
+
+##### Example 2:
+	Input: "a", ["a"]
+	Output:  true
+
 
 ### Hard   582. Word Break II
 https://www.lintcode.com/problem/word-break-ii

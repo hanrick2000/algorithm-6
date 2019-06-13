@@ -20,6 +20,7 @@
 * 52\. Next Permutation
 * 683\. Word Break III
 * 109\. Triangle
+* 107\. Word Break
 
 ## 7 - Hash & Heap
 
