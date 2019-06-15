@@ -107,6 +107,47 @@ Can you do it in time complexity O(n)?
 
 
 ### Medium 944. Maximum Submatrix
+https://www.lintcode.com/problem/maximum-submatrix/
+
+#### Description
+
+Given an n x n matrix of positive and negative integers, find the submatrix with the largest possible sum.
+
+#### Example
+##### Example1
+
+    Input:  
+    matrix = [
+        [1,3,-1],
+        [2,3,-2],
+        [-1,-2,-3]
+    ]
+    Output: 9
+    Explanation:
+    the submatrix with the largest possible sum is:
+    [
+        [1,3],
+        [2,3]
+    ]
+
+##### Example2
+
+    Input:  
+    matrix = [
+        [1,1,1],
+        [1,1,1],
+        [1,1,1]
+    ]
+    Output: 9
+    Explanation:
+    the submatrix with the largest possible sum is:
+    [
+        [1,1,1],
+        [1,1,1],
+        [1,1,1]
+    ]
+
+
 ### Medium 840. Range Sum Query - Mutable
 ### Medium 654. Sparse Matrix Multiplication
 ### Medium 577. Merge K Sorted Interval Lists

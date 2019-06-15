@@ -8,6 +8,7 @@
 * 41\. Maximum Subarray
 * 65\. Median of two Sorted Arrays
 * 64\. Merge Sorted Array
+* 944\. Maximum Submatrix
 
 ## 9 - 4 Key Points of DP and Coordinate DP
 
