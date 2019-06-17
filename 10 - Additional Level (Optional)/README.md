@@ -149,6 +149,46 @@ Given an n x n matrix of positive and negative integers, find the submatrix with
 
 
 ### Medium 840. Range Sum Query - Mutable
+https://www.lintcode.com/problem/range-sum-query-mutable/
+
+#### Description
+
+Given an integer array nums, and then you need to implement two functions:
+
+* update(i, val) Modify the element whose index is i to val.
+* sumRange(l, r) Return the sum of elements whose indexes are in range of [l, r][l,r].
+
+  1. The array is only modifiable by the update function.
+  2. You may assume the number of calls to update and sumRange function is distributed evenly.
+
+#### Example
+##### Example 1:
+
+    Input:
+      nums = [1, 3, 5]
+      sumRange(0, 2)
+      update(1, 2)
+      sumRange(0, 2)
+    Output:
+      9
+      8
+
+#### Example 2:
+
+    Input:
+      nums = [0, 9, 5, 7, 3]
+      sumRange(4, 4)
+      sumRange(2, 4)
+      update(4, 5)
+      update(1, 7)
+      update(0, 8)
+      sumRange(1, 2)
+    Output:
+      3
+      15
+      12
+
+
 ### Medium 654. Sparse Matrix Multiplication
 ### Medium 577. Merge K Sorted Interval Lists
 

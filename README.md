@@ -9,6 +9,7 @@
 * 65\. Median of two Sorted Arrays
 * 64\. Merge Sorted Array
 * 944\. Maximum Submatrix
+* 840\. Range Sum Query - Mutable
 
 ## 9 - 4 Key Points of DP and Coordinate DP
 
