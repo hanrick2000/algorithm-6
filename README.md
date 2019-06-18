@@ -10,6 +10,7 @@
 * 64\. Merge Sorted Array
 * 944\. Maximum Submatrix
 * 840\. Range Sum Query - Mutable
+* 654\. Sparse Matrix Multiplication
 
 ## 9 - 4 Key Points of DP and Coordinate DP
 

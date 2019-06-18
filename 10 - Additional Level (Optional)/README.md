@@ -190,6 +190,46 @@ Given an integer array nums, and then you need to implement two functions:
 
 
 ### Medium 654. Sparse Matrix Multiplication
+https://www.lintcode.com/problem/sparse-matrix-multiplication/
+
+#### Description
+
+Given two Sparse Matrix A and B, return the result of AB.
+
+You may assume that A's column number is equal to B's row number.
+
+#### Example
+##### Example1
+
+    Input:
+    [[1,0,0],[-1,0,3]]
+    [[7,0,0],[0,0,0],[0,0,1]]
+    Output:
+    [[7,0,0],[-7,0,3]]
+    Explanation:
+    A = [
+      [ 1, 0, 0],
+      [-1, 0, 3]
+    ]
+
+    B = [
+      [ 7, 0, 0 ],
+      [ 0, 0, 0 ],
+      [ 0, 0, 1 ]
+    ]
+
+         |  1 0 0 |   | 7 0 0 |   |  7 0 0 |
+    AB = | -1 0 3 | x | 0 0 0 | = | -7 0 3 |
+                      | 0 0 1 |
+##### Example2
+
+    Input:
+    [[1,0],[0,1]]
+    [[0,1],[1,0]]
+    Output:
+    [[0,1],[1,0]]
+
+
 ### Medium 577. Merge K Sorted Interval Lists
 
 ### Medium 486. Merge K Sorted Arrays
