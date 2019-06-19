@@ -231,6 +231,29 @@ You may assume that A's column number is equal to B's row number.
 
 
 ### Medium 577. Merge K Sorted Interval Lists
+https://www.lintcode.com/problem/merge-k-sorted-interval-lists/
+
+#### Description
+
+Merge K sorted interval lists into one sorted interval list. You need to merge overlapping intervals too.
+
+#### Example
+##### Example1
+
+    Input: [
+      [(1,3),(4,7),(6,8)],
+      [(1,2),(9,10)]
+    ]
+    Output: [(1,3),(4,8),(9,10)]
+
+##### Example2
+
+    Input: [
+      [(1,2),(5,6)],
+      [(3,4),(7,8)]
+    ]
+    Output: [(1,2),(3,4),(5,6),(7,8)]
+
 
 ### Medium 486. Merge K Sorted Arrays
 https://www.lintcode.com/problem/merge-k-sorted-arrays/
