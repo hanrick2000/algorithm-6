@@ -12,6 +12,7 @@
 * 840\. Range Sum Query - Mutable
 * 654\. Sparse Matrix Multiplication
 * 577\. Merge K Sorted Interval Lists
+* 931\. Median of K Sorted Arrays
 
 ## 9 - 4 Key Points of DP and Coordinate DP
 
