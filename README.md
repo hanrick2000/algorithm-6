@@ -104,6 +104,7 @@
 
 * 415\. Valid Palindrome
 * 594\. strStr II
+* 627. Longest Palindrome
 
 ## 20190117
 
