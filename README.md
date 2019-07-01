@@ -104,7 +104,8 @@
 
 * 415\. Valid Palindrome
 * 594\. strStr II
-* 627. Longest Palindrome
+* 627\. Longest Palindrome
+* 13\. Implement strStr()
 
 ## 20190117
 
@@ -144,3 +145,11 @@
 * 235\. Prime Factorization
 * 39\. Recover Rotated Sorted Array
 * 845\. Greatest Common Divisor
+
+## 201906
+
+| Name | Link | Date |
+|---|---|---|---|:---:|
+| 627. Longest Palindrome | https://www.lintcode.com/problem/longest-palindrome/ | 06/30/2019 |
+| 13. Implement strStr() | https://www.lintcode.com/problem/implement-strstr/ | 07/01/2019 |
+|   |   |   |
