@@ -10,7 +10,7 @@ class Solution:
 
         left, right = 0, len(s) - 1
         while left < right:
-            if s[left].isalnum() == False:
+            if not s[left].isalnum():
                 left += 1
                 continue
             if not s[right].isalnum():
