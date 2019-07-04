@@ -107,6 +107,7 @@
 * 627\. Longest Palindrome
 * 13\. Implement strStr()
 * 200\. Longest Palindromic Substring
+* 667\. Longest Palindromic Subsequence
 
 ## 20190117
 
@@ -149,10 +150,11 @@
 
 ## 201906
 
-| Name | Link | Date |
-|---|---|:---:|
-| 627. Longest Palindrome | https://www.lintcode.com/problem/longest-palindrome/ | 06/30/2019 |
-| 13. Implement strStr() | https://www.lintcode.com/problem/implement-strstr/ | 07/01/2019 |
-| 415. Valid Palindrome | https://www.lintcode.com/problem/valid-palindrome/ | 07/02/2019 |
-| 200. Longest Palindromic Substring | https://www.lintcode.com/problem/longest-palindromic-substring/ | 07/03/2019 |
-|   |   |   |
+| Check | Name | Link | Date |
+|:---:|---|---|:---:|
+|  | 627. Longest Palindrome | https://www.lintcode.com/problem/longest-palindrome/ | 06/30/2019 |
+|  | 13. Implement strStr() | https://www.lintcode.com/problem/implement-strstr/ | 07/01/2019 |
+|  | 415. Valid Palindrome | https://www.lintcode.com/problem/valid-palindrome/ | 07/02/2019 |
+|  | 200. Longest Palindromic Substring | https://www.lintcode.com/problem/longest-palindromic-substring/ | 07/03/2019 |
+| ☓ | 667. Longest Palindromic Subsequence | https://www.lintcode.com/problem/longest-palindromic-subsequence/ | 07/04/2019 |
+|  |  |  |
