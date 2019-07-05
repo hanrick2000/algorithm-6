@@ -108,6 +108,7 @@
 * 13\. Implement strStr()
 * 200\. Longest Palindromic Substring
 * 667\. Longest Palindromic Subsequence
+* 841\. String Replace
 
 ## 20190117
 
@@ -157,4 +158,5 @@
 |  | 415. Valid Palindrome | https://www.lintcode.com/problem/valid-palindrome/ | 07/02/2019 |
 |  | 200. Longest Palindromic Substring | https://www.lintcode.com/problem/longest-palindromic-substring/ | 07/03/2019 |
 | ☓ | 667. Longest Palindromic Subsequence | https://www.lintcode.com/problem/longest-palindromic-subsequence/ | 07/04/2019 |
-|  |  |  |
+| ☓ | 841. String Replace | https://www.lintcode.com/problem/string-replace/ | 07/05/2019 |
+|  |  |  |  |
