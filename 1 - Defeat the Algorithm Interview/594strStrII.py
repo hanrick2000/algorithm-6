@@ -1,4 +1,5 @@
-class Solution:
+
+    class Solution:
     """
     @param: source: A source string
     @param: target: A target string
@@ -6,43 +7,44 @@ class Solution:
     """
     def strStr2(self, source, target):
         # write your code here
-
         if source is None or target is None:
             return -1
 
-        target_len = len(target)
-        source_len = len(source)
+        size_source, size_target = len(source), len(target)
+        if size_target == 0:
+            return size_target
 
-        if target_len == 0:
-            return 0
-
-        magic_numb = 31
+        magic_code = 31
         import random
-        hash_size = random.randint(1000000, 20000000)
+        base = random.randint(1000000, 2000000)
 
         power = 1
-        for i in range(target_len):
-            power = (power * magic_numb) % hash_size
+        for i in range(size_target):
+            power = (power * magic_code) % base
+
+        hash_target = 0
+        for i in target:
+            hash_target = (hash_target * magic_code + ord(i)) % base
 
         target_code = 0
-        for i in range(target_len):
-            target_code = (target_code * magic_numb + ord(target[i])) % hash_size
+        for i in range(size_target):
+            target_code = (target_code * magic_code + ord(target[i])) % base
 
-
-        hash_code = 0
-        for i in range(source_len):
-            hash_code = (hash_code * magic_numb + ord(source[i])) % hash_size
-            if i < target_len - 1:
+        hash_source = 0
+        for i in range(size_source):
+            hash_source = (hash_source * magic_code + ord(source[i])) % base
+            if i < size_target - 1:
                 continue
 
-            if i >= target_len:
-                hash_code = (hash_code - ord(source[i - target_len]) * power) % hash_size
-                if hash_code < 0:
-                    hash_code += hash_size
+            if i >= size_target:
+                hash_source -= (ord(source[i - size_target]) * power) % base
 
-            if target_code == hash_code:
+                if hash_source < 0:
+                    hash_source += base
+
+            if hash_source == hash_target:
                 # double check
-                if source[i - target_len + 1: i + 1] == target:
-                    return i - target_len + 1
+                if source[i - size_target + 1 : i + 1] == target:
+                    return i - size_target + 1
 
         return -1
