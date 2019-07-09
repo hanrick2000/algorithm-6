@@ -100,6 +100,8 @@
 
 ## 2 - Breadth First Search
 
+* 433\. Number of Islands
+
 ## 1 - Defeat the Algorithm Interview
 
 * 415\. Valid Palindrome
@@ -159,4 +161,5 @@
 |  | 200. Longest Palindromic Substring | https://www.lintcode.com/problem/longest-palindromic-substring/ | 07/03/2019 |
 | ☓ | 667. Longest Palindromic Subsequence | https://www.lintcode.com/problem/longest-palindromic-subsequence/ | 07/04/2019 |
 | ☓ | 841. String Replace | https://www.lintcode.com/problem/string-replace/ | 07/05/2019 |
+|  | 594. strStr II | https://www.lintcode.com/problem/strstr-ii/ | 07/05/2019 |
 |  |  |  |  |

@@ -37,6 +37,7 @@
                 continue
 
             if i >= size_target:
+                # remove the first character to keep the length which is the same the length of the target
                 hash_source -= (ord(source[i - size_target]) * power) % base
 
                 if hash_source < 0:
@@ -48,3 +49,5 @@
                     return i - size_target + 1
 
         return -1
+
+        

@@ -169,4 +169,4 @@ strStr return the first index of the target string in a source string. The lengt
 If target does not exist in source, just return -1.
 
 #### Example
-Given source = abcdef, target = bcd, return 1.
+  Given source = abcdef, target = bcd, return 1.
