@@ -101,6 +101,7 @@
 ## 2 - Breadth First Search
 
 * 433\. Number of Islands
+* 69\. Binary Tree Level Order Traversal
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -161,5 +162,8 @@
 |  | 200. Longest Palindromic Substring | https://www.lintcode.com/problem/longest-palindromic-substring/ | 07/03/2019 |
 | ☓ | 667. Longest Palindromic Subsequence | https://www.lintcode.com/problem/longest-palindromic-subsequence/ | 07/04/2019 |
 | ☓ | 841. String Replace | https://www.lintcode.com/problem/string-replace/ | 07/05/2019 |
-|  | 594. strStr II | https://www.lintcode.com/problem/strstr-ii/ | 07/05/2019 |
+|  | 594. strStr II | https://www.lintcode.com/problem/strstr-ii/ | 07/06/2019 |
+|  |  |  |  |
+|  | 433. Number of Islands | https://www.lintcode.com/problem/number-of-islands/ | 07/08/2019 |
+|  | 69. Binary Tree Level Order Traversal | https://www.lintcode.com/problem/binary-tree-level-order-traversal/ | 07/09/2019 |
 |  |  |  |  |
