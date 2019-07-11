@@ -6,7 +6,8 @@ class Solution:
     def longestPalindromeSubseq(self, s):
         # write your code here
         size = len(s)
-        if size == 0:
+        # if size == 0 then return 0
+        if not size:
             return size
 
         dp = [[0] * size for _ in range(size)]

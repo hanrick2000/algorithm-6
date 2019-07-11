@@ -103,6 +103,7 @@
 * 433\. Number of Islands
 * 69\. Binary Tree Level Order Traversal
 * 242\. Convert Binary Tree to Linked Lists by Depth
+* 615\. Course Schedule
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -167,5 +168,6 @@
 |  |  |  |  |
 |  | 433. Number of Islands | https://www.lintcode.com/problem/number-of-islands/ | 07/08/2019 |
 |  | 69. Binary Tree Level Order Traversal | https://www.lintcode.com/problem/binary-tree-level-order-traversal/ | 07/09/2019 |
-|  | 242. Convert Binary Tree to Linked Lists by Depth | https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/ | 07/10/2019 |
+| ☓ | 242. Convert Binary Tree to Linked Lists by Depth | https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/ | 07/10/2019 |
+|  | 615. Course Schedule | https://www.lintcode.com/problem/course-schedule/ | 07/11/2019 |
 |  |  |  |  |

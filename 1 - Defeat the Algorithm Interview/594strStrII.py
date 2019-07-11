@@ -26,10 +26,6 @@
         for i in target:
             hash_target = (hash_target * magic_code + ord(i)) % base
 
-        target_code = 0
-        for i in range(size_target):
-            target_code = (target_code * magic_code + ord(target[i])) % base
-
         hash_source = 0
         for i in range(size_source):
             hash_source = (hash_source * magic_code + ord(source[i])) % base
@@ -49,5 +45,3 @@
                     return i - size_target + 1
 
         return -1
-
-        
