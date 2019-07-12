@@ -104,6 +104,7 @@
 * 69\. Binary Tree Level Order Traversal
 * 242\. Convert Binary Tree to Linked Lists by Depth
 * 615\. Course Schedule
+* 616\. Course Schedule II
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -170,4 +171,5 @@
 |  | 69. Binary Tree Level Order Traversal | https://www.lintcode.com/problem/binary-tree-level-order-traversal/ | 07/09/2019 |
 | ☓ | 242. Convert Binary Tree to Linked Lists by Depth | https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/ | 07/10/2019 |
 |  | 615. Course Schedule | https://www.lintcode.com/problem/course-schedule/ | 07/11/2019 |
+|  | 616. Course Schedule II | https://www.lintcode.com/problem/course-schedule-ii/ | 07/12/2019 |
 |  |  |  |  |
