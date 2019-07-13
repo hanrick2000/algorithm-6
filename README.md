@@ -105,6 +105,7 @@
 * 242\. Convert Binary Tree to Linked Lists by Depth
 * 615\. Course Schedule
 * 616\. Course Schedule II
+* 611\. Knight Shortest Path
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -172,4 +173,5 @@
 | ☓ | 242. Convert Binary Tree to Linked Lists by Depth | https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/ | 07/10/2019 |
 |  | 615. Course Schedule | https://www.lintcode.com/problem/course-schedule/ | 07/11/2019 |
 |  | 616. Course Schedule II | https://www.lintcode.com/problem/course-schedule-ii/ | 07/12/2019 |
+|  | 611. Knight Shortest Path | https://www.lintcode.com/problem/knight-shortest-path/ | 07/12/2019 |
 |  |  |  |  |
