@@ -106,6 +106,7 @@
 * 615\. Course Schedule
 * 616\. Course Schedule II
 * 611\. Knight Shortest Path
+* 605\. Sequence Reconstruction
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -174,4 +175,5 @@
 |  | 615. Course Schedule | https://www.lintcode.com/problem/course-schedule/ | 07/11/2019 |
 |  | 616. Course Schedule II | https://www.lintcode.com/problem/course-schedule-ii/ | 07/12/2019 |
 |  | 611. Knight Shortest Path | https://www.lintcode.com/problem/knight-shortest-path/ | 07/12/2019 |
+|  | 605. Sequence Reconstruction | https://www.lintcode.com/problem/sequence-reconstruction/ | 07/13/2019 |
 |  |  |  |  |
