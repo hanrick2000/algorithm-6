@@ -108,6 +108,7 @@
 * 611\. Knight Shortest Path
 * 605\. Sequence Reconstruction
 * 137\. Clone Graph
+* 127\. Topological Sorting
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -139,7 +140,6 @@
 
 * 463\. Sort Integers (**use quickSort**)
 * 5\. Kth Largest Element
-* 127\. Topological Sorting
 * 814\. Shortest Path in Undirected Graph
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal
 * 72\. Construct Binary Tree from Inorder and Postorder Traversal
@@ -177,5 +177,6 @@
 |  | 616. Course Schedule II | https://www.lintcode.com/problem/course-schedule-ii/ | 07/12/2019 |
 |  | 611. Knight Shortest Path | https://www.lintcode.com/problem/knight-shortest-path/ | 07/12/2019 |
 |  | 605. Sequence Reconstruction | https://www.lintcode.com/problem/sequence-reconstruction/ | 07/13/2019 |
-|  | 137. Clone Graph | https://www.lintcode.com/problem/clone-graph/ | 07/14/2019 |
+| ☓ | 137. Clone Graph | https://www.lintcode.com/problem/clone-graph/ | 07/14/2019 |
+|  | 127. Topological Sorting | https://www.lintcode.com/problem/topological-sorting/ | 01/04/2019 |
 |  |  |  |  |
