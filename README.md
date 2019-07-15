@@ -109,6 +109,7 @@
 * 605\. Sequence Reconstruction
 * 137\. Clone Graph
 * 127\. Topological Sorting
+* 7\. Serialize and Deserialize Binary Tree
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -179,4 +180,5 @@
 |  | 605. Sequence Reconstruction | https://www.lintcode.com/problem/sequence-reconstruction/ | 07/13/2019 |
 | ☓ | 137. Clone Graph | https://www.lintcode.com/problem/clone-graph/ | 07/14/2019 |
 |  | 127. Topological Sorting | https://www.lintcode.com/problem/topological-sorting/ | 01/04/2019 |
+|  | 7. Serialize and Deserialize Binary Tree | https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/ | 07/15/2019 |
 |  |  |  |  |
