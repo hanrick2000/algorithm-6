@@ -111,6 +111,7 @@
 * 127\. Topological Sorting
 * 7\. Serialize and Deserialize Binary Tree
 * 120\. Word Ladder
+* 624\. Remove Substrings
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -183,4 +184,5 @@
 |  | 127. Topological Sorting | https://www.lintcode.com/problem/topological-sorting/ | 01/04/2019 |
 |  | 7. Serialize and Deserialize Binary Tree | https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/ | 07/15/2019 |
 | ☓ | 120. Word Ladder | https://www.lintcode.com/problem/word-ladder/ | 07/16/2019 |
+|  | 624. Remove Substrings |  |  |
 |  |  |  |  |
