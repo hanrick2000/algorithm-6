@@ -113,6 +113,7 @@
 * 120\. Word Ladder
 * 624\. Remove Substrings
 * 618\. Search Graph Nodes
+* 598\. Zombie in Matrix
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -187,4 +188,5 @@
 | ☓ | 120. Word Ladder | https://www.lintcode.com/problem/word-ladder/ | 07/16/2019 |
 |  | 624. Remove Substrings | https://www.lintcode.com/problem/remove-substrings/ | 07/16/2019 |
 |  | 618. Search Graph Nodes | https://www.lintcode.com/problem/search-graph-nodes/ | 07/16/2019 |
+| ☓ | 598. Zombie in Matrix | https://www.lintcode.com/problem/zombie-in-matrix/ | 07/17/2019 |
 |  |  |  |  |
