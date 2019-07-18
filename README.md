@@ -114,6 +114,7 @@
 * 624\. Remove Substrings
 * 618\. Search Graph Nodes
 * 598\. Zombie in Matrix
+* 531\. Six Degrees
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -189,4 +190,5 @@
 |  | 624. Remove Substrings | https://www.lintcode.com/problem/remove-substrings/ | 07/16/2019 |
 |  | 618. Search Graph Nodes | https://www.lintcode.com/problem/search-graph-nodes/ | 07/16/2019 |
 | ☓ | 598. Zombie in Matrix | https://www.lintcode.com/problem/zombie-in-matrix/ | 07/17/2019 |
+|  | 531. Six Degrees | https://www.lintcode.com/problem/six-degrees/ | 07/18/2019 |
 |  |  |  |  |
