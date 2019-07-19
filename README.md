@@ -115,6 +115,7 @@
 * 618\. Search Graph Nodes
 * 598\. Zombie in Matrix
 * 531\. Six Degrees
+* 178\. Graph Valid Tree
 
 ## 1 - Defeat the Algorithm Interview
 
@@ -191,4 +192,5 @@
 |  | 618. Search Graph Nodes | https://www.lintcode.com/problem/search-graph-nodes/ | 07/16/2019 |
 | ☓ | 598. Zombie in Matrix | https://www.lintcode.com/problem/zombie-in-matrix/ | 07/17/2019 |
 |  | 531. Six Degrees | https://www.lintcode.com/problem/six-degrees/ | 07/18/2019 |
+| ☓ | 178. Graph Valid Tree | https://www.lintcode.com/problem/graph-valid-tree/ | 07/18/2019 |
 |  |  |  |  |
