@@ -97,6 +97,7 @@
 * 14\. First Position of Target
 * 38\. Search a 2D Matrix II
 * 457\. Classical Binary Search
+* 458\. Last Position of Target
 
 ## 2 - Breadth First Search
 
@@ -193,4 +194,5 @@
 | ☓ | 598. Zombie in Matrix | https://www.lintcode.com/problem/zombie-in-matrix/ | 07/17/2019 |
 |  | 531. Six Degrees | https://www.lintcode.com/problem/six-degrees/ | 07/18/2019 |
 | ☓ | 178. Graph Valid Tree | https://www.lintcode.com/problem/graph-valid-tree/ | 07/18/2019 |
+|  | 458. Last Position of Target | https://www.lintcode.com/problem/last-position-of-target/ | 07/19/2019 |
 |  |  |  |  |
