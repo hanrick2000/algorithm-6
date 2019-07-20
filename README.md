@@ -99,6 +99,7 @@
 * 457\. Classical Binary Search
 * 458\. Last Position of Target
 * 585\. Maximum Number in Mountain Sequence
+* 460\. Find K Closest Elements
 
 ## 02 - Breadth First Search
 
@@ -195,6 +196,8 @@
 | ☓ | 598. Zombie in Matrix | https://www.lintcode.com/problem/zombie-in-matrix/ | 07/17/2019 |
 |  | 531. Six Degrees | https://www.lintcode.com/problem/six-degrees/ | 07/18/2019 |
 | ☓ | 178. Graph Valid Tree | https://www.lintcode.com/problem/graph-valid-tree/ | 07/18/2019 |
+|  |  |  |  |
 |  | 458. Last Position of Target | https://www.lintcode.com/problem/last-position-of-target/ | 07/19/2019 |
 |  | 585. Maximum Number in Mountain Sequence | https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/ | 07/19/2019 |
+| ☓ | 460. Find K Closest Elements | https://www.lintcode.com/problem/find-k-closest-elements/ | 07/20/2019 |
 |  |  |  |  |
