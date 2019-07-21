@@ -100,6 +100,7 @@
 * 458\. Last Position of Target
 * 585\. Maximum Number in Mountain Sequence
 * 460\. Find K Closest Elements
+* 447\. Search in a Big Sorted Array
 
 ## 02 - Breadth First Search
 
@@ -200,4 +201,5 @@
 |  | 458. Last Position of Target | https://www.lintcode.com/problem/last-position-of-target/ | 07/19/2019 |
 |  | 585. Maximum Number in Mountain Sequence | https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/ | 07/19/2019 |
 | ☓ | 460. Find K Closest Elements | https://www.lintcode.com/problem/find-k-closest-elements/ | 07/20/2019 |
+| ☓ | 447. Search in a Big Sorted Array | https://www.lintcode.com/problem/search-in-a-big-sorted-array/ | 07/21/2019 |
 |  |  |  |  |
