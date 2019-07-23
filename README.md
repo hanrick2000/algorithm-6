@@ -104,6 +104,7 @@
 * 159\. Find Minimum in Rotated Sorted Array
 * 75\. Find Peak Element
 * 74\. First Bad Version
+* 62\. Search in Rotated Sorted Array
 
 ## 02 - Breadth First Search
 
@@ -210,4 +211,6 @@
 |  | 140. Fast Power | https://www.lintcode.com/problem/fast-power/ | 12/23/2018 |
 |  | 75. Find Peak Element | https://www.lintcode.com/problem/find-peak-element/ | 07/23/2019 |
 |  | 74. First Bad Version | https://www.lintcode.com/problem/first-bad-version/ | 07/23/2019 |
+| ☓ | 62. Search in Rotated Sorted Array | https://www.lintcode.com/problem/search-in-rotated-sorted-array/ | 07/23/2019 |
+|  |  |  |  |
 |  |  |  |  |
