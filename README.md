@@ -205,4 +205,5 @@
 | ☓ | 447. Search in a Big Sorted Array | https://www.lintcode.com/problem/search-in-a-big-sorted-array/ | 07/21/2019 |
 |  | 428. Pow(x, n) | https://www.lintcode.com/problem/powx-n/ | 12/23/2018 |
 |  | 159. Find Minimum in Rotated Sorted Array | https://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array/ | 07/22/2019 |
+|  | 140. Fast Power | https://www.lintcode.com/problem/fast-power/ | 12/23/2018 |
 |  |  |  |  |

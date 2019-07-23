@@ -7,18 +7,34 @@ class Solution:
     """
     def fastPower(self, a, b, n):
         # write your code here
-        if n == 0:
-            return 1 % b
 
-        result = self.fastPower(a, b, n // 2)
-        result *= result
-        result %= b
+        # method 2:
+        result = 1
 
-        if n % 2 == 1:
-            result *= a
-            result %= b
+        while n > 0:
+            if n % 2 == 1:
+                result = (result * a) % b
+            a = a * a % b
+            n //= 2
 
-        return result
+        return result % b
+
+        # -- method 1: --
+        # if n == 0:
+        #     return 1 % b
+        #
+        # if n == 1:
+        #     return a % b
+        #
+        # result = self.fastPower(a, b, n // 2)
+        # result *= result
+        # result %= b
+        #
+        # if n % 2 == 1:
+        #     result *= a
+        #     result %= b
+        #
+        # return result
 
         # result, base = 1, a
         #
