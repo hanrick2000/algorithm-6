@@ -90,7 +90,7 @@
 * 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
 * 68\. Binary Tree Postorder Traversal (**use Morris and Traversal**)
 
-## 3 - Binary Search
+## 03 - Binary Search
 
 * 428\. Pow(x, n)
 * 140\. Fast Power
