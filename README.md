@@ -101,6 +101,7 @@
 * 585\. Maximum Number in Mountain Sequence
 * 460\. Find K Closest Elements
 * 447\. Search in a Big Sorted Array
+* 159\. Find Minimum in Rotated Sorted Array
 
 ## 02 - Breadth First Search
 
@@ -202,4 +203,6 @@
 |  | 585. Maximum Number in Mountain Sequence | https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/ | 07/19/2019 |
 | ☓ | 460. Find K Closest Elements | https://www.lintcode.com/problem/find-k-closest-elements/ | 07/20/2019 |
 | ☓ | 447. Search in a Big Sorted Array | https://www.lintcode.com/problem/search-in-a-big-sorted-array/ | 07/21/2019 |
+|  | 428. Pow(x, n) | https://www.lintcode.com/problem/powx-n/ | 12/23/2018 |
+|  | 159. Find Minimum in Rotated Sorted Array | https://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array/ | 07/22/2019 |
 |  |  |  |  |
