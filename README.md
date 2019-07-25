@@ -89,6 +89,7 @@
 * 66\. Binary Tree Preorder Traversal (**use Morris and Traversal**)
 * 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
 * 68\. Binary Tree Postorder Traversal (**use Morris and Traversal**)
+* 900\. Closest Binary Search Tree Value
 
 ## 03 - Binary Search
 
@@ -213,4 +214,5 @@
 |  | 74. First Bad Version | https://www.lintcode.com/problem/first-bad-version/ | 07/23/2019 |
 | ☓ | 62. Search in Rotated Sorted Array | https://www.lintcode.com/problem/search-in-rotated-sorted-array/ | 07/23/2019 |
 |  |  |  |  |
+| ☓ | 900. Closest Binary Search Tree Value | https://www.lintcode.com/problem/closest-binary-search-tree-value/ | 07/24/2019 |
 |  |  |  |  |
