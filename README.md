@@ -91,6 +91,7 @@
 * 68\. Binary Tree Postorder Traversal (**use Morris and Traversal**)
 * 900\. Closest Binary Search Tree Value
 * 596\. Minimum Subtree
+* 480\. Binary Tree Paths
 
 ## 03 - Binary Search
 
@@ -217,4 +218,4 @@
 |  |  |  |  |
 | ☓ | 900. Closest Binary Search Tree Value | https://www.lintcode.com/problem/closest-binary-search-tree-value/ | 07/24/2019 |
 | ☓ | 596. Minimum Subtree | https://www.lintcode.com/problem/minimum-subtree/ | 07/25/2019 |
-|  |  |  |  |
+|  | 480. Binary Tree Paths | https://www.lintcode.com/problem/binary-tree-paths/ | 07/26/2019 |
