@@ -90,6 +90,7 @@
 * 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
 * 68\. Binary Tree Postorder Traversal (**use Morris and Traversal**)
 * 900\. Closest Binary Search Tree Value
+* 596\. Minimum Subtree
 
 ## 03 - Binary Search
 
@@ -215,4 +216,5 @@
 | ☓ | 62. Search in Rotated Sorted Array | https://www.lintcode.com/problem/search-in-rotated-sorted-array/ | 07/23/2019 |
 |  |  |  |  |
 | ☓ | 900. Closest Binary Search Tree Value | https://www.lintcode.com/problem/closest-binary-search-tree-value/ | 07/24/2019 |
+| ☓ | 596. Minimum Subtree | https://www.lintcode.com/problem/minimum-subtree/ | 07/25/2019 |
 |  |  |  |  |
