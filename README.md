@@ -92,6 +92,8 @@
 * 900\. Closest Binary Search Tree Value
 * 596\. Minimum Subtree
 * 480\. Binary Tree Paths
+* 453\. Flatten Binary Tree to Linked List
+* 93\. Balanced Binary Tree
 
 ## 03 - Binary Search
 
@@ -162,7 +164,6 @@
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal
 * 72\. Construct Binary Tree from Inorder and Postorder Traversal
 * 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)
-* 93\. Balanced Binary Tree
 * 95\. Validate Binary Search Tree
 
 ## 20190101
@@ -219,3 +220,6 @@
 | ☓ | 900. Closest Binary Search Tree Value | https://www.lintcode.com/problem/closest-binary-search-tree-value/ | 07/24/2019 |
 | ☓ | 596. Minimum Subtree | https://www.lintcode.com/problem/minimum-subtree/ | 07/25/2019 |
 |  | 480. Binary Tree Paths | https://www.lintcode.com/problem/binary-tree-paths/ | 07/26/2019 |
+|  | 453. Flatten Binary Tree to Linked List | https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/ | 07/27/2019 |
+|  | 93. Balanced Binary Tree | https://www.lintcode.com/problem/balanced-binary-tree/ | 01/04/2019 |
+|  |  |  |  |
