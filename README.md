@@ -96,6 +96,7 @@
 * 93\. Balanced Binary Tree
 * 902\. Kth Smallest Element in a BST
 * 578\. Lowest Common Ancestor III
+* 95\. Validate Binary Search Tree
 
 ## 03 - Binary Search
 
@@ -166,7 +167,7 @@
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal
 * 72\. Construct Binary Tree from Inorder and Postorder Traversal
 * 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)
-* 95\. Validate Binary Search Tree
+
 
 ## 20190101
 
@@ -226,5 +227,5 @@
 |  | 93. Balanced Binary Tree | https://www.lintcode.com/problem/balanced-binary-tree/ | 01/04/2019 |
 |  | 902. Kth Smallest Element in a BST | https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/ | 07/27/2019 |
 |  | 578. Lowest Common Ancestor III | https://www.lintcode.com/problem/lowest-common-ancestor-iii/ | 07/28/2019 |
-|  |  |  |  |
+|  | 95. Validate Binary Search Tree | https://www.lintcode.com/problem/validate-binary-search-tree/ | 01/04/2019 |
 |  |  |  |  |
