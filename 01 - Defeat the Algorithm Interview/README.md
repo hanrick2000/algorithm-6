@@ -4,6 +4,7 @@
 
 ### Easy  627. Longest Palindrome
 https://www.lintcode.com/problem/longest-palindrome/
+https://leetcode.com/problems/longest-palindrome/
 
 #### Description
 
@@ -27,6 +28,7 @@ Assume the length of given string will not exceed 1010.
 
 ### Easy  13. Implement strStr()
 https://www.lintcode.com/problem/implement-strstr/
+https://leetcode.com/problems/implement-strstr/
 
 #### Description
 
