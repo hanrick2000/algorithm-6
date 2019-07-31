@@ -97,6 +97,7 @@
 * 902\. Kth Smallest Element in a BST
 * 578\. Lowest Common Ancestor III
 * 95\. Validate Binary Search Tree
+* 597\. Subtree with Maximum Average
 
 ## 03 - Binary Search
 
@@ -228,4 +229,5 @@
 |  | 902. Kth Smallest Element in a BST | https://www.lintcode.com/problem/kth-smallest-element-in-a-bst/ | 07/27/2019 |
 |  | 578. Lowest Common Ancestor III | https://www.lintcode.com/problem/lowest-common-ancestor-iii/ | 07/28/2019 |
 |  | 95. Validate Binary Search Tree | https://www.lintcode.com/problem/validate-binary-search-tree/ | 01/04/2019 |
+|  | 597. Subtree with Maximum Average | https://www.lintcode.com/problem/subtree-with-maximum-average/ | 07/30/2019 |
 |  |  |  |  |

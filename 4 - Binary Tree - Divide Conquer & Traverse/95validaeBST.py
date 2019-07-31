@@ -14,36 +14,62 @@ class Solution:
     def isValidBST(self, root):
         # write your code here
 
-        # method two: divide conquer
-        return self.divideConquer(root)[0]
-
-    def divideConquer(self, root):
+        # method 3:
         if root is None:
-            return True, None, None
+            return True
 
-        # leftNode
-        isBST, maxNode, leftMinNode = self.divideConquer(root.left)
-        if not isBST:
-            return False, None, None
+        stack = []
+        while root:
+            stack.append(root)
+            root = root.left
 
-        # rightNode
-        isBST, rightMaxNode, minNode = self.divideConquer(root.right)
-        if not isBST :
-            return False, None, None
+        last_node = stack[-1]
+        while stack:
+            node = stack.pop()
+            if node.right:
+                node = node.right
+                while node:
+                    stack.append(node)
+                    node = node.left
 
-        if (maxNode is not None and maxNode.val >= root.val) or (minNode is not None and minNode.val <= root.val):
-            return False, None, None
+            if stack:
+                if stack[-1].val <= last_node.val:
+                    return False
 
-        if rightMaxNode is None:
-            maxNode = root
-        else:
-            maxNode = rightMaxNode
-        if leftMinNode is None:
-            minNode = root
-        else:
-            minNode = leftMinNode
+                last_node = stack[-1]
 
-        return True, maxNode, minNode
+        return True
+
+    #     # method two: divide conquer
+    #     return self.divideConquer(root)[0]
+    #
+    # def divideConquer(self, root):
+    #     if root is None:
+    #         return True, None, None
+    #
+    #     # leftNode
+    #     isBST, maxNode, leftMinNode = self.divideConquer(root.left)
+    #     if not isBST:
+    #         return False, None, None
+    #
+    #     # rightNode
+    #     isBST, rightMaxNode, minNode = self.divideConquer(root.right)
+    #     if not isBST :
+    #         return False, None, None
+    #
+    #     if (maxNode is not None and maxNode.val >= root.val) or (minNode is not None and minNode.val <= root.val):
+    #         return False, None, None
+    #
+    #     if rightMaxNode is None:
+    #         maxNode = root
+    #     else:
+    #         maxNode = rightMaxNode
+    #     if leftMinNode is None:
+    #         minNode = root
+    #     else:
+    #         minNode = leftMinNode
+    #
+    #     return True, maxNode, minNode
 
     #     # method one: traverse
     #     self.lastNode = None
