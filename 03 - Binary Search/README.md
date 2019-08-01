@@ -294,6 +294,23 @@ O(logn) time complexity.
 ### Easy  235. Prime Factorization
 https://www.lintcode.com/problem/prime-factorization/
 
+#### Description
+
+Prime factorize a given integer.
+
+    You should sort the factors in ascending order.
+
+#### Example
+##### Example 1:
+
+    Input: 10
+    Output: [2, 5]
+##### Example 2:
+
+    Input: 660
+    Output: [2, 2, 3, 5, 11]
+
+
 ### Easy  254. Drop Eggs
 https://www.lintcode.com/problem/drop-eggs/
 
