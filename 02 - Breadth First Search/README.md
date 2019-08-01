@@ -4,6 +4,7 @@
 
 ### Easy  433. Number of Islands
 https://www.lintcode.com/problem/number-of-islands/
+https://leetcode.com/problems/number-of-islands/
 
 #### Description
 
@@ -35,6 +36,7 @@ Find the number of islands.
 
 ### Easy  69. Binary Tree Level Order Traversal
 https://www.lintcode.com/problem/binary-tree-level-order-traversal/
+https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 #### Description
 
