@@ -240,6 +240,28 @@ O(logN) time
 ### Easy  462. Total Occurrence of Target
 https://www.lintcode.com/problem/total-occurrence-of-target/
 
+#### Description
+
+Given a target number and an integer array sorted in ascending order. Find the total number of occurrences of target in the array.
+
+#### Example
+##### Example1:
+
+    Input: [1, 3, 3, 4, 5] and target = 3,
+    Output: 2.
+##### Example2:
+
+    Input: [2, 2, 3, 4, 6] and target = 4,
+    Output: 1.
+##### Example3:
+
+    Input: [1, 2, 3, 4, 5] and target = 6,
+    Output: 0.
+
+#### Challenge
+Time complexity in O(logn)
+
+
 ### Easy  459. Closest Number in Sorted Array
 https://www.lintcode.com/problem/closest-number-in-sorted-array/
 

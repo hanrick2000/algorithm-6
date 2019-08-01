@@ -114,6 +114,7 @@
 * 75\. Find Peak Element
 * 74\. First Bad Version
 * 62\. Search in Rotated Sorted Array
+* 462\. Total Occurrence of Target
 
 ## 02 - Breadth First Search
 
@@ -220,6 +221,7 @@
 |  | 75. Find Peak Element | https://www.lintcode.com/problem/find-peak-element/ | 07/23/2019 |
 |  | 74. First Bad Version | https://www.lintcode.com/problem/first-bad-version/ | 07/23/2019 |
 | ☓ | 62. Search in Rotated Sorted Array | https://www.lintcode.com/problem/search-in-rotated-sorted-array/ | 07/23/2019 |
+|  | 462. Total Occurrence of Target | https://www.lintcode.com/problem/total-occurrence-of-target/ | 08/01/2019 |
 |  |  |  |  |
 | ☓ | 900. Closest Binary Search Tree Value | https://www.lintcode.com/problem/closest-binary-search-tree-value/ | 07/24/2019 |
 | ☓ | 596. Minimum Subtree | https://www.lintcode.com/problem/minimum-subtree/ | 07/25/2019 |
