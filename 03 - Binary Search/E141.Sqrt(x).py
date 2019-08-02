@@ -8,7 +8,7 @@ class Solution:
             return 0
 
         # write your code here
-        left, right = 0, x if x < 2 else x // 2
+        left, right = 0, x # if x < 2 else x // 2
         while left + 1 < right:
             mid = left + (right - left) // 2
             squre = mid * mid

@@ -85,7 +85,7 @@
 * 103\. Linked List Cycle II
 * 539\. Move Zeroes
 
-## 4 - Binary Tree - Divide Conquer & Traverse
+## 04 - Binary Tree - Divide Conquer & Traverse
 
 * 66\. Binary Tree Preorder Traversal (**use Morris and Traversal**)
 * 67\. Binary Tree Inorder Traversal (**use Morris and Traversal**)
