@@ -83,6 +83,7 @@
 * 380\. Intersection of Two Linked Lists
 * 102\. Linked List Cycle
 * 103\. Linked List Cycle II
+* 539\. Move Zeroes
 
 ## 4 - Binary Tree - Divide Conquer & Traverse
 
@@ -190,6 +191,7 @@
 
 | Check | Name | Link | Date |
 |:---:|---|---|:---:|
+| 01 |  |  |  |
 |  | 627. Longest Palindrome | https://www.lintcode.com/problem/longest-palindrome/ | 06/30/2019 |
 |  | 13. Implement strStr() | https://www.lintcode.com/problem/implement-strstr/ | 07/01/2019 |
 |  | 415. Valid Palindrome | https://www.lintcode.com/problem/valid-palindrome/ | 07/02/2019 |
@@ -197,7 +199,7 @@
 | ☓ | 667. Longest Palindromic Subsequence | https://www.lintcode.com/problem/longest-palindromic-subsequence/ | 07/04/2019 |
 | ☓ | 841. String Replace | https://www.lintcode.com/problem/string-replace/ | 07/05/2019 |
 |  | 594. strStr II | https://www.lintcode.com/problem/strstr-ii/ | 07/06/2019 |
-|  |  |  |  |
+| 02 |  |  |  |
 |  | 433. Number of Islands | https://www.lintcode.com/problem/number-of-islands/ | 07/08/2019 |
 |  | 69. Binary Tree Level Order Traversal | https://www.lintcode.com/problem/binary-tree-level-order-traversal/ | 07/09/2019 |
 | ☓ | 242. Convert Binary Tree to Linked Lists by Depth | https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/ | 07/10/2019 |
@@ -214,7 +216,7 @@
 | ☓ | 598. Zombie in Matrix | https://www.lintcode.com/problem/zombie-in-matrix/ | 07/17/2019 |
 |  | 531. Six Degrees | https://www.lintcode.com/problem/six-degrees/ | 07/18/2019 |
 | ☓ | 178. Graph Valid Tree | https://www.lintcode.com/problem/graph-valid-tree/ | 07/18/2019 |
-|  |  |  |  |
+| 03 |  |  |  |
 |  | 458. Last Position of Target | https://www.lintcode.com/problem/last-position-of-target/ | 07/19/2019 |
 |  | 585. Maximum Number in Mountain Sequence | https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/ | 07/19/2019 |
 | ☓ | 460. Find K Closest Elements | https://www.lintcode.com/problem/find-k-closest-elements/ | 07/20/2019 |
@@ -230,7 +232,7 @@
 |  | 235. Prime Factorization | https://www.lintcode.com/problem/prime-factorization/ | 08/01/2019 |
 |  | 254. Drop Eggs | https://www.lintcode.com/problem/drop-eggs/ | 08/01/2019 |
 |  | 28. Search a 2D Matrix | https://www.lintcode.com/problem/search-a-2d-matrix/ | 08/01/2019 |
-|  |  |  |  |
+| 04 |  |  |  |
 | ☓ | 900. Closest Binary Search Tree Value | https://www.lintcode.com/problem/closest-binary-search-tree-value/ | 07/24/2019 |
 | ☓ | 596. Minimum Subtree | https://www.lintcode.com/problem/minimum-subtree/ | 07/25/2019 |
 |  | 480. Binary Tree Paths | https://www.lintcode.com/problem/binary-tree-paths/ | 07/26/2019 |
@@ -240,4 +242,6 @@
 |  | 578. Lowest Common Ancestor III | https://www.lintcode.com/problem/lowest-common-ancestor-iii/ | 07/28/2019 |
 |  | 95. Validate Binary Search Tree | https://www.lintcode.com/problem/validate-binary-search-tree/ | 01/04/2019 |
 |  | 597. Subtree with Maximum Average | https://www.lintcode.com/problem/subtree-with-maximum-average/ | 07/30/2019 |
-|  |  |  |  |
+| 05 |  |  |  |
+|  | 539. Move Zeroes | https://www.lintcode.com/problem/move-zeroes/ | 08/01/2019 |
+| 06 |  |  |  |
