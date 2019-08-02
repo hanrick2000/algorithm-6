@@ -7,6 +7,8 @@ class TreeNode:
 """
 
 class Solution:
+    min_val, min_node = sys.maxsize, None
+    
     """
     @param root: the root of binary tree
     @return: the root of the minimum subtree
