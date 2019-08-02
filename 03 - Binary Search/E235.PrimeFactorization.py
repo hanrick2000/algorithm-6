@@ -5,13 +5,10 @@ class Solution:
     """
     def primeFactorization(self, num):
         # write your code here
-        result = []
+        result, up = [], math.sqrt(num)
 
-        import math
-        up = math.sqrt(num)
-
-        for i in range(2, int(up + 1)):
-            while num % i == 0:
+        for i in range(2, int(up) + 1):
+            while not num % i:
                 num //= i
                 result.append(i)
 
@@ -22,3 +19,4 @@ class Solution:
             result.append(num)
 
         return result
+        
