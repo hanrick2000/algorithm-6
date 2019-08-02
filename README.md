@@ -101,6 +101,7 @@
 * 597\. Subtree with Maximum Average
 * 474\. Lowest Common Ancestor II
 * 246\. Binary Tree Path Sum II
+* 155\. Minimum Depth of Binary Tree
 
 ## 03 - Binary Search
 
@@ -248,6 +249,7 @@
 |  | 597. Subtree with Maximum Average | https://www.lintcode.com/problem/subtree-with-maximum-average/ | 07/30/2019 |
 |  | 474. Lowest Common Ancestor II | https://www.lintcode.com/problem/lowest-common-ancestor-ii/ | 08/02/2019 |
 |  | 246. Binary Tree Path Sum II | https://www.lintcode.com/problem/binary-tree-path-sum-ii/ | 08/02/2019 |
+|  | 155. Minimum Depth of Binary Tree | https://www.lintcode.com/problem/minimum-depth-of-binary-tree/ | 08/02/2019 |
 |  |  |  |  |
 | 05 |  |  |  |
 |  | 539. Move Zeroes | https://www.lintcode.com/problem/move-zeroes/ | 08/01/2019 |
