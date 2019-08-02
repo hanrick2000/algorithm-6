@@ -6,7 +6,7 @@ class Solution:
     """
     def findPosition(self, nums, target):
         # write your code here
-        if nums is None or target is None:
+        if not nums or target is None:
             return -1
 
         left, right = 0, len(nums) - 1
@@ -28,3 +28,4 @@ class Solution:
             return right
 
         return -1
+        

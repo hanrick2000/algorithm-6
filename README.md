@@ -120,6 +120,7 @@
 * 235\. Prime Factorization
 * 254\. Drop Eggs
 * 28\. Search a 2D Matrix
+* 141\. Sqrt(x)
 
 ## 02 - Breadth First Search
 
@@ -232,6 +233,7 @@
 |  | 235. Prime Factorization | https://www.lintcode.com/problem/prime-factorization/ | 08/01/2019 |
 |  | 254. Drop Eggs | https://www.lintcode.com/problem/drop-eggs/ | 08/01/2019 |
 |  | 28. Search a 2D Matrix | https://www.lintcode.com/problem/search-a-2d-matrix/ | 08/01/2019 |
+|  | 141. Sqrt(x) | https://www.lintcode.com/problem/sqrtx/ | 08/02/2019 |
 | 04 |  |  |  |
 | ☓ | 900. Closest Binary Search Tree Value | https://www.lintcode.com/problem/closest-binary-search-tree-value/ | 07/24/2019 |
 | ☓ | 596. Minimum Subtree | https://www.lintcode.com/problem/minimum-subtree/ | 07/25/2019 |
@@ -245,3 +247,4 @@
 | 05 |  |  |  |
 |  | 539. Move Zeroes | https://www.lintcode.com/problem/move-zeroes/ | 08/01/2019 |
 | 06 |  |  |  |
+|  |  |  |  |

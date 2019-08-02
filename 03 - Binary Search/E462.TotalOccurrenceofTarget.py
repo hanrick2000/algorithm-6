@@ -25,7 +25,7 @@ class Solution:
         else:
             first_index = -1
 
-        left, right = first_index if first_index else 0, size - 1
+        left, right = first_index if first_index > 0 else 0, size - 1
         while left + 1 < right:
             mid = left + (right - left) // 2
             if A[mid] <= target:
