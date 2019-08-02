@@ -100,6 +100,7 @@
 * 95\. Validate Binary Search Tree
 * 597\. Subtree with Maximum Average
 * 474\. Lowest Common Ancestor II
+* 246\. Binary Tree Path Sum II
 
 ## 03 - Binary Search
 
@@ -246,6 +247,8 @@
 |  | 95. Validate Binary Search Tree | https://www.lintcode.com/problem/validate-binary-search-tree/ | 01/04/2019 |
 |  | 597. Subtree with Maximum Average | https://www.lintcode.com/problem/subtree-with-maximum-average/ | 07/30/2019 |
 |  | 474. Lowest Common Ancestor II | https://www.lintcode.com/problem/lowest-common-ancestor-ii/ | 08/02/2019 |
+|  | 246. Binary Tree Path Sum II | https://www.lintcode.com/problem/binary-tree-path-sum-ii/ | 08/02/2019 |
+|  |  |  |  |
 | 05 |  |  |  |
 |  | 539. Move Zeroes | https://www.lintcode.com/problem/move-zeroes/ | 08/01/2019 |
 | 06 |  |  |  |
