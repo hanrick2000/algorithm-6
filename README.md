@@ -256,6 +256,9 @@
 |  | 539. Move Zeroes | https://www.lintcode.com/problem/move-zeroes/ | 08/01/2019 |
 |  | 228. Middle of Linked List | https://www.lintcode.com/problem/middle-of-linked-list/ | 08/03/2019 |
 |  | 607. Two Sum III - Data structure design | https://www.lintcode.com/problem/two-sum-iii-data-structure-design/ | 08/03/2019 |
-|  |  |  |  |
+|  | 521. Remove Duplicate Numbers in Array | https://www.lintcode.com/problem/remove-duplicate-numbers-in-array/ | 01/01/2019 |
+|  | 464. Sort Integers II | https://www.lintcode.com/problem/sort-integers-ii/ | 01/04/2019 |
+|  | 604. Window Sum | https://www.lintcode.com/problem/window-sum/ | 01/01/2019 |
+|  | 56. Two Sum | https://www.lintcode.com/problem/two-sum/ | 01/01/2019 |
 | 06 |  |  |  |
 |  |  |  |  |
