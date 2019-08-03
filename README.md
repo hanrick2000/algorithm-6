@@ -102,6 +102,8 @@
 * 474\. Lowest Common Ancestor II
 * 246\. Binary Tree Path Sum II
 * 155\. Minimum Depth of Binary Tree
+* 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)
+* 595\. Binary Tree Longest Consecutive Sequence
 
 ## 03 - Binary Search
 
@@ -177,8 +179,6 @@
 * 814\. Shortest Path in Undirected Graph
 * 73\. Construct Binary Tree from Preorder and Inorder Traversal
 * 72\. Construct Binary Tree from Inorder and Postorder Traversal
-* 97\. Maximum Depth of Binary Tree (**use Both Divide Conquer and Traversal**)
-
 
 ## 20190101
 
@@ -250,7 +250,7 @@
 |  | 474. Lowest Common Ancestor II | https://www.lintcode.com/problem/lowest-common-ancestor-ii/ | 08/02/2019 |
 |  | 246. Binary Tree Path Sum II | https://www.lintcode.com/problem/binary-tree-path-sum-ii/ | 08/02/2019 |
 |  | 155. Minimum Depth of Binary Tree | https://www.lintcode.com/problem/minimum-depth-of-binary-tree/ | 08/02/2019 |
-|  |  |  |  |
+|  | 595. Binary Tree Longest Consecutive Sequence | https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/ | 08/02/2019 |
 | 05 |  |  |  |
 |  | 539. Move Zeroes | https://www.lintcode.com/problem/move-zeroes/ | 08/01/2019 |
 | 06 |  |  |  |

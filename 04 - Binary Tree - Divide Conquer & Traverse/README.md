@@ -393,6 +393,7 @@ Your are given a binary tree in which each node contains a value. Design an algo
 
 ### Easy  155. Minimum Depth of Binary Tree
 https://www.lintcode.com/problem/minimum-depth-of-binary-tree/
+https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
 #### Description
 
@@ -422,7 +423,7 @@ The minimum depth is the number of nodes along the shortest path from the root n
     Output: 2
     Explanation:
           1
-         / \ 
+         / \
         2   3
            / \
           4   5  
@@ -431,6 +432,28 @@ The minimum depth is the number of nodes along the shortest path from the root n
 
 ### Easy  97. Maximum Depth of Binary Tree
 https://www.lintcode.com/problem/maximum-depth-of-binary-tree/
+
+#### Description
+Given a binary tree, find its maximum depth.
+
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+#### Example
+##### Example 1:
+
+    Input: tree = {}
+    Output: 0
+    Explanation: The height of empty tree is 0.
+##### Example 2:
+    Given a binary tree {1,2,3,#,#,4,5} as follow:
+
+          1
+         / \
+        2   3
+           / \
+          4   5  
+    The maximum depth is 3.
+
 
 ### Easy  68. Binary Tree Postorder Traversal
 https://www.lintcode.com/problem/binary-tree-postorder-traversal
@@ -510,6 +533,41 @@ https://www.lintcode.com/problem/binary-tree-path-sum-iii/
 
 ### Easy  595. Binary Tree Longest Consecutive Sequence
 https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/
+
+#### Description
+
+Given a binary tree, find the length of the longest consecutive sequence path.
+
+The path refers to any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The longest consecutive path need to be from parent to child (cannot be the reverse).
+
+#### Example
+##### Example 1:
+
+    Input:
+       1
+        \
+         3
+        / \
+       2   4
+            \
+             5
+    Output:3
+    Explanation:
+    Longest consecutive sequence path is 3-4-5, so return 3.
+##### Example 2:
+
+    Input:
+       2
+        \
+         3
+        /
+       2    
+      /
+     1
+    Output:2
+    Explanation:
+    Longest consecutive sequence path is 2-3,not 3-2-1, so return 2.
+
 
 ### Medium  619. Binary Tree Longest Consecutive Sequence III
 https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence-iii/
