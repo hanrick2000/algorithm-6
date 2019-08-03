@@ -19,8 +19,7 @@ class Solution:
         if not root:
             return result
 
-        path = []
-        self.dfs(root, target, 0, path, result)
+        self.dfs(root, target, 0, [], result)
 
         return result
 

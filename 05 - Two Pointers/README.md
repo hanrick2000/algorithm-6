@@ -4,21 +4,64 @@
 
 ### Naive  228. Middle of Linked List
 https://www.lintcode.com/problem/middle-of-linked-list
+https://leetcode.com/problems/middle-of-the-linked-list/
 
 #### Description
 Find the middle node of a linked list.
 
 #### Example
-Given 1->2->3, return the node with value 2.
+##### Example 1:
 
-Given 1->2, return the node with value 1.
+    Input:  1->2->3
+    Output: 2
+    Explanation: return the value of the middle node.
+##### Example 2:
+
+    Input:  1->2
+    Output: 1
+    Explanation: If the length of list is  even return the value of center left one.
 
 #### Challenge
 If the linked list is in a data stream, can you find the middle without iterating the linked list again?
 
 
 ### Easy  607. Two Sum III - Data structure design
+https://www.lintcode.com/problem/two-sum-iii-data-structure-design/
+
+#### Description
+Design and implement a TwoSum class. It should support the following operations: add and find.
+
+    add - Add the number to an internal data structure.
+    find - Find if there exists any pair of numbers which sum is equal to the value.
+
+#### Example
+##### Example 1:
+
+    add(1); add(3); add(5);
+    find(4) // return true
+    find(7) // return false
+
+
 ### Easy  539. Move Zeroes
+https://www.lintcode.com/problem/move-zeroes/
+
+#### Description
+
+Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+    1. You must do this in-place without making a copy of the array.
+    2. Minimize the total number of operations.
+
+#### Example
+##### Example 1:
+
+    Input: nums = [0, 1, 0, 3, 12],
+    Output: [1, 3, 12, 0, 0].
+##### Example 2:
+
+    Input: nums = [0, 0, 0, 3, 1],
+    Output: [3, 1, 0, 0, 0].
+
 
 ### Easy  521. Remove Duplicate Numbers in Array
 https://www.lintcode.com/problem/remove-duplicate-numbers-in-array
@@ -56,10 +99,19 @@ Given [3, 2, 1, 4, 5], return [1, 2, 3, 4, 5].
 
 
 ### Medium  608. Two Sum II - Input array is sorted
+https://www.lintcode.com/problem/two-sum-ii-input-array-is-sorted/
+
 ### Medium  143. Sort Colors II
+https://www.lintcode.com/problem/sort-colors-ii/
+
 ### Medium  57. 3Sum
+https://www.lintcode.com/problem/3sum/
+
 ### Medium  31. Partition Array
+https://www.lintcode.com/problem/partition-array/
+
 ### Medium  5. Kth Largest Element
+https://www.lintcode.com/problem/kth-largest-element/
 
 ## Optional (10)
 
@@ -79,6 +131,7 @@ return [10,17,20]
 
 ### Easy  56. Two Sum
 https://www.lintcode.com/problem/two-sum
+https://leetcode.com/problems/two-sum/
 
 #### Description
 Given an array of integers, find two numbers such that they add up to a specific target number.
@@ -100,11 +153,22 @@ O(n) Space, O(n) Time
 
 
 ### Medium  609. Two Sum - Less than or equal to target
+https://www.lintcode.com/problem/two-sum-less-than-or-equal-to-target/
+
 ### Medium  587. Two Sum - Unique pairs
+https://www.lintcode.com/problem/two-sum-unique-pairs/
+
 ### Medium  533. Two Sum - Closest to target
+https://www.lintcode.com/problem/two-sum-closest-to-target/
+
 ### Medium  443. Two Sum - Greater than target
+https://www.lintcode.com/problem/two-sum-greater-than-target/
+
 ### Medium  461. Kth Smallest Numbers in Unsorted Array
+https://www.lintcode.com/problem/kth-smallest-numbers-in-unsorted-array/
+
 ### Medium  382. Triangle Count
+https://www.lintcode.com/problem/triangle-count/
 
 ### Medium  148. Sort Colors
 https://www.lintcode.com/problem/sort-colors
@@ -128,11 +192,15 @@ Could you come up with an one-pass algorithm using only constant space?
 
 
 ### Medium  59. 3Sum Closest
+https://www.lintcode.com/problem/3sum-closest/
 
 ## Related (7)
 
 ### Medium  894. Pancake Sorting
+https://www.lintcode.com/problem/pancake-sorting/
+
 ### Medium  625. Partition Array II
+https://www.lintcode.com/problem/partition-array-ii/
 
 ### Medium  610. Two Sum - Difference equals to target
 https://www.lintcode.com/problem/two-sum-difference-equals-to-target
@@ -187,6 +255,7 @@ Can you solve it without using extra space?
 
 
 ### Medium  58. 4Sum
+https://www.lintcode.com/problem/4sum/
 
 ### Hard  103. Linked List Cycle II
 https://www.lintcode.com/problem/linked-list-cycle-ii

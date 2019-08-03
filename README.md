@@ -84,6 +84,7 @@
 * 102\. Linked List Cycle
 * 103\. Linked List Cycle II
 * 539\. Move Zeroes
+* 607\. Two Sum III - Data structure design
 
 ## 04 - Binary Tree - Divide Conquer & Traverse
 
@@ -253,5 +254,8 @@
 |  | 595. Binary Tree Longest Consecutive Sequence | https://www.lintcode.com/problem/binary-tree-longest-consecutive-sequence/ | 08/02/2019 |
 | 05 |  |  |  |
 |  | 539. Move Zeroes | https://www.lintcode.com/problem/move-zeroes/ | 08/01/2019 |
+|  | 228. Middle of Linked List | https://www.lintcode.com/problem/middle-of-linked-list/ | 08/03/2019 |
+|  | 607. Two Sum III - Data structure design | https://www.lintcode.com/problem/two-sum-iii-data-structure-design/ | 08/03/2019 |
+|  |  |  |  |
 | 06 |  |  |  |
 |  |  |  |  |

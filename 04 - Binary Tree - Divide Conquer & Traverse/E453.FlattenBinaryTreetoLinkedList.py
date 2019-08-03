@@ -8,7 +8,7 @@ class TreeNode:
 
 class Solution:
     last_node = None
-    
+
     """
     @param root: a TreeNode, the root of the binary tree
     @return: nothing
@@ -36,7 +36,6 @@ class Solution:
     #     if root is None:
     #         return None
     #
-    #     print(root.val)
     #     left_last, right_last = self.helper(root.left), self.helper(root.right)
     #
     #     if left_last is not None:

@@ -24,4 +24,4 @@ class Solution:
         else:
             length = 1
 
-        return max(length, max(self.helper(root.left, root, length), self.helper(root.right, root, length)))
+        return max(length, self.helper(root.left, root, length), self.helper(root.right, root, length))
