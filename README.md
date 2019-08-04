@@ -36,6 +36,7 @@
 * 109\. Triangle
 * 107\. Word Break
 * 828\. Word Pattern
+* 211\. String Permutation
 
 ## 07 - Hash & Heap
 
@@ -272,7 +273,7 @@
 |  | 551. Nested List Weight Sum | https://www.lintcode.com/problem/nested-list-weight-sum/ | 08/04/2019 |
 | 08 |  |  |  |
 |  | 828. Word Pattern | https://www.lintcode.com/problem/word-pattern/ | 08/04/2019 |
-|  |  |  |  |
+|  | 211. String Permutation | https://www.lintcode.com/problem/string-permutation/ | 08/04/2019 |
 | 09 |  |  |  |
 |  |  |  |  |
 |  |  |  |  |

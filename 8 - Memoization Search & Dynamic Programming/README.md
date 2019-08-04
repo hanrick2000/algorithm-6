@@ -245,5 +245,20 @@ Here follow means a full match, such that there is a bijection between a letter 
 ### Easy   211. String Permutation
 https://www.lintcode.com/problem/string-permutation/
 
+#### Description
+
+Given two strings, write a method to decide if one is a permutation of the other.
+
+#### Example
+##### Example 1:
+  	Input:  "abcd", "bcad"
+  	Output:  True
+
+
+##### Example 2:
+  	Input: "aac", "abc"
+  	Output:  False
+
+
 ### Medium 123. Word Search
 https://www.lintcode.com/problem/word-search/
