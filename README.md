@@ -24,7 +24,7 @@
 * 76\. Longest Increasing Subsequence
 * 602\. Russian Doll Envelopes
 
-## 8 - Memoization Search & Dynamic Programming
+## 08 - Memoization Search & Dynamic Programming
 
 * 582\. Word Break II
 * 192\. Wildcard Matching
@@ -35,8 +35,9 @@
 * 683\. Word Break III
 * 109\. Triangle
 * 107\. Word Break
+* 828\. Word Pattern
 
-## 7 - Hash & Heap
+## 07 - Hash & Heap
 
 * 642\. Moving Average from Data Stream
 * 494\. Implement Stack by Two Queues
@@ -71,7 +72,7 @@
 * 152\. Combinations
 * 16\. Permutations II
 
-## 5 - Two Pointers
+## 05 - Two Pointers
 
 * 228\. Middle of Linked List
 * 521\. Remove Duplicate Numbers in Array
@@ -261,4 +262,23 @@
 |  | 604. Window Sum | https://www.lintcode.com/problem/window-sum/ | 01/01/2019 |
 |  | 56. Two Sum | https://www.lintcode.com/problem/two-sum/ | 01/01/2019 |
 | 06 |  |  |  |
+|  |  |  |  |
+| 07 |  |  |  |
+|  | 642. Moving Average from Data Stream | https://www.lintcode.com/problem/moving-average-from-data-stream/ | 08/04/2019 |
+|  | 494. Implement Stack by Two Queues | https://www.lintcode.com/problem/implement-stack-by-two-queues/ | 08/04/2019 |
+|  | 209. First Unique Character in a String | https://www.lintcode.com/problem/first-unique-character-in-a-string/ | 08/04/2019 |
+|  | 495. Implement Stack | https://www.lintcode.com/problem/implement-stack/ | 08/04/2019 |
+|  | 128. Hash Function | https://www.lintcode.com/problem/hash-function/ | 08/04/2019 |
+|  | 551. Nested List Weight Sum | https://www.lintcode.com/problem/nested-list-weight-sum/ | 08/04/2019 |
+| 08 |  |  |  |
+|  | 828. Word Pattern | https://www.lintcode.com/problem/word-pattern/ | 08/04/2019 |
+|  |  |  |  |
+| 09 |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+| 10 |  |  |  |
 |  |  |  |  |

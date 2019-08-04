@@ -18,6 +18,7 @@ Given a stream of integers and a window size, calculate the moving average of al
 
 ### Easy  494. Implement Stack by Two Queues
 https://www.lintcode.com/problem/implement-stack-by-two-queues
+https://leetcode.com/problems/implement-stack-using-queues/
 
 #### Description
 Implement a stack by two queues. The queue is first in first out (FIFO). That means you can not directly pop the last element in a queue.
@@ -34,6 +35,7 @@ Implement a stack by two queues. The queue is first in first out (FIFO). That me
 
 ### Easy  209. First Unique Character in a String
 https://www.lintcode.com/problem/first-unique-character-in-a-string
+https://leetcode.com/problems/first-unique-character-in-a-string/
 
 #### Description
 Find the first unique character in a given string. You can assume that there is at least one unique character in the string.
@@ -224,11 +226,22 @@ For key="abcd" and size=100, return 78
 
 
 ### Medium  685. First Unique Number in Data Stream
+https://www.lintcode.com/problem/first-unique-number-in-data-stream/
+
 ### Medium  613. High Five
+https://www.lintcode.com/problem/high-five/
+
 ### Medium  606. Kth Largest Element II
+https://www.lintcode.com/problem/kth-largest-element-ii/
+
 ### Medium  601. Flatten 2D Vector
+https://www.lintcode.com/problem/flatten-2d-vector/
+
 ### Medium  545. Top k Largest Numbers II
+https://www.lintcode.com/problem/top-k-largest-numbers-ii/
+
 ### Medium  526. Load Balancer
+https://www.lintcode.com/problem/load-balancer/
 
 ### Medium  486. Merge K Sorted Arrays
 https://www.lintcode.com/problem/merge-k-sorted-arrays
@@ -313,13 +326,14 @@ C++/Java: if you directly calculate -4 % 3 you will get -1. You can use function
 Python: you can directly use -1 % 3, you will get 2 automatically.
 
 #### Example
-Given [null, 21->9->null, 14->null, null],
+    Given [null, 21->9->null, 14->null, null],
 
-return
-[null, 9->null, null, null, null, 21->null, 14->null, null]
+    return
+    [null, 9->null, null, null, null, 21->null, 14->null, null]
 
 
 ### Medium  124. Longest Consecutive Sequence
+https://www.lintcode.com/problem/longest-consecutive-sequence/
 
 ## Related (9)
 
@@ -334,13 +348,23 @@ Given a nested list of integers, return the sum of all integers in the list weig
     Given the list [1,[4,[6]]], return 27. (one 1 at depth 1, one 4 at depth 2, and one 6 at depth 3; 1 + 4 * 2 + 6 * 3 = 27)
 
 
-> ### Easy  494. Implement Stack by Two Queues (same question)
+### Easy  494. Implement Stack by Two Queues (same question)
+https://www.lintcode.com/problem/implement-stack-by-two-queues/
 
 ### Medium  575. Decode String
+https://www.lintcode.com/problem/decode-string/
+
 ### Medium  541. Zigzag Iterator II
+https://www.lintcode.com/problem/zigzag-iterator-ii/
+
 ### Medium  540. Zigzag Iterator
+https://www.lintcode.com/problem/zigzag-iterator/
+
 ### Medium  528. Flatten Nested List Iterator
+https://www.lintcode.com/problem/flatten-nested-list-iterator/
+
 ### Medium  471. Top K Frequent Words
+https://www.lintcode.com/problem/top-k-frequent-words/
 
 ### Medium  224. Implement Three Stacks by Single Array
 https://www.lintcode.com/problem/implement-three-stacks-by-single-array
@@ -366,3 +390,4 @@ You can assume the three stacks has the same size and big enough, you don't need
 
 
 ### Hard  24. LFU Cache
+https://www.lintcode.com/problem/lfu-cache/

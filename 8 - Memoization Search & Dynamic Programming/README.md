@@ -167,6 +167,7 @@ The replacement must be in-place, do not allocate extra memory.
 
 
 ### Medium 198. Permutation Index II
+https://www.lintcode.com/problem/permutation-index-ii/
 
 ### Medium 197. Permutation Index
 https://www.lintcode.com/problem/permutation-index
@@ -189,16 +190,60 @@ Find the next permutation in ascending order.
 The list may contains duplicate integers.
 
 ### Example
-For [1,3,2,3], the next permutation is [1,3,3,2]
+    For [1,3,2,3], the next permutation is [1,3,3,2]
 
-For [4,3,2,1], the next permutation is [1,2,3,4]
+    For [4,3,2,1], the next permutation is [1,2,3,4]
 
 
 ### Medium 51. Previous Permutation
+https://www.lintcode.com/problem/previous-permutation/
+
 ### Hard   634. Word Squares
+https://www.lintcode.com/problem/word-squares/
 
 ## Related (3)
 
 ### Easy   828. Word Pattern
+https://www.lintcode.com/problem/word-pattern/
+https://leetcode.com/problems/word-pattern/
+
+#### Description
+
+Given a pattern and a string str, find if str follows the same pattern.
+
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.
+
+    You may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.
+
+#### Example
+##### Example1
+
+    Input:  pattern = "abba" and str = "dog cat cat dog"
+    Output: true
+    Explanation:
+    The pattern of str is abba
+##### Example2
+
+    Input:  pattern = "abba" and str = "dog cat cat fish"
+    Output: false
+    Explanation:
+    The pattern of str is abbc
+##### Example3
+
+    Input:  pattern = "aaaa" and str = "dog cat cat dog"
+    Output: false
+    Explanation:
+    The pattern of str is abba
+##### Example4
+
+    Input:  pattern = "abba" and str = "dog cat cat fish"
+    Output: false
+    Explanation:
+    The pattern of str is abbc
+
+
 ### Easy   211. String Permutation
+https://www.lintcode.com/problem/string-permutation/
+
 ### Medium 123. Word Search
+https://www.lintcode.com/problem/word-search/
