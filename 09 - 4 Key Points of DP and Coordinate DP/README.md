@@ -30,6 +30,7 @@ m and n will be at most 100.
 
 ### Easy   114. Unique Paths
 https://www.lintcode.com/problem/unique-paths
+https://leetcode.com/problems/unique-paths/
 
 #### Description
 
@@ -67,6 +68,7 @@ m and n will be at most 100.
 
 ### Easy   111. Climbing Stairs
 http://www.lintcode.com/problem/climbing-stairs/
+https://leetcode.com/problems/climbing-stairs/
 
 #### Description
 
@@ -76,25 +78,26 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 #### Example
 ##### Example 1:
-	Input:  n = 3
-	Output: 3
+		Input:  n = 3
+		Output: 3
 
-	Explanation:
-	1) 1, 1, 1
-	2) 1, 2
-	3) 2, 1
-	total 3.
+		Explanation:
+		1) 1, 1, 1
+		2) 1, 2
+		3) 2, 1
+		total 3.
 
 ##### Example 2:
-	Input:  n = 1
-	Output: 1
+		Input:  n = 1
+		Output: 1
 
-	Explanation:  
-	only 1 way.
+		Explanation:  
+		only 1 way.
 
 
 ### Easy   110. Minimum Path Sum
 http://www.lintcode.com/problem/minimum-path-sum/
+https://leetcode.com/problems/minimum-path-sum/
 
 #### Description
 
@@ -139,6 +142,7 @@ If there are multiple solutions, return any subset is fine.
   Output: [1,2,4,8]
 
 ### Medium 611. Knight Shortest Path
+https://www.lintcode.com/problem/knight-shortest-path/
 
 ### Medium 76. Longest Increasing Subsequence
 https://www.lintcode.com/problem/longest-increasing-subsequence/
@@ -203,12 +207,44 @@ Find the maximum number of nested layers of envelopes.
 ## Optional (4)
 
 ### Easy   272. Climbing Stairs II
+https://www.lintcode.com/problem/climbing-stairs-ii/
+
+#### Description
+
+A child is running up a staircase with n steps, and can hop either 1 step, 2 steps, or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs.
+
+#### Clarification
+For n=0, we think the answer is 1.
+
+#### Example
+##### Example 1:
+
+		Input: 3
+		Output: 4
+		Explanation: 1 + 1 + 1 = 2 + 1 = 1 + 2 = 3 = 3 , there are 4 ways.
+##### Example 2:
+
+		Input: 4
+		Output: 7
+		Explanation: 1 + 1 + 1 + 1 = 1 + 1 + 2 = 1 + 2 + 1 = 2 + 1 + 1 = 2 + 2 = 1 + 3 = 3 + 1 = 4 , there are 7 ways.
+
+
 ### Medium 117. Jump Game II
+https://www.lintcode.com/problem/jump-game-ii/
+
 ### Medium 116. Jump Game
+https://www.lintcode.com/problem/jump-game/
+
 ### Hard   622. Frog Jump
+https://www.lintcode.com/problem/frog-jump/
 
 ## Related (3)
 
 ### Easy   254. Drop Eggs
+https://www.lintcode.com/problem/drop-eggs/
+
 ### Medium 630. Knight Shortest Path II
+https://www.lintcode.com/problem/knight-shortest-path-ii/
+
 ### Medium 584. Drop Eggs II
+https://www.lintcode.com/problem/drop-eggs-ii/

@@ -14,7 +14,7 @@
 * 577\. Merge K Sorted Interval Lists
 * 931\. Median of K Sorted Arrays
 
-## 9 - 4 Key Points of DP and Coordinate DP
+## 09 - 4 Key Points of DP and Coordinate DP
 
 * 115\. Unique Paths II
 * 114\. Unique Paths
@@ -23,6 +23,7 @@
 * 603\. Largest Divisible Subset
 * 76\. Longest Increasing Subsequence
 * 602\. Russian Doll Envelopes
+* 272\. Climbing Stairs II
 
 ## 08 - Memoization Search & Dynamic Programming
 
@@ -275,11 +276,14 @@
 |  | 828. Word Pattern | https://www.lintcode.com/problem/word-pattern/ | 08/04/2019 |
 |  | 211. String Permutation | https://www.lintcode.com/problem/string-permutation/ | 08/04/2019 |
 | 09 |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+|  | 115. Unique Paths II | https://www.lintcode.com/problem/unique-paths-ii/ | 08/05/2019 |
+|  | 114. Unique Paths | https://www.lintcode.com/problem/unique-paths/ | 08/05/2019 |
+|  | 111. Climbing Stairs | https://www.lintcode.com/problem/climbing-stairs/ | 08/05/2019 |
+|  | 110. Minimum Path Sum | https://www.lintcode.com/problem/minimum-path-sum/ | 08/05/2019 |
+|  | 272. Climbing Stairs II | https://www.lintcode.com/problem/climbing-stairs-ii/ | 08/05/2019 |
 |  |  |  |  |
 | 10 |  |  |  |
+|  |  |  |  |
+| 11 |  |  |  |
+|  | 1126. Merge Two Binary Trees | https://www.lintcode.com/problem/merge-two-binary-trees/ | 08/05/2019 |
 |  |  |  |  |
