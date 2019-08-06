@@ -49,7 +49,7 @@ class Solution(object):
         # stack = []
         # for item in nestedList:
         #     stack.append((item, 1))
-        # print(stack)
+
         # while stack:
         #     item, depth = stack.pop()
         #     if item.isInteger():
