@@ -23,6 +23,4 @@ class Solution:
         #         if count != i:
         #             nums[count] = nums[i]
 
-        count += 1
-
-        return count
+        return count + 1

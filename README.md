@@ -281,9 +281,16 @@
 |  | 111. Climbing Stairs | https://www.lintcode.com/problem/climbing-stairs/ | 08/05/2019 |
 |  | 110. Minimum Path Sum | https://www.lintcode.com/problem/minimum-path-sum/ | 08/05/2019 |
 |  | 272. Climbing Stairs II | https://www.lintcode.com/problem/climbing-stairs-ii/ | 08/05/2019 |
-|  |  |  |  |
 | 10 |  |  |  |
+|  | 839. Merge Two Sorted Interval Lists | https://www.lintcode.com/problem/merge-two-sorted-interval-lists/ | 08/06/2019 |
+|  | 547. Intersection of Two Arrays | https://www.lintcode.com/problem/intersection-of-two-arrays/ | 08/06/2019 |
+|  | 138. Subarray Sum | https://www.lintcode.com/problem/subarray-sum/ | 08/06/2019 |
+|  | 64. Merge Sorted Array | https://www.lintcode.com/problem/merge-sorted-array/ | 08/06/2019 |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 |  |  |  |  |
 | 11 |  |  |  |
-|  | 1126. Merge Two Binary Trees | https://www.lintcode.com/problem/merge-two-binary-trees/ | 08/05/2019 |
-|  |  |  |  |
+|  | 1126. Merge Two Binary Trees | 04 https://www.lintcode.com/problem/merge-two-binary-trees/ | 08/05/2019 |
+|  | 838. Subarray Sum Equals K | 10 https://www.lintcode.com/problem/subarray-sum-equals-k/ | 08/06/2019 |

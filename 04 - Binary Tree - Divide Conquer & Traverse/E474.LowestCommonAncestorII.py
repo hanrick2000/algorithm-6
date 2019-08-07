@@ -26,7 +26,7 @@ class Solution:
             if B in parents:
                 return B
 
-            parents[B] = 1
+            #parents[B] = 1 # isn't necessary
             B = B.parent
 
         return root

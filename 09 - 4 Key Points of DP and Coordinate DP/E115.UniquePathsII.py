@@ -10,18 +10,19 @@ class Solution:
             for j in range(len(grid[i])):
                 if i == 0 and j == 0:
                     grid[i][j] = 1 - grid[i][j]
-                else:
-                    if grid[i][j] == 1:
-                        grid[i][j] = 0
-                    elif i == 0:
-                        grid[i][j] = grid[i][j - 1]
-                    elif j == 0:
-                        grid[i][j] = grid[i - 1][j]
-                    else:
-                        grid[i][j] = grid[i - 1][j] + grid[i][j - 1]
+                    continue
 
-        # if the number is greater than sys.maxint
-        if grid[-1][-1] > 2147483647:
+                if grid[i][j] == 1:
+                    grid[i][j] = 0
+                elif i == 0:
+                    grid[i][j] = grid[i][j - 1]
+                elif j == 0:
+                    grid[i][j] = grid[i - 1][j]
+                else:
+                    grid[i][j] = grid[i - 1][j] + grid[i][j - 1]
+        print(grid)
+        # if the number is greater than sys.maxsize
+        if grid[-1][-1] > sys.maxsize:
             return -1
         else:
             return grid[-1][-1]

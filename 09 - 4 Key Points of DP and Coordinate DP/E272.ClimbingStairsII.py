@@ -6,7 +6,7 @@ class Solution:
     def climbStairs2(self, n):
         # write your code here
 
-        # f(n) = f(n - 1) + f(n - 2) + f(n - 3)
+        # f(0) = 1, f(1) = 1, f(2) = 2, f(n) = f(n - 1) + f(n - 2) + f(n - 3)
         first, second, third = 1, 1, 2
         if n < 2: return first
 

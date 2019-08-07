@@ -4,6 +4,7 @@
 
 ### Easy  839. Merge Two Sorted Interval Lists
 https://www.lintcode.com/problem/merge-two-sorted-interval-lists
+https://leetcode.com/problems/merge-intervals/
 
 #### Description
 Merge two sorted (ascending) lists of interval and return it as a new sorted list. The new sorted list should be made by splicing together the intervals of the two lists and sorted in ascending order.
@@ -32,6 +33,7 @@ The intervals in different lists may overlap.
 
 ### Easy  547. Intersection of Two Arrays
 https://www.lintcode.com/problem/intersection-of-two-arrays
+https://leetcode.com/problems/intersection-of-two-arrays/
 
 #### Description
 Given two arrays, write a function to compute their intersection.
@@ -68,6 +70,7 @@ Given [-3, 1, 2, -3, 4], return [0, 2] or [1, 3].
 
 ### Easy  64. Merge Sorted Array
 https://www.lintcode.com/problem/merge-sorted-array/
+https://leetcode.com/problems/merge-sorted-array/
 
 #### Description
 
@@ -303,15 +306,34 @@ The overall run time complexity should be O(log (m+n)).
 ## Optional(11)
 
 ### Easy 943. Range Sum Query - Immutable
+https://www.lintcode.com/problem/range-sum-query-immutable/
+
 ### Easy 165. Merge Two Sorted Lists
+https://www.lintcode.com/problem/merge-two-sorted-lists/
+
 ### Easy 6. Merge Two Sorted Arrays
+https://www.lintcode.com/problem/merge-two-sorted-arrays/
+
 ### Medium 817. Range Sum Query 2D - Mutable
+https://www.lintcode.com/problem/range-sum-query-2d-mutable/
+
 ### Medium 793. Intersection of Arrays
+https://www.lintcode.com/problem/intersection-of-arrays/
+
 ### Medium 665. Range Sum Query 2D - Immutable
+https://www.lintcode.com/problem/range-sum-query-2d-immutable/
+
 ### Medium 548. Intersection of Two Arrays II
+https://www.lintcode.com/problem/intersection-of-two-arrays-ii/
+
 ### Medium 405. Submatrix Sum
+https://www.lintcode.com/problem/submatrix-sum/
+
 ### Medium 149. Best Time to Buy and Sell Stock
+https://www.lintcode.com/problem/best-time-to-buy-and-sell-stock/
+
 ### Medium 139. Subarray Sum Closest
+https://www.lintcode.com/problem/subarray-sum-closest/
 
 ### Medium 104. Merge K Sorted Lists
 https://www.lintcode.com/problem/merge-k-sorted-lists/
@@ -322,12 +344,56 @@ https://www.lintcode.com/problem/merge-k-sorted-lists/
 https://www.lintcode.com/problem/maximum-subarray/
 
 ### Medium 620. Maximum Subarray IV
+https://www.lintcode.com/problem/maximum-subarray-iv/
+
 ### Medium 617. Maximum Average Subarray II
+https://www.lintcode.com/problem/maximum-average-subarray-ii/
+
 ### Medium 404. Subarray Sum II
+https://www.lintcode.com/problem/subarray-sum-ii/
+
 ### Medium 393. Best Time to Buy and Sell Stock IV
+https://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-iv/?
+
 ### Medium 191. Maximum Product Subarray
+https://www.lintcode.com/problem/maximum-product-subarray/
+
 ### Medium 151. Best Time to Buy and Sell Stock III
+https://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-iii/
+
 ### Medium 150. Best Time to Buy and Sell Stock II
+https://www.lintcode.com/problem/best-time-to-buy-and-sell-stock-ii/
+
 ### Medium 45. Maximum Subarray Difference
+https://www.lintcode.com/problem/maximum-subarray-difference/
+
 ### Medium 42. Maximum Subarray II
+https://www.lintcode.com/problem/maximum-subarray-ii/?_from=ladder&&fromId=1
+
 ### Hard 43. Maximum Subarray III
+https://www.lintcode.com/problem/maximum-subarray-iii/
+
+
+## ==============================
+
+### Easy 838. Subarray Sum Equals K
+https://www.lintcode.com/problem/subarray-sum-equals-k/
+https://leetcode.com/problems/subarray-sum-equals-k/
+
+#### Description
+
+Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+
+#### Example
+##### Example1
+
+    Input: nums = [1,1,1] and k = 2
+    Output: 2
+    Explanation:
+    subarray [0,1] and [1,2]
+##### Example2
+
+    Input: nums = [2,1,-1,1,2] and k = 3
+    Output: 4
+    Explanation:
+    subarray [0,1], [1,4], [0,3] and [3,4]
