@@ -96,6 +96,7 @@ You may assume that A has enough space (size that is greater or equal to m + n) 
 
 ### Easy  41. Maximum Subarray
 https://www.lintcode.com/problem/maximum-subarray
+https://leetcode.com/problems/maximum-subarray/
 
 #### Description
 Given an array of integers, find a contiguous subarray which has the largest sum.
@@ -307,6 +308,52 @@ The overall run time complexity should be O(log (m+n)).
 
 ### Easy 943. Range Sum Query - Immutable
 https://www.lintcode.com/problem/range-sum-query-immutable/
+https://leetcode.com/problems/range-sum-query-immutable/
+
+#### Description
+
+Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
+
+    1. You may assume that the array does not change.
+    2. There are many calls to sumRange function.
+
+#### Example
+##### Example1
+
+Input: nums = [-2, 0, 3, -5, 2, -1]
+    sumRange(0, 2)
+    sumRange(2, 5)
+    sumRange(0, 5)
+    Output:
+    1
+    -1
+    -3
+    Explanation:
+    sumRange(0, 2) -> (-2) + 0 + 3 = 1
+    sumRange(2, 5) -> 3 + (-5) + 2 + (-1) = -1
+    sumRange(0, 5) -> (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
+##### Example2
+
+    Input:
+    nums = [-4, -5]
+    sumRange(0, 0)
+    sumRange(1, 1)
+    sumRange(0, 1)
+    sumRange(1, 1)
+    sumRange(0, 0)
+    Output:
+    -4
+    -5
+    -9
+    -5
+    -4
+    Explanation:
+    sumRange(0, 0) -> -4
+    sumRange(1, 1) -> -5
+    sumRange(0, 1) -> (-4) + (-5) = -9
+    sumRange(1, 1) -> -5
+    sumRange(0, 0) -> -4
+
 
 ### Easy 165. Merge Two Sorted Lists
 https://www.lintcode.com/problem/merge-two-sorted-lists/
