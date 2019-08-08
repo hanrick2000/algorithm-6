@@ -6,13 +6,17 @@ class Solution:
     """
     def coinChange(self, coins, amount):
         # write your code here
-        dp = [0]
+        dp = [sys.maxsize for _ in range(amount + 1)]
+        dp[0] = 0
         for i in range(1, amount + 1):
-            dp.append(sys.maxsize)
+            # dp.append(sys.maxsize)
             for coin in coins:
                 if i < coin or dp[i - coin] == sys.maxsize:
                     continue
 
                 dp[i] = min(dp[i], dp[i - coin] + 1)
 
-        return dp[-1] if dp[-1] != sys.maxsize else -1
+        if dp[amount] == sys.maxsize:
+            return -1
+
+        return dp[amount]

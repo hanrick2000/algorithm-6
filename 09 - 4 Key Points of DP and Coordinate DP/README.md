@@ -146,6 +146,7 @@ https://www.lintcode.com/problem/knight-shortest-path/
 
 ### Medium 76. Longest Increasing Subsequence
 https://www.lintcode.com/problem/longest-increasing-subsequence/
+https://leetcode.com/problems/longest-increasing-subsequence/
 
 #### Description
 
@@ -265,7 +266,7 @@ You are given coins of different denominations and a total amount of money amoun
 #### Example
 ##### Example1
 
-		Input: 
+		Input:
 		[1, 2, 5]
 		11
 		Output: 3

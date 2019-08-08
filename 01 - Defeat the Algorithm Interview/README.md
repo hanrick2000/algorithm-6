@@ -59,6 +59,7 @@ O(n2) is acceptable. Can you implement an O(n) algorithm? (hint: KMP)
 
 ### Medium  415. Valid Palindrome
 https://www.lintcode.com/problem/valid-palindrome
+https://leetcode.com/problems/valid-palindrome/
 
 #### Description
 Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
@@ -77,6 +78,7 @@ O(n) time without extra memory.
 
 ### Medium  200. Longest Palindromic Substring
 https://www.lintcode.com/problem/longest-palindromic-substring/
+https://leetcode.com/problems/longest-palindromic-substring/
 
 #### Description
 
@@ -100,6 +102,7 @@ O(n2) time is acceptable. Can you do it in O(n) time.
 
 ### Medium  667. Longest Palindromic Subsequence
 https://www.lintcode.com/problem/longest-palindromic-subsequence/
+https://leetcode.com/problems/longest-palindromic-subsequence/
 
 #### Description
 

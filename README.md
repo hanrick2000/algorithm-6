@@ -202,15 +202,18 @@
 | 01 |  |  |  |
 |  | 627. Longest Palindrome | https://www.lintcode.com/problem/longest-palindrome/ | 06/30/2019 |
 |  | 13. Implement strStr() | https://www.lintcode.com/problem/implement-strstr/ | 07/01/2019 |
+|  |  |  |  |
 |  | 415. Valid Palindrome | https://www.lintcode.com/problem/valid-palindrome/ | 07/02/2019 |
 |  | 200. Longest Palindromic Substring | https://www.lintcode.com/problem/longest-palindromic-substring/ | 07/03/2019 |
 | ☓ | 667. Longest Palindromic Subsequence | https://www.lintcode.com/problem/longest-palindromic-subsequence/ | 07/04/2019 |
+|  |  |  |  |
 | ☓ | 841. String Replace | https://www.lintcode.com/problem/string-replace/ | 07/05/2019 |
 |  | 594. strStr II | https://www.lintcode.com/problem/strstr-ii/ | 07/06/2019 |
 | 02 |  |  |  |
 |  | 433. Number of Islands | https://www.lintcode.com/problem/number-of-islands/ | 07/08/2019 |
 |  | 69. Binary Tree Level Order Traversal | https://www.lintcode.com/problem/binary-tree-level-order-traversal/ | 07/09/2019 |
 | ☓ | 242. Convert Binary Tree to Linked Lists by Depth | https://www.lintcode.com/problem/convert-binary-tree-to-linked-lists-by-depth/ | 07/10/2019 |
+|  |  |  |  |
 |  | 615. Course Schedule | https://www.lintcode.com/problem/course-schedule/ | 07/11/2019 |
 |  | 616. Course Schedule II | https://www.lintcode.com/problem/course-schedule-ii/ | 07/12/2019 |
 |  | 611. Knight Shortest Path | https://www.lintcode.com/problem/knight-shortest-path/ | 07/12/2019 |
@@ -218,12 +221,13 @@
 | ☓ | 137. Clone Graph | https://www.lintcode.com/problem/clone-graph/ | 07/14/2019 |
 |  | 127. Topological Sorting | https://www.lintcode.com/problem/topological-sorting/ | 01/04/2019 |
 |  | 7. Serialize and Deserialize Binary Tree | https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/ | 07/15/2019 |
-| ☓ | 120. Word Ladder | https://www.lintcode.com/problem/word-ladder/ | 07/16/2019 |
 |  | 624. Remove Substrings | https://www.lintcode.com/problem/remove-substrings/ | 07/16/2019 |
 |  | 618. Search Graph Nodes | https://www.lintcode.com/problem/search-graph-nodes/ | 07/16/2019 |
 | ☓ | 598. Zombie in Matrix | https://www.lintcode.com/problem/zombie-in-matrix/ | 07/17/2019 |
 |  | 531. Six Degrees | https://www.lintcode.com/problem/six-degrees/ | 07/18/2019 |
 | ☓ | 178. Graph Valid Tree | https://www.lintcode.com/problem/graph-valid-tree/ | 07/18/2019 |
+|  |  |  |  |
+| ☓ | 120. Word Ladder | https://www.lintcode.com/problem/word-ladder/ | 07/16/2019 |
 | 03 |  |  |  |
 |  | 458. Last Position of Target | https://www.lintcode.com/problem/last-position-of-target/ | 07/19/2019 |
 |  | 585. Maximum Number in Mountain Sequence | https://www.lintcode.com/problem/maximum-number-in-mountain-sequence/ | 07/19/2019 |
@@ -281,6 +285,8 @@
 |  | 111. Climbing Stairs | https://www.lintcode.com/problem/climbing-stairs/ | 08/05/2019 |
 |  | 110. Minimum Path Sum | https://www.lintcode.com/problem/minimum-path-sum/ | 08/05/2019 |
 |  | 272. Climbing Stairs II | https://www.lintcode.com/problem/climbing-stairs-ii/ | 08/05/2019 |
+|  |  |  |  |
+|  | 76. Longest Increasing Subsequence | https://www.lintcode.com/problem/longest-increasing-subsequence/ | 08/07/2019 |
 | 10 |  |  |  |
 |  | 839. Merge Two Sorted Interval Lists | https://www.lintcode.com/problem/merge-two-sorted-interval-lists/ | 08/06/2019 |
 |  | 547. Intersection of Two Arrays | https://www.lintcode.com/problem/intersection-of-two-arrays/ | 08/06/2019 |
@@ -294,3 +300,4 @@
 |  | 1126. Merge Two Binary Trees | 04 https://www.lintcode.com/problem/merge-two-binary-trees/ | 08/05/2019 |
 |  | 838. Subarray Sum Equals K | 10 https://www.lintcode.com/problem/subarray-sum-equals-k/ | 08/06/2019 |
 |  |  |  |  |
+|  | 669. Coin Change | https://www.lintcode.com/problem/coin-change/ | 08/07/2019 |
