@@ -99,6 +99,7 @@ Given the total number of courses and a list of prerequisite pairs, is it possib
 
 ### Medium  616. Course Schedule II
 https://www.lintcode.com/problem/course-schedule-ii/
+https://leetcode.com/problems/course-schedule-ii/
 
 #### Description
 
@@ -200,6 +201,7 @@ Check whether the original sequence org can be uniquely reconstructed from the s
 
 ### Medium  137. Clone Graph
 https://www.lintcode.com/problem/clone-graph/
+https://leetcode.com/problems/clone-graph/
 
 #### Description
 
@@ -263,6 +265,7 @@ Can you do it in both BFS and DFS?
 
 ### Medium  7. Serialize and Deserialize Binary Tree
 https://www.lintcode.com/problem/serialize-and-deserialize-binary-tree/
+https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 
 #### Description
 
