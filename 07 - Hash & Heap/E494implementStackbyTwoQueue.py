@@ -31,11 +31,7 @@ class Stack:
     """
     def top(self):
         # write your code here
-        while self.queue1.qsize() > 1:
-            self.queue2.put(self.queue1.get())
-
-        item = self.queue1.get()
-        self.queue1, self.queue2 = self.queue2, self.queue1
+        item = self.pop()
 
         self.push(item)
 

@@ -6,11 +6,11 @@ class Solution:
     """
     def winSum(self, nums, k):
         # write your code here
-        size = len(nums)
         if not nums or k < 2:
             return nums
 
         # method 2
+        size = len(nums)
         if size < k:
             return []
 

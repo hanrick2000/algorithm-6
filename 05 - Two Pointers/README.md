@@ -65,6 +65,7 @@ Given an array nums, write a function to move all 0's to the end of it while mai
 
 ### Easy  521. Remove Duplicate Numbers in Array
 https://www.lintcode.com/problem/remove-duplicate-numbers-in-array
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 #### Description
 Given an array of integers, remove the duplicate numbers in it.
