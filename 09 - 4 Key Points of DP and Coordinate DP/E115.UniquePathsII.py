@@ -20,9 +20,5 @@ class Solution:
                     grid[i][j] = grid[i - 1][j]
                 else:
                     grid[i][j] = grid[i - 1][j] + grid[i][j - 1]
-        print(grid)
-        # if the number is greater than sys.maxsize
-        if grid[-1][-1] > sys.maxsize:
-            return -1
-        else:
-            return grid[-1][-1]
+
+        return grid[-1][-1]
