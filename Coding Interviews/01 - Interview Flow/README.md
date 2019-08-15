@@ -67,6 +67,7 @@ One-pass, constant extra space.
 
 ### Easy 1038. Jewels And Stones
 https://www.lintcode.com/problem/jewels-and-stones/
+https://leetcode.com/problems/jewels-and-stones/
 
 #### Description
 
@@ -86,3 +87,26 @@ The letters in J are guaranteed distinct, and all characters in J and S are lett
 
     Input: J = "z", S = "ZZ"
     Output: 0
+
+
+### Easy 1535. To Lower Case
+https://www.lintcode.com/problem/to-lower-case/
+https://leetcode.com/problems/to-lower-case/
+
+#### Description
+
+Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
+
+#### Example
+##### Example 1:
+
+    Input: "Hello"
+    Output: "hello"
+##### Example 2:
+
+    Input: "here"
+    Output: "here"
+##### Example 3:
+
+    Input: "LOVELY"
+    Output: "lovely"
