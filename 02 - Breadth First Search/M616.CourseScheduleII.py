@@ -6,27 +6,25 @@ class Solution:
     """
     def findOrder(self, numCourses, prerequisites):
         # write your code here
-        edges, degrees = {i: [] for i in range(numCourses)}, [0] * numCourses
+        if not prerequisites:
+            return [num for num in range(numCourses)]
 
+        courses, edges, degree = [], {num: [] for num in range(numCourses)}, [0] * numCourses
         for i, j in prerequisites:
             edges[j].append(i)
-            degrees[i] += 1
+            degree[i] += 1
 
-        result, queue = [], collections.deque([])
-        for i in range(numCourses):
-            if not degrees[i]:
-                queue.append(i)
-
+        queue = collections.deque([num for num in range(numCourses) if degree[num] == 0])
         while queue:
-            node = queue.popleft()
-            result.append(node)
+            prerequisite = queue.popleft()
+            courses.append(prerequisite)
 
-            for i in edges[node]:
-                degrees[i] -= 1
-                if not degrees[i]:
-                    queue.append(i)
+            for course in edges[prerequisite]:
+                degree[course] -= 1
+                if degree[course] == 0:
+                    queue.append(course)
 
-        if len(result) == numCourses:
-            return result
+        if len(courses) == numCourses:
+            return courses
 
         return []
