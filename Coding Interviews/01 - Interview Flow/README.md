@@ -144,23 +144,21 @@ Invert a binary tree.Left and right subtrees exchange.
 #### Challenge
 Do it in recursion is acceptable, can you do it without recursion?
 
-### Easy 35. Reverse Linked List
-https://www.lintcode.com/problem/reverse-linked-list/
-https://leetcode.com/problems/reverse-linked-list/
+
+### Easy 1236. Find All Numbers Disappeared in an Array
+https://www.lintcode.com/problem/find-all-numbers-disappeared-in-an-array/
+https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
 #### Description
 
-Reverse a linked list.
+Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+
+Find all the elements of [1, n] inclusive that do not appear in this array.
+
+Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
 
 #### Example
-##### Example 1:
-
-    Input: 1->2->3->null
-    Output: 3->2->1->null
-##### Example 2:
-
-    Input: 1->2->3->4->null
-    Output: 4->3->2->1->null
-
-#### Challenge
-Reverse it in-place and in one-pass
+    Input:
+    [4,3,2,7,8,2,3,1]
+    Output:
+    [5,6]

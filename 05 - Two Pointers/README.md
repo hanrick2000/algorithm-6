@@ -44,6 +44,7 @@ Design and implement a TwoSum class. It should support the following operations:
 
 ### Easy  539. Move Zeroes
 https://www.lintcode.com/problem/move-zeroes/
+https://leetcode.com/problems/move-zeroes/
 
 #### Description
 
