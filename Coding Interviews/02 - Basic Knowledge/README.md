@@ -58,7 +58,35 @@ You job is to implement a getInstance method for given class, return the same in
 If we call getInstance concurrently, can you make sure your code could run correctly?
 
 
-### Easy212. Space Replacement
+### Easy 212. Space Replacement
+https://www.lintcode.com/problem/space-replacement/
+
+#### Description
+
+Write a method to replace all spaces in a string with %20. The string is given in a characters array, you can assume it has enough space for replacement and you are given the true length of the string.
+
+You code should also return the new length of the string after replacement.
+
+If you are using Java or Python，please use characters array instead of string.
+
+#### Example
+##### Example 1:
+
+    Input: string[] = "Mr John Smith" and length = 13
+    Output: string[] = "Mr%20John%20Smith" and return 17
+    Explanation:
+    The string after replacement should be "Mr%20John%20Smith", you need to change the string in-place and return the new length 17.
+##### Example 2:
+
+    Input: string[] = "LintCode and Jiuzhang" and length = 21
+    Output: string[] = "LintCode%20and%20Jiuzhang" and return 25
+    Explanation:
+    The string after replacement should be "LintCode%20and%20Jiuzhang", you need to change the string in-place and return the new length 25.
+
+####Challenge
+Do it in-place.
+
+
 ### Easy365. Count 1 in Binary
 
 ### Easy 35. Reverse Linked List
