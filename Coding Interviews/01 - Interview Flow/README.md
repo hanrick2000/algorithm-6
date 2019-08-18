@@ -162,3 +162,26 @@ Could you do it without extra space and in O(n) runtime? You may assume the retu
     [4,3,2,7,8,2,3,1]
     Output:
     [5,6]
+
+### Easy 46. Majority Element
+https://www.lintcode.com/problem/majority-element/
+https://leetcode.com/problems/majority-element/
+
+#### Description
+
+Given an array of integers, the majority number is the number that occurs more than half of the size of the array. Find it.
+
+    You may assume that the array is non-empty and the majority number always exist in the array.
+
+#### Example
+##### Example 1:
+
+    Input: [1, 1, 1, 1, 2, 2, 2]
+    Output: 1
+##### Example 2:
+
+    Input: [1, 1, 1, 2, 2, 2, 2]
+    Output: 2
+
+#### Challenge
+O(n) time and O(1) extra space
