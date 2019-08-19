@@ -13,22 +13,39 @@ class Solution:
     """
     def minDepth(self, root):
         # write your code here
-        return self.helper(root)
-
-    def helper(self, root):
-        if root is None:
+        if not root:
             return 0
 
         left = 0
         if root.left:
-            left = self.helper(root.left)
+            left = self.minDepth(root.left)
         else:
-            return self.helper(root.right) + 1
+            return self.minDepth(root.right) + 1
 
         right = 0
         if root.right:
-            right = self.helper(root.right)
+            right = self.minDepth(root.right)
         else:
             return left + 1
 
         return min(left, right) + 1
+
+    #     return self.helper(root)
+    #
+    # def helper(self, root):
+    #     if root is None:
+    #         return 0
+    #
+    #     left = 0
+    #     if root.left:
+    #         left = self.helper(root.left)
+    #     else:
+    #         return self.helper(root.right) + 1
+    #
+    #     right = 0
+    #     if root.right:
+    #         right = self.helper(root.right)
+    #     else:
+    #         return left + 1
+    #
+    #     return min(left, right) + 1
