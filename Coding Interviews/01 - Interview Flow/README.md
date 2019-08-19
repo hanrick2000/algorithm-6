@@ -185,3 +185,34 @@ Given an array of integers, the majority number is the number that occurs more t
 
 #### Challenge
 O(n) time and O(1) extra space
+
+
+### Easy 661. Convert BST to Greater Tree
+https://www.lintcode.com/problem/convert-bst-to-greater-tree/
+https://leetcode.com/problems/convert-bst-to-greater-tree/
+
+#### Description
+
+Given a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.
+
+#### Example
+##### Example 1:
+
+    Input : {5,2,13}
+                  5
+                /   \
+               2     13
+    Output : {18,20,13}
+                 18
+                /   \
+              20     13
+##### Example 2:
+
+    Input : {5,3,15}
+                  5
+                /   \
+               3     15
+    Output : {20,23,15}
+                 20
+                /   \
+              23     15
