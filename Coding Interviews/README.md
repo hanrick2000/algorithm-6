@@ -17,5 +17,6 @@
 |  | 204. Singleton | https://www.lintcode.com/problem/singleton/ | 08/10/2019 |
 |  | 35. Reverse Linked List | https://www.lintcode.com/problem/reverse-linked-list/ | 08/16/2019 |
 |  | 212. Space Replacement | https://www.lintcode.com/problem/space-replacement/ | 08/17/2019 |
+|  | 365. Count 1 in Binary | https://www.lintcode.com/problem/count-1-in-binary/ | 08/19/2019 |
 | 03 |  |  |  |
 |  |  |  |  |
