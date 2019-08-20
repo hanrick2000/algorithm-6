@@ -70,6 +70,21 @@ class Solution:
 
         return i + 1
 
+    # def partition(self, A, start, end):
+    #     pivot, l, r = A[end], start, end - 1
+    #
+    #     while l <= r:
+    #         if A[l] <= pivot:
+    #             l += 1
+    #         elif A[r] > pivot:
+    #             r -= 1
+    #         else:
+    #             A[l], A[r] = A[r], A[l]
+    #
+    #     A[l], A[end] = pivot, A[l]
+    #
+    #     return l
+
         # method 1: mergeSort
     #     temp = [0] * len(A)
     #     self.mergeSort(A, 0, len(A) - 1, temp)
