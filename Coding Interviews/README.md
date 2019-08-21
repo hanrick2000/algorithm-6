@@ -19,4 +19,5 @@
 |  | 212. Space Replacement | https://www.lintcode.com/problem/space-replacement/ | 08/17/2019 |
 |  | 365. Count 1 in Binary | https://www.lintcode.com/problem/count-1-in-binary/ | 08/19/2019 |
 | 03 |  |  |  |
+|  | 373. Partition Array by Odd and Even | https://www.lintcode.com/problem/partition-array-by-odd-and-even/ | 08/20/2019 |
 |  |  |  |  |
