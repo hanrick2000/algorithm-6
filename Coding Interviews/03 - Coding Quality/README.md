@@ -49,7 +49,29 @@ Implement an algorithm to delete a node in the middle of a singly linked list, g
     1->5->null
 
 
-### Easy174. Remove Nth Node From End of List
+### Easy 174. Remove Nth Node From End of List
+https://www.lintcode.com/problem/remove-nth-node-from-end-of-list/
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+#### Description
+
+Given a linked list, remove the nth node from the end of list and return its head.
+
+    The minimum number of nodes in list is n.
+
+#### Example
+##### Example 1:
+  	Input: list = 1->2->3->4->5->null， n = 2
+  	Output: 1->2->3->5->null
+
+##### Example 2:
+  	Input:  list = 5->4->3->2->1->null, n = 2
+  	Output: 5->4->3->1->null
+
+#### Challenge
+Can you do it without getting the length of the linked list?
+
+
 ### Easy165. Merge Two Sorted Lists
 ### Easy35. Reverse Linked List
 ### Medium245. Subtree
