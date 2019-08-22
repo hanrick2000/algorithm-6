@@ -20,4 +20,5 @@
 |  | 365. Count 1 in Binary | https://www.lintcode.com/problem/count-1-in-binary/ | 08/19/2019 |
 | 03 |  |  |  |
 |  | 373. Partition Array by Odd and Even | https://www.lintcode.com/problem/partition-array-by-odd-and-even/ | 08/20/2019 |
+|  | 372. Delete Node in a Linked List | https://www.lintcode.com/problem/delete-node-in-a-linked-list/ | 08/21/2019 |
 |  |  |  |  |
