@@ -6,9 +6,9 @@ class Solution:
     """
     def uniquePaths(self, m, n):
         # write your code here
-        
+
         # method 2:
-        path = [1 for _ in range(n)]
+        path = [1] * n
 
         for _ in range(1, m):
             for i in range(1, n):
