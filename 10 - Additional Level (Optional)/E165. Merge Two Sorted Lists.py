@@ -14,6 +14,10 @@ class Solution:
     """
     def mergeTwoLists(self, l1, l2):
         # write your code here
+        if not l1:
+            return l2
+        if not l2:
+            return l1
 
         dummy = ListNode(0)
         current = dummy
