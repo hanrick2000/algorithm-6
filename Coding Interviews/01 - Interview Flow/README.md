@@ -216,3 +216,22 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
                  20
                 /   \
               23     15
+
+### Easy 1324. Count Primes
+https://www.lintcode.com/problem/count-primes/
+https://leetcode.com/problems/count-primes/
+
+#### Description
+
+Count the number of prime numbers less than a non-negative number, n.
+
+#### Example
+##### Example 1：
+
+    Input: n = 2
+    Output: 0
+##### Example 2：
+
+    Input: n = 4
+    Output: 2
+    Explanation：2, 3 are prime number
