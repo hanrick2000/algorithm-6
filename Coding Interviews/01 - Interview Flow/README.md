@@ -235,3 +235,21 @@ Count the number of prime numbers less than a non-negative number, n.
     Input: n = 4
     Output: 2
     Explanation：2, 3 are prime number
+
+### Easy 1283. Reverse String
+https://www.lintcode.com/problem/reverse-string/note/187439
+https://leetcode.com/problems/reverse-string/solution/
+
+#### Description
+
+Write a function that takes a string as input and returns the string reversed.
+
+#### Example
+##### Example 1：
+
+    Input："hello"
+    Output："olleh"
+##### Example 2：
+
+    Input："hello world"
+    Output："dlrow olleh"

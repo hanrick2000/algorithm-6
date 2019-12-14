@@ -14,10 +14,8 @@ public class Solution {
             if (notPrime[i]) continue;
 
             count++;
-            for (int j = 2; i * j < n; j++) {
+            for (int j = 2; i * j < n; j++)
                 notPrime[i * j] = true;
-
-            }
         }
 
         return count;
