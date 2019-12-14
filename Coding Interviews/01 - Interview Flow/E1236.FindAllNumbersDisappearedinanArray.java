@@ -1,0 +1,21 @@
+public class Solution {
+    /**
+     * @param nums: a list of integers
+     * @return: return a list of integers
+     */
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+        // write your code here
+        List<Integer> res = new ArrayList();
+
+        for (int i = 0; i < nums.length; i++) {
+            int index = Math.abs(nums[i]) - 1;
+            if (nums[index] > 0) nums[index] *= -1;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+            if (nums[i] > 0) res.add(i + 1);
+        }
+        return res;
+    }
+}
