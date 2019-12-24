@@ -478,3 +478,41 @@ Given an array of integers and an integer k, you need to find the total number o
     Output: 4
     Explanation:
     subarray [0,1], [1,4], [0,3] and [3,4]
+
+
+### Medium 36. Reverse Linked List II
+
+#### Description
+
+Reverse a linked list from position m to n.
+
+    Given m, n satisfy the following condition: 1 ≤ m ≤ n ≤ length of list.
+
+#### Example
+##### Example 1:
+
+    Input: 1->2->3->4->5->NULL, m = 2 and n = 4,
+    Output: 1->4->3->2->5->NULL.
+##### Example 2:
+
+    Input: 1->2->3->4->NULL, m = 2 and n = 3,
+    Output: 1->3->2->4->NULL.
+#### Challenge
+Reverse it in-place and in one-pass
+
+
+### Easy 452. Remove Linked List Elements
+
+#### Description
+
+Remove all elements from a linked list of integers that have value val.
+
+#### Example
+##### Example 1:
+
+    Input: head = 1->2->3->3->4->5->3->null, val = 3
+    Output: 1->2->4->5->null
+##### Example 2:
+
+    Input: head = 1->1->null, val = 1
+    Output: null

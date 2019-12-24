@@ -13,6 +13,8 @@
 * 654\. Sparse Matrix Multiplication
 * 577\. Merge K Sorted Interval Lists
 * 931\. Median of K Sorted Arrays
+* 36\. Reverse Linked List II
+* 452\. Remove Linked List Elements
 
 ## 09 - 4 Key Points of DP and Coordinate DP
 
