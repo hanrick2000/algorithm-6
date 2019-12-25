@@ -516,3 +516,20 @@ Remove all elements from a linked list of integers that have value val.
 
     Input: head = 1->1->null, val = 1
     Output: null
+
+### Easy 166. Nth to Last Node in List
+https://www.lintcode.com/problem/nth-to-last-node-in-list/
+
+#### Description
+    Find the nth to last element of a singly linked list.
+
+    The minimum number of nodes in list is n.
+
+#### Example
+##### Example 1:
+  	Input: list = 3->2->1->5->null, n = 2
+  	Output: 1
+
+##### Example 2:
+  	Input: list  = 1->2->3->null, n = 3
+  	Output: 1
