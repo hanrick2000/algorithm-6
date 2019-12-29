@@ -528,6 +528,38 @@ https://www.lintcode.com/problem/binary-tree-zigzag-level-order-traversal/
 
 ### Medium  70. Binary Tree Level Order Traversal II
 https://www.lintcode.com/problem/binary-tree-level-order-traversal-ii/
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii
+
+#### Description
+Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+
+#### Example
+##### Example 1:
+
+    Input:
+    {1,2,3}
+    Output:
+    [[2,3],[1]]
+    Explanation:
+        1
+       / \
+      2   3
+    it will be serialized {1,2,3}
+    level order traversal
+##### Example 2:
+
+    Input:
+    {3,9,20,#,#,15,7}
+    Output:
+    [[15,7],[9,20],[3]]
+    Explanation:
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    it will be serialized {3,9,20,#,#,15,7}
+    level order traversal
 
 ### Hard  794. Sliding Puzzle II
 https://www.lintcode.com/problem/sliding-puzzle-ii/
