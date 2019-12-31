@@ -526,6 +526,31 @@ https://www.lintcode.com/problem/connected-component-in-undirected-graph/
 ### Medium  71. Binary Tree Zigzag Level Order Traversal
 https://www.lintcode.com/problem/binary-tree-zigzag-level-order-traversal/
 
+#### Description
+Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
+
+#### Example
+##### Example 1:
+
+    Input:{1,2,3}
+    Output:[[1],[3,2]]
+    Explanation:
+        1
+       / \
+      2   3
+    it will be serialized {1,2,3}
+##### Example 2:
+
+    Input:{3,9,20,#,#,15,7}
+    Output:[[3],[20,9],[15,7]]
+    Explanation:
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    it will be serialized {3,9,20,#,#,15,7}
+
 ### Medium  70. Binary Tree Level Order Traversal II
 https://www.lintcode.com/problem/binary-tree-level-order-traversal-ii/
 https://leetcode.com/problems/binary-tree-level-order-traversal-ii
