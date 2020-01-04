@@ -147,3 +147,30 @@ Reverse it in-place and in one-pass
 ### Medium160. Find Minimum in Rotated Sorted Array II
 ### Medium72. Construct Binary Tree from Inorder and Postorder Traversal
 ### Medium36. Reverse Linked List II
+
+##-----------------------------
+
+### Easy 1294. Power of Three
+#### Description
+Given an integer, write a function to determine if it is a power of three.
+
+#### Example
+##### Example1
+
+    Input: n = 0
+    Output: False
+##### Example2
+
+    Input: n = 9
+    Output: True
+#### Challenge
+Could you do it without using any loop / recursion?
+
+### Easy 1314. Power of Two
+#### Description
+Given an integer, write a function to determine if it is a power of two.
+
+#### Example
+
+    Input: n = 3
+    Output: false
