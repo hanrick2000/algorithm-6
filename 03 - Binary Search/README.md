@@ -476,6 +476,30 @@ O(log(x))
 ### Medium  617. Maximum Average Subarray II
 https://www.lintcode.com/problem/maximum-average-subarray-ii/
 
+#### Description
+
+Given an array with positive and negative numbers, find the maximum average subarray which length should be greater or equal to given length k.
+
+    It's guaranteed that the size of the array is greater or equal to k.
+
+#### Example
+##### Example 1:
+
+    Input:
+    [1,12,-5,-6,50,3]
+    3
+    Output:
+    15.667
+    Explanation:
+     (-6 + 50 + 3) / 3 = 15.667
+##### Example 2:
+
+    Input:
+    [5]
+    1
+    Output:
+    5.000
+
 ### Medium  586. Sqrt(x) II
 https://www.lintcode.com/problem/sqrtx-ii/
 
