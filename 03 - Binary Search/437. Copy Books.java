@@ -6,7 +6,13 @@ public class Solution {
      */
     public int copyBooks(int[] pages, int k) {
         // write your code here
-        int l = 0, r = Integer.MAX_VALUE;
+        int l = 0, r = 0;//Integer.MAX_VALUE;
+        // try to get l and r
+        for (int page: pages) {
+            l = Math.max(l, page);
+            r += page;
+        }
+
         while (l + 1 < r) {
             int mid = l + (r - l) / 2;
             if (check(pages, mid, k)) {
