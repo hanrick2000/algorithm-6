@@ -658,3 +658,62 @@ Find the maximum node in a binary tree, return the node.
      -5     2
      / \   /  \
     0   3 -4  -5
+
+### Medium 760. Binary Tree Right Side View
+#### Description
+Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom
+
+#### Example
+##### Example 1
+
+    Input: {1,2,3,#,5,#,4}
+    Output: [1,3,4]
+    Explanation:
+       1            
+     /   \
+    2     3         
+     \     \
+      5     4       
+##### Example 2
+
+    Input: {1,2,3}
+    Output: [1,3]
+    Explanation:
+       1            
+     /   \
+    2     3      
+
+### Medium 1195. Find Largest Value in Each Tree Row
+#### Description
+
+You need to find the largest value in each row of a binary tree.
+
+#### Example
+##### Example 1:
+
+    Input:
+    {1,3,2,5,3,#,9}
+    Output:
+    [1,3,9]
+
+    Explanation:
+         1
+       /    \
+      3     2
+     /   \     \
+    5    3      9
+##### Example 2:
+
+    Input:
+    {1,2,3,4,5,6,#,#,7}
+    Output:
+    [1,3,6,7]
+
+    Explanation:
+               1
+            /     \
+         2         3
+       /  \      /
+     4    5   6
+      \
+       7
