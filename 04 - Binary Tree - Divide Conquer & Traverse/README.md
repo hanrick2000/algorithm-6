@@ -746,3 +746,30 @@ For the given binary tree, return a deep copy of it.
        1
      /  \
     2    3
+
+### Easy 177. Convert Sorted Array to Binary Search Tree
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+
+#### Description
+Given a sorted (increasing order) array, Convert it to create a binary search tree with minimal height.
+
+    There may exist multiple valid solutions, return any of them.
+
+#### Example
+##### Example 1:
+
+    Input: []
+    Output:  {}
+    Explanation: The binary search tree is null
+##### Example 2:
+
+    Input: [1,2,3,4,5,6,7]
+    Output:  {4,2,6,1,3,5,7}
+    Explanation:
+    A binary search tree with minimal height.
+
+             4
+           /   \
+          2     6
+         / \    / \
+        1   3  5   7
