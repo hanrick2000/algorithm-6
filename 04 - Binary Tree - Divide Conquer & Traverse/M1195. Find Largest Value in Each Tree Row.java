@@ -18,7 +18,31 @@ public class Solution {
     public List<Integer> largestValues(TreeNode root) {
         // write your code here
         List<Integer> result = new ArrayList<>();
-        helper(root, result, 0);
+
+        // method 2
+        if (root == null) return result;
+
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+
+        while (!q.isEmpty()) {
+            int max = Integer.MIN_VALUE;
+            int size = q.size();
+
+            for (int i = 0; i < size; i++) {
+                TreeNode node = q.poll();
+                if (max < node.val) max = node.val;
+
+                if (node.left != null) q.offer(node.left);
+                if (node.right != null) q.offer(node.right);
+            }
+
+            result.add(max);
+        }
+
+        // method 1
+        // helper(root, result, 0);
+
         return result;
     }
 

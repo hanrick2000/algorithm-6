@@ -717,3 +717,32 @@ You need to find the largest value in each row of a binary tree.
      4    5   6
       \
        7
+
+### Easy 375. Clone Binary Tree
+
+#### Description
+For the given binary tree, return a deep copy of it.
+
+    You'd better not just return root to solve the problem.
+
+#### Example
+##### Example 1:
+
+    Input: {1,2,3,4,5}
+    Output: {1,2,3,4,5}
+    Explanation:
+    The binary tree is look like this:
+         1
+       /  \
+      2    3
+     / \
+    4   5
+##### Example 2:
+
+    Input: {1,2,3}
+    Output: {1,2,3}
+    Explanation:
+    The binary tree is look like this:
+       1
+     /  \
+    2    3
