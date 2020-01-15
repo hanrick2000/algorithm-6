@@ -131,3 +131,71 @@ Implement a function to check if a linked list is a palindrome.
     output: false
 #### Challenge
 Could you do it in O(n) time and O(1) space?
+
+
+### Easy 1003. Binary Tree Pruning
+https://leetcode.com/problems/binary-tree-pruning/
+
+#### Description
+
+Given the head node root of a binary tree, where additionally every node's value is either a 0 or a 1.
+
+Return this tree where every subtree (of the given tree) not containing a 1 has been removed.
+
+(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
+
+    The binary tree will have at most 100 nodes.
+    The value of each node will only be 0 or 1.
+
+#### Example
+##### Example 1:
+
+    Input: {1,#,0,0,1}
+    Output: {1,#,0,#,1}
+    Explanation:
+      Only the red nodes satisfy the property "every subtree not containing a 1".
+      The diagram on the right represents the answer.
+
+##### Example 2:
+
+    Input: {1,0,1,0,0,0,1}
+    Output: {1,#,1,#,1}
+
+##### Example 3:
+
+    Input: {1,1,0,1,1,0,1,0}
+    Output: {1,1,0,1,1,#,1}
+
+### Easy 469. Same Tree
+https://leetcode.com/problems/same-tree/
+
+#### Description
+
+Check if two binary trees are identical. Identical means the two binary trees have the same structure and every identical position has the same value.
+
+#### Example
+##### Example 1:
+
+    Input:{1,2,2,4},{1,2,2,4}
+    Output:true
+    Explanation:
+            1                   1
+           / \                 / \
+          2   2   and         2   2
+         /                   /
+        4                   4
+
+    are identical.
+##### Example 2:
+
+    Input:{1,2,3,4},{1,2,3,#,4}
+    Output:false
+    Explanation:
+
+            1                  1
+           / \                / \
+          2   3   and        2   3
+         /                        \
+        4                          4
+
+    are not identical.
