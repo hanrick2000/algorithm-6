@@ -199,3 +199,259 @@ Check if two binary trees are identical. Identical means the two binary trees ha
         4                          4
 
     are not identical.
+### Easy 376. Binary Tree Path Sum
+https://leetcode.com/problems/path-sum
+
+#### Description
+
+Given a binary tree, find all paths that sum of the nodes in the path equals to a given number target.
+
+A valid path is from root node to any of the leaf nodes.
+
+#### Example
+##### Example 1:
+
+    Input:
+    {1,2,4,2,3}
+    5
+    Output: [[1, 2, 2],[1, 4]]
+    Explanation:
+    The tree is look like this:
+    	     1
+    	    / \
+    	   2   4
+    	  / \
+    	 2   3
+    For sum = 5 , it is obviously 1 + 2 + 2 = 1 + 4 = 5
+##### Example 2:
+
+    Input:
+    {1,2,4,2,3}
+    3
+    Output: []
+    Explanation:
+    The tree is look like this:
+    	     1
+    	    / \
+    	   2   4
+    	  / \
+    	 2   3
+    Notice we need to find all paths from root node to leaf nodes.
+    1 + 2 + 2 = 5, 1 + 2 + 3 = 6, 1 + 4 = 5
+    There is no one satisfying it.
+
+### Easy 1115. Average of Levels in Binary Tree
+https://leetcode.com/problems/average-of-levels-in-binary-tree/
+
+#### Description
+
+Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.
+
+    The range of node's value is in the range of 32-bit signed integer.
+
+#### Example
+##### Example 1:
+
+    Input:
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    Output: [3, 14.5, 11]
+    Explanation:
+    The average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 is 11. Hence return [3, 14.5, 11].
+
+### Easy 1106. Maximum Binary Tree
+https://leetcode.com/problems/maximum-binary-tree
+
+#### Description
+
+Given an integer array with no duplicates. A maximum tree building on this array is defined as follow:
+
+    The root is the maximum number in the array.
+    The left subtree is the maximum tree constructed from left part subarray divided by the maximum number.
+    The right subtree is the maximum tree constructed from right part subarray divided by the maximum number.
+Construct the maximum tree by the given array and return the root node of this tree.
+
+    The size of the given array will be in the range of [1,1000].
+
+#### Example
+##### Example 1:
+
+    Input: {3,2,1,6,0,5}
+    Output: Return the tree root node representing the following tree:
+         6
+       /   \
+      3     5
+       \   /
+        2 0   
+         \
+          1
+##### Example 2:
+
+    Input: {1,2,3,4}
+    Output: Return the tree root node representing the following tree:
+            4
+           /
+          3
+         /
+        2
+       /
+      1
+
+### Easy 1094. Second Minimum Node In a Binary Tree
+https://leetcode.com/problems/second-minimum-node-in-a-binary-tree
+
+#### Description
+
+Given a non-empty special binary tree consisting of nodes with the non-negative value, where each node in this tree has exactly two or zero sub-node. If the node has two sub-nodes, then this node's value is not bigger than its two sub-nodes.
+
+Given such a binary tree, you need to output the second minimum value in the set made of all the nodes' value in the whole tree.
+
+If no such second minimum value exists, output -1 instead.
+
+#### Example
+##### Example 1:
+
+    Input:
+        2
+       / \
+      2   5
+         / \
+        5   7
+
+    Output: 5
+    Explanation: The smallest value is 2, the second smallest value is 5.
+##### Example 2:
+
+    Input:
+        2
+       / \
+      2   2
+
+    Output: -1
+    Explanation: The smallest value is 2, but there isn't any second smallest value.
+
+### Easy 1033. Minimum Difference Between BST Nodes
+https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+
+#### Description
+
+Given a Binary Search Tree (BST) with the root node root, return the minimum difference between the values of any two different nodes in the tree.
+
+    1.The size of the BST will be between 2 and 100.
+    2.The BST is always valid, each node's value is an integer, and each node's value is different.
+
+#### Example
+##### Example 1:
+
+    Input: root = {4,2,6,1,3,#,#}
+    Output: 1
+    Explanation:
+    Note that root is a TreeNode object, not an array.
+
+    The given tree {4,2,6,1,3,#,#} is represented by the following diagram:
+
+              4
+            /   \
+          2      6
+         / \    
+        1   3  
+
+    while the minimum difference in this tree is 1, it occurs between node 1 and node 2, also between node 3 and node 2.
+##### Example 2:
+
+    Input: root = {5,1,8}
+    Output: 3
+    Explanation:
+    Note that root is a TreeNode object, not an array.
+
+    The given tree {5,1,8} is represented by the following diagram:
+
+         5
+       /   \
+     1      8
+
+    while the minimum difference in this tree is 3, it occurs between node 5 and node 8.
+
+### Easy 1165. Subtree of Another Tree
+https://leetcode.com/problems/subtree-of-another-tree/
+
+#### Description
+
+Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
+
+#### Example
+##### Example 1:
+
+    Given tree s:
+
+         3
+        / \
+       4   5
+      / \
+     1   2
+    Given tree t:
+       4
+      / \
+     1   2
+    Return true, because t has the same structure and node values with a subtree of s.
+##### Example 2:
+
+    Given tree s:
+
+         3
+        / \
+       4   5
+      / \
+     1   2
+        /
+       0
+    Given tree t:
+       4
+      / \
+     1   2
+    Return false.
+
+### Easy 1172. Binary Tree Tilt
+https://leetcode.com/problems/binary-tree-tilt/
+
+#### Description
+Given a binary tree, return the tilt of the whole tree.
+
+The tilt of a tree node is defined as the absolute difference between the sum of all left subtree node values and the sum of all right subtree node values. Null node has tilt 0.
+
+The tilt of the whole tree is defined as the sum of all nodes' tilt.
+
+    1.The sum of node values in any subtree won't exceed the range of 32-bit integer.
+    2.All the tilt values won't exceed the range of 32-bit integer.
+
+#### Example
+##### Example 1:
+
+    Input:
+    {1,2,3}
+    Output: 1
+
+    Explanation:
+             1
+           /   \
+          2     3
+    Tilt of node 2 : 0
+    Tilt of node 3 : 0
+    Tilt of node 1 : |2-3| = 1
+    Tilt of binary tree : 0 + 0 + 1 = 1
+##### Example 2:
+
+    Input：
+    {1,1,#,2,3}
+    Output：
+    7
+
+    Explanation：
+            1
+          /
+        1
+       /  \
+    2     3
