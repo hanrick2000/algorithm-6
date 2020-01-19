@@ -34,5 +34,19 @@ public class Solution {
         }
 
         return sum;
+
+        /**
+        int sum = 0;
+        if (root == null) return sum;
+
+        TreeNode left = root.left;
+        if (left != null && left.left == null && left.right == null)
+            sum += left.val;
+
+        sum += sumOfLeftLeaves(left);
+        sum += sumOfLeftLeaves(root.right);
+
+        return sum;
+        **/
     }
 }
