@@ -21,16 +21,32 @@ public class Solution {
         if (root == null) return result;
 
         Stack<UndirectedGraphNode> stack = new Stack<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            UndirectedGraphNode node = stack.pop();
-            result.add(node.label);
 
-            for (int i = node.neighbors.size() - 1; i >= 0; i--) {
-                stack.push(node.neighbors.get(i));
-            }
-        }
+        // method 2
+        helper(root, result);
+
+        // method 1
+        // stack.push(root);
+        // while (!stack.isEmpty()) {
+        //     UndirectedGraphNode node = stack.pop();
+        //     result.add(node.label);
+
+        //     for (int i = node.neighbors.size() - 1; i >= 0; i--) {
+        //         stack.push(node.neighbors.get(i));
+        //     }
+        // }
 
         return result;
+    }
+
+    private void helper(UndirectedGraphNode root, List<Integer> result) {
+        if (root == null) return;
+
+        result.add(root.label);
+        if (root.neighbors.size() > 0) helper(root.neighbors.get(0), result);
+
+        for (int i = 1; i < root.neighbors.size(); i++) {
+            helper(root.neighbors.get(i), result);
+        }
     }
 }
