@@ -14,6 +14,7 @@ return [["1","2","3"],["12","3"],["1","23"]]
 
 
 ### Medium  425. Letter Combinations of a Phone Number
+https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/
 
 #### Description
 Given a digit string excluded 01, return all possible letter combinations that the number could represent.
@@ -226,9 +227,16 @@ Return
 ## Optional (7)
 
 ### Medium  652. Factorization
+https://www.lintcode.com/problem/factorization/
+
 ### Medium  570. Find the Missing Number II
+https://www.lintcode.com/problem/find-the-missing-number-ii/
+
 ### Medium  426. Restore IP Addresses
+https://www.lintcode.com/problem/restore-ip-addresses/
+
 ### Medium  427. Generate Parentheses
+https://www.lintcode.com/problem/generate-parentheses/
 
 ### Medium  152. Combinations
 https://www.lintcode.com/problem/combinations
@@ -270,7 +278,10 @@ Using recursion to do it is acceptable. If you can do it without recursion, that
 
 
 ### Hard    780. Remove Invalid Parentheses
+https://www.lintcode.com/problem/remove-invalid-parentheses/
+
 
 ## Related (1)
 
 ### Medium  196. Missing Number
+https://www.lintcode.com/problem/missing-number/
