@@ -32,7 +32,7 @@ public:
             result.push_back(path);
         } else {
             for (auto next: mp[start]) {
-                if (distance.count(next) > 0 && distance[start] == distance[next] - 1) {
+                if (distance.count(next) > 0 && distance[start] == distance[next] + 1) {
                     dfs(next, end, path, distance, mp, result);
                 }
             }
@@ -41,7 +41,7 @@ public:
         path.pop_back();
     }
 
-    void bfs(const string &end, const string &start, unordered_set<string> &dict,
+    void bfs(const string &start, const string &end, unordered_set<string> &dict,
                 unordered_map<string, int> &distance, unordered_map<string, vector<string>> &mp) {
         queue<string> q;
         q.push(start);
